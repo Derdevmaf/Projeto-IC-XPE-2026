@@ -1,0 +1,52 @@
+Aqui estão 50 objetivos de aprendizagem para a disciplina de Aprendizado por Reforço, listados de forma progressiva em complexidade:
+
+1.  Definir o conceito fundamental de Aprendizado por Reforço (RL) e suas principais características.
+2.  Diferenciar o Aprendizado por Reforço de outros paradigmas de Machine Learning, como Aprendizado Supervisionado e Não Supervisionado.
+3.  Identificar os componentes básicos de um sistema de RL: agente, ambiente, estado, ação e recompensa.
+4.  Explicar o objetivo final de um agente de RL: maximizar a soma acumulada de recompensas ao longo do tempo.
+5.  Descrever a propriedade de Markov e sua importância para a formulação de problemas de RL.
+6.  Formular um problema de RL como um Processo de Decisão de Markov (MDP), especificando estados, ações, transições e recompensas.
+7.  Definir o conceito de política ($\pi$) como o mapeamento de estados para probabilidades de ações.
+8.  Explicar a função de valor de estado ($V^{\pi}(s)$) e a função de valor de ação ($Q^{\pi}(s,a)$) para uma dada política.
+9.  Calcular retornos (G_t) para sequências de episódios e entender o conceito de fator de desconto ($\gamma$).
+10. Derivar e aplicar as Equações de Expectância de Bellman para funções de valor de estado (V) e ação (Q).
+11. Derivar e aplicar as Equações de Otimidade de Bellman para encontrar políticas ótimas.
+12. Explicar o conceito de Iteração de Políticas (Policy Iteration) como um ciclo de avaliação e melhoria de políticas.
+13. Implementar o algoritmo de Avaliação de Políticas (Policy Evaluation) para calcular a função de valor de uma política.
+14. Implementar o passo de Melhoria de Políticas (Policy Improvement) para derivar uma política gulosa a partir de uma função de valor.
+15. Implementar o algoritmo completo de Iteração de Políticas para encontrar uma política ótima.
+16. Explicar o conceito de Iteração de Valores (Value Iteration) como uma abordagem para encontrar a função de valor ótima diretamente.
+17. Implementar o algoritmo de Iteração de Valores e compará-lo com a Iteração de Políticas.
+18. Discutir as limitações dos métodos de programação dinâmica (Iteração de Políticas e Valores) para problemas com grandes espaços de estados.
+19. Explicar a necessidade de métodos de Monte Carlo para problemas onde o modelo do ambiente não é conhecido.
+20. Implementar o algoritmo de Predição Monte Carlo (First-Visit e Every-Visit) para estimar funções de valor.
+21. Aplicar o algoritmo de Controle Monte Carlo On-Policy (exploring starts e soft policies como epsilon-greedy) para encontrar políticas ótimas.
+22. Explicar o dilema exploração-explotação e estratégias para gerenciá-lo, como a política $\epsilon$-gulosa.
+23. Entender a importância e os benefícios do Aprendizado por Diferença Temporal (TD Learning).
+24. Implementar o algoritmo TD(0) (Sutton) para estimar funções de valor, explicando o conceito de boot-strapping.
+25. Comparar as propriedades de bias e variância dos métodos Monte Carlo e TD(0).
+26. Distinguir entre métodos On-Policy e Off-Policy de Aprendizado por Reforço.
+27. Implementar o algoritmo SARSA (State-Action-Reward-State-Action) como um método de controle TD On-Policy.
+28. Implementar o algoritmo Q-Learning como um método de controle TD Off-Policy.
+29. Comparar as características, vantagens e desvantagens de SARSA e Q-Learning.
+30. Explicar o fenômeno de sobrestimação de valores em Q-Learning e como o Double Q-Learning o mitiga.
+31. Implementar o algoritmo Double Q-Learning para melhorar a estabilidade da estimativa de valor.
+32. Apresentar o conceito de Generalização através de Aproximação de Função para lidar com espaços de estados e ações grandes ou contínuos.
+33. Aplicar aproximação de função linear com funções de base (e.g., polinomial, Fourier) para estimar funções de valor.
+34. Entender o uso de redes neurais como aproximadores de função em RL (Deep Reinforcement Learning).
+35. Explicar os desafios de estabilidade ao usar redes neurais em RL, como a correlação entre amostras e a não-estacionariedade do target.
+36. Descrever as técnicas de Experiência Replay e Target Networks para estabilizar o treinamento de redes neurais em Q-Learning (DQN).
+37. Implementar o algoritmo Deep Q-Network (DQN) para resolver problemas de RL com estados complexos.
+38. Compreender o conceito de eligibility traces ($\lambda$-return) e seu impacto na velocidade de aprendizado.
+39. Implementar algoritmos de Predição e Controle com eligibility traces, como TD($\lambda$) e SARSA($\lambda$).
+40. Explicar o conceito de métodos de Gradiente de Políticas (Policy Gradients) para otimizar políticas diretamente.
+41. Implementar o algoritmo REINFORCE para otimização de políticas discretas.
+42. Entender as limitações de alta variância dos métodos REINFORCE e as abordagens para reduzi-la (e.g., linha de base).
+43. Descrever a arquitetura e o funcionamento de métodos Ator-Crítico (Actor-Critic).
+44. Explicar o conceito da função de vantagem (Advantage Function) em algoritmos Ator-Crítico.
+45. Analisar as vantagens e desvantagens dos métodos Ator-Crítico em comparação com métodos baseados em valor e gradiente de política puro.
+46. Apresentar brevemente algoritmos modernos de Deep RL como A2C/A3C, DDPG, PPO e SAC.
+47. Discutir a aplicação de RL para problemas com espaços de ações contínuos.
+48. Analisar os desafios práticos de aplicar RL no mundo real, como engenharia de recompensas e eficiência de amostra.
+49. Explorar brevemente tópicos avançados como Aprendizado por Reforço Mult-Agente, Aprendizado Hierárquico por Reforço ou Inverse Reinforcement Learning.
+50. Discutir as considerações éticas e de segurança ao implementar sistemas de Aprendizado por Reforço em aplicações críticas.

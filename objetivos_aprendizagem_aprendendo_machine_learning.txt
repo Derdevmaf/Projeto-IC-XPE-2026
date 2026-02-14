@@ -1,0 +1,52 @@
+Aqui estão 50 objetivos de aprendizagem para a disciplina "Aprendendo Machine Learning", listados de forma específica e progressiva em complexidade:
+
+1.  Definir o que é Machine Learning (Aprendizado de Máquina) e suas principais subáreas.
+2.  Distinguir entre os tipos de Machine Learning: supervisionado, não supervisionado e por reforço.
+3.  Explicar a diferença fundamental entre problemas de classificação e regressão.
+4.  Identificar os principais componentes de um pipeline de Machine Learning (coleta, pré-processamento, treinamento, avaliação, implantação).
+5.  Descrever os conceitos de dados de treinamento, validação e teste, e sua importância.
+6.  Listar exemplos de desafios éticos, vieses e considerações de privacidade em sistemas de Machine Learning.
+7.  Compreender o papel da álgebra linear (vetores, matrizes, operações) na fundamentação de algoritmos de ML.
+8.  Interpretar métricas estatísticas básicas como média, mediana, desvio padrão, variância e quartis.
+9.  Explicar o conceito de probabilidade e sua aplicação em modelos de Machine Learning.
+10. Utilizar a biblioteca NumPy para manipulação de arrays, vetores e operações matriciais básicas.
+11. Carregar e explorar conjuntos de dados tabulares usando a biblioteca Pandas.
+12. Realizar limpeza de dados, incluindo tratamento de valores ausentes (imputação) e remoção de duplicatas.
+13. Aplicar técnicas de codificação para variáveis categóricas (One-Hot Encoding, Label Encoding).
+14. Normalizar e padronizar dados numéricos para otimizar o desempenho de modelos.
+15. Realizar engenharia de características (feature engineering) básica, como criação de novas variáveis a partir das existentes.
+16. Dividir conjuntos de dados em subconjuntos de treinamento, validação e teste de forma estratificada e aleatória.
+17. Visualizar distribuições de dados, relações entre variáveis e identificar anomalias usando Matplotlib e Seaborn.
+18. Identificar e aplicar métodos básicos para tratar outliers em um conjunto de dados.
+19. Explicar o funcionamento da Regressão Linear Simples e Múltipla.
+20. Implementar um modelo de Regressão Linear utilizando a biblioteca Scikit-learn.
+21. Avaliar modelos de regressão usando métricas como MAE (Erro Absoluto Médio), MSE (Erro Quadrático Médio), RMSE e R².
+22. Interpretar os coeficientes e a significância de um modelo de Regressão Linear.
+23. Compreender o conceito de Regressão Polinomial e quando sua aplicação é apropriada.
+24. Aplicar técnicas de regularização (Lasso e Ridge) para mitigar overfitting em modelos de regressão.
+25. Analisar gráficos de resíduos para diagnosticar problemas e melhorar a performance de modelos de regressão.
+26. Explicar o funcionamento da Regressão Logística para problemas de classificação binária e multiclasse.
+27. Implementar um modelo de Regressão Logística e interpretar suas probabilidades de saída.
+28. Descrever o algoritmo K-Nearest Neighbors (KNN) para classificação e seus parâmetros.
+29. Construir e avaliar um modelo KNN para classificação, otimizando o número de vizinhos (K).
+30. Explicar o conceito de Árvores de Decisão e como elas funcionam para classificação e regressão.
+31. Implementar e visualizar uma Árvore de Decisão, compreendendo os critérios de divisão.
+32. Entender os princípios de Ensemble Learning e o conceito de Bagging, exemplificado por Random Forests.
+33. Implementar um modelo de Random Forest para classificação ou regressão.
+34. Explicar o funcionamento de Support Vector Machines (SVMs) e o papel dos kernels.
+35. Avaliar modelos de classificação utilizando a matriz de confusão, acurácia, precisão, recall e F1-Score.
+36. Explicar o trade-off entre viés e variância (Bias-Variance Tradeoff) em modelos de ML.
+37. Identificar e mitigar problemas de overfitting e underfitting através de ajustes de modelo e dados.
+38. Aplicar técnicas de validação cruzada (K-Fold Cross-Validation, Stratified K-Fold) para avaliação robusta de modelos.
+39. Realizar ajuste de hiperparâmetros usando Grid Search e Randomized Search.
+40. Utilizar curvas ROC e AUC para avaliar a capacidade discriminatória de modelos de classificação.
+41. Explicar o algoritmo K-Means para agrupamento (clustering) e seus passos iterativos.
+42. Implementar o K-Means e interpretar os clusters resultantes em termos de características de dados.
+43. Determinar o número ideal de clusters usando o método do cotovelo (Elbow Method) e gráficos de silhueta.
+44. Descrever o conceito de Análise de Componentes Principais (PCA) para redução de dimensionalidade.
+45. Aplicar PCA para reduzir a dimensionalidade de um conjunto de dados e visualizar os resultados.
+46. Descrever a estrutura básica de uma Rede Neural Artificial (RNA) e a função de suas camadas.
+47. Explicar o papel das funções de ativação (ReLU, Sigmoid, Tanh) em Redes Neurais.
+48. Compreender conceitualmente o processo de treinamento de uma RNA, incluindo feedforward e backpropagation.
+49. Utilizar frameworks como TensorFlow ou PyTorch (em nível básico) para construir e treinar uma RNA simples.
+50. Discutir as tendências atuais, as limitações e o impacto futuro de Machine Learning em diferentes indústrias e áreas da sociedade.

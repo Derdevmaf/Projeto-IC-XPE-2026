@@ -1,0 +1,52 @@
+Aqui estão 50 projetos PBL para a disciplina "Aprendendo Machine Learning", organizados por complexidade crescente:
+
+1.  **Explorar o Mundo dos Dados:** Pesquisar e descrever diferentes tipos de dados (numéricos, categóricos, textuais, imagens) e identificar exemplos em cenários do mundo real.
+2.  **Primeiros Passos com Python para Dados:** Escrever scripts Python básicos para carregar dados de um arquivo CSV e exibir as primeiras linhas, colunas e tipos de dados.
+3.  **Limpeza Básica de Dados:** Identificar e tratar valores ausentes (N/A) em um pequeno conjunto de dados, substituindo-os pela média ou mediana.
+4.  **Visualização de Dados Simples:** Criar gráficos básicos (histogramas, box plots) para entender a distribuição de uma única variável numérica.
+5.  **Análise de Relações com Gráficos de Dispersão:** Gerar gráficos de dispersão para visualizar a relação entre duas variáveis numéricas e interpretar a correlação aparente.
+6.  **Introdução ao Pré-processamento de Dados:** Aplicar codificação One-Hot Encoding ou Label Encoding a uma variável categórica em um conjunto de dados.
+7.  **Divisão de Dados para ML:** Dividir um conjunto de dados em conjuntos de treinamento e teste usando `train_test_split` e explicar por que isso é necessário.
+8.  **Primeiro Modelo de Regressão Linear Simples:** Construir e treinar um modelo de regressão linear para prever um valor contínuo usando uma única feature.
+9.  **Avaliação Básica de Regressão:** Calcular o Erro Médio Absoluto (MAE) e o Erro Quadrático Médio (MSE) para o modelo de regressão linear construído.
+10. **Previsões com Regressão Linear:** Usar o modelo treinado para fazer previsões em novos dados e visualizar as previsões vs. os valores reais.
+11. **Regressão Linear Múltipla:** Expandir o projeto anterior para incluir múltiplas features na previsão de um valor contínuo.
+12. **Engenharia de Features Básica:** Criar uma nova feature a partir de features existentes (ex: combinar duas colunas, criar uma feature polinomial simples) e observar seu impacto no modelo de regressão.
+13. **Introdução à Classificação com Regressão Logística:** Treinar um modelo de Regressão Logística para classificar dados em duas categorias (problema binário).
+14. **Avaliação Básica de Classificação:** Calcular a acurácia de um modelo de Regressão Logística usando o conjunto de teste.
+15. **Visualização da Matriz de Confusão:** Gerar e interpretar a matriz de confusão para um modelo de classificação binária.
+16. **Métricas de Classificação Avançadas:** Calcular Precisão, Recall e F1-Score e explicar o significado de cada métrica no contexto do problema.
+17. **Primeiro Classificador K-Nearest Neighbors (KNN):** Implementar um classificador KNN e experimentar diferentes valores de `k`.
+18. **Introdução à Árvores de Decisão:** Construir uma Árvore de Decisão para um problema de classificação e visualizar a árvore gerada.
+19. **Análise de Importância de Features (Árvores de Decisão):** Identificar as features mais importantes para a classificação de uma Árvore de Decisão.
+20. **Normalização/Escalonamento de Features:** Aplicar StandarScaler ou MinMaxScaler a um conjunto de dados e observar como isso afeta um modelo de KNN ou Regressão Logística.
+21. **Validação Cruzada K-Fold:** Implementar validação cruzada K-Fold para avaliar a robustez de um modelo de regressão ou classificação.
+22. **Busca de Hiperparâmetros Simples (Grid Search):** Usar Grid Search para encontrar os melhores hiperparâmetros para um modelo de Árvore de Decisão ou KNN.
+23. **Suporte de Máquinas de Vetores (SVM) - Classificação Linear:** Treinar um modelo SVM com kernel linear para um problema de classificação binária.
+24. **Introdução à Agrupamento (Clustering) com K-Means:** Aplicar o algoritmo K-Means para segmentar clientes ou dados de maneira não supervisionada.
+25. **Determinação do Número Ótimo de Clusters (Método do Cotovelo):** Usar o método do cotovelo para estimar o número ideal de clusters para o K-Means.
+26. **Visualização de Clusters:** Plotar os resultados do agrupamento K-Means em 2D ou 3D (usando PCA para redução de dimensionalidade se necessário).
+27. **Introdução à Análise de Componentes Principais (PCA):** Aplicar PCA para reduzir a dimensionalidade de um conjunto de dados e visualizar os componentes principais.
+28. **Análise de Desempenho com Curva ROC:** Gerar e interpretar a curva ROC (Receiver Operating Characteristic) para um modelo de classificação binária.
+29. **Trabalhando com Dados Desbalanceados:** Aplicar técnicas básicas para lidar com conjuntos de dados desbalanceados (ex: oversampling com SMOTE, undersampling).
+30. **Introdução aos Modelos de Conjunto (Ensemble) - Random Forest:** Construir e avaliar um modelo Random Forest para um problema de classificação ou regressão.
+31. **Explorando a Contribuição de Features no Random Forest:** Analisar a importância das features em um modelo Random Forest.
+32. **Introdução ao Gradient Boosting (XGBoost/LightGBM):** Implementar e avaliar um modelo XGBoost para um problema de classificação ou regressão.
+33. **Regularização em Modelos Lineares (Lasso/Ridge):** Aplicar regularização L1 (Lasso) e L2 (Ridge) em um modelo de regressão e observar o impacto nos coeficientes.
+34. **Criação de Pipelines de ML:** Desenvolver um pipeline usando `scikit-learn` para automatizar o pré-processamento e o treinamento do modelo.
+35. **Modelagem de Séries Temporais (Básica):** Construir um modelo de média móvel (MA) ou autorregressivo (AR) para prever valores futuros em uma série temporal simples.
+36. **Introdução à NLTK para Processamento de Texto:** Realizar tokenização, remoção de stopwords e stemming/lemmatization em um conjunto de dados de texto.
+37. **Classificação de Sentimento Simples:** Usar TF-IDF e um classificador linear (ex: Regressão Logística) para classificar o sentimento de textos curtos.
+38. **Reconhecimento Básico de Entidades Nomeadas (NER):** Utilizar uma biblioteca como `spaCy` para identificar entidades como nomes de pessoas, locais e organizações em textos.
+39. **Introdução às Redes Neurais com Perceptron:** Implementar um Perceptron simples para um problema de classificação linearmente separável.
+40. **Construindo uma Rede Neural Multicamadas (MLP) com Keras/TensorFlow:** Criar uma rede neural densa para um problema de classificação binária ou multiclasse.
+41. **Experimentando Funções de Ativação e Otimizadores:** Comparar o desempenho de diferentes funções de ativação (ReLU, Sigmoid, Tanh) e otimizadores (Adam, SGD) em uma MLP.
+42. **Introdução a Redes Neurais Convolucionais (CNNs) para Imagens:** Construir uma CNN simples para classificar imagens de um dataset pequeno (ex: MNIST, Fashion MNIST).
+43. **Aumentação de Dados para CNNs:** Aplicar técnicas de aumento de dados (rotation, flip, zoom) para melhorar o desempenho de uma CNN.
+44. **Análise de Imagens com Modelos Pré-treinados (Transfer Learning Básico):** Usar um modelo pré-treinado (ex: VGG16, ResNet) como extrator de features para classificar novas imagens.
+45. **Introdução a Redes Neurais Recorrentes (RNNs) para Sequências:** Construir uma RNN simples (ou LSTM/GRU) para previsão de sequência ou classificação de texto.
+46. **Sistema de Recomendação Básico (Filtragem Colaborativa por Usuário/Item):** Implementar um algoritmo de recomendação simples baseado em similaridade entre usuários ou itens.
+47. **Detecção de Fraudes (Modelo de Classificação Avançado):** Desenvolver um modelo para detectar transações fraudulentas, lidando com o desbalanceamento de classes e avaliando com métricas apropriadas.
+48. **Análise de Sentimento com Embeddings de Palavras (Word2Vec/GloVe):** Integrar embeddings de palavras pré-treinados em um modelo de rede neural para análise de sentimento.
+49. **Interpretação de Modelos de ML (SHAP/LIME Básico):** Usar ferramentas como SHAP ou LIME para entender como um modelo de ML está fazendo suas previsões.
+50. **Introdução à Implementação de Modelo (Flask/Streamlit):** Criar uma API web simples ou um aplicativo básico usando Flask ou Streamlit para servir um modelo de ML treinado.
