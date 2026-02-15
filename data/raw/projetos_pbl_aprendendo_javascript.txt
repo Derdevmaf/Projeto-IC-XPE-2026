@@ -1,0 +1,52 @@
+Aqui estão 50 projetos PBL para a disciplina "Aprendendo Javascript", organizados para aumentar progressivamente em complexidade:
+
+1.  Calculadora de Soma Básica (Console): Um programa que pede dois números e imprime a soma no console.
+2.  Gerador de Mensagem de Boas-Vindas (HTML/JS): Pede o nome do usuário e exibe "Olá, [Nome]!" em um parágrafo HTML.
+3.  Botão Mágico de Cor (DOM): Um botão que, ao ser clicado, muda a cor de fundo da página.
+4.  Contador Simples (DOM): Um display de número com botões para incrementar e decrementar.
+5.  Conversor de Unidades (Ex: Celsius para Fahrenheit): Um input para a temperatura e um botão para exibir o resultado.
+6.  Lista de Tarefas Estática (HTML/CSS/JS): Uma lista de tarefas onde é possível marcar itens como "completos" (adicionar/remover classe CSS).
+7.  Gerador de Números Aleatórios: Um botão que gera e exibe um número aleatório entre 1 e 100.
+8.  Jogo "Adivinhe o Número": O computador escolhe um número e o usuário tenta adivinhar, recebendo dicas "maior" ou "menor".
+9.  Validador de Senha Simples: Um campo de input de senha que verifica se a senha tem pelo menos 8 caracteres e exibe uma mensagem de status.
+10. Relógio Digital Básico: Exibe a hora atual (horas, minutos, segundos) que se atualiza a cada segundo.
+11. Carrossel de Imagens Básico: Um display de imagem com botões "Anterior" e "Próximo" para navegar por um array de imagens.
+12. Calculadora de IMC: Inputs para peso e altura, e um botão para calcular e exibir o IMC e sua categoria.
+13. Cronômetro: Botões "Iniciar", "Parar" e "Resetar" para um cronômetro que exibe segundos e milissegundos.
+14. Gerador de Citação Aleatória: Exibe uma nova citação (de um array predefinido) a cada clique de um botão.
+15. Jogo da Memória Simples: Um tabuleiro de cartas que se viram para revelar imagens, e o objetivo é encontrar pares.
+16. To-Do List Interativa: Permite adicionar novas tarefas, marcar como completas e remover tarefas.
+17. Filtro de Itens de Lista: Uma lista de itens e um campo de busca que filtra os itens em tempo real.
+18. Gerador de Paleta de Cores Hexadecimais: Um botão que gera e exibe 5 cores hexadecimais aleatórias.
+19. Formulário de Cadastro Simples: Campos de nome, email e senha com validação básica (não vazio, formato de email).
+20. Notas Adesivas (com Local Storage): Permite criar notas que são salvas e carregadas do Local Storage do navegador.
+21. Jogo da Forca Básico: Escolhe uma palavra aleatória e permite ao usuário adivinhar letras até acertar ou ficar sem tentativas.
+22. Quiz de Múltipla Escolha: Exibe perguntas com opções e calcula a pontuação final.
+23. Carrinho de Compras Simples: Adiciona itens a um "carrinho" (array de objetos) e calcula o total.
+24. Contador Regressivo para um Evento: Exibe os dias, horas, minutos e segundos restantes para uma data futura.
+25. Editor de Texto WYSIWYG Simples: Um `textarea` e botões para formatar o texto (negrito, itálico, sublinhado) usando `document.execCommand`.
+26. Jogo "Pedra, Papel, Tesoura": Jogue contra o computador, exibindo as escolhas e o vencedor.
+27. Galeria de Imagens com Lightbox: Miniaturas de imagens que, ao serem clicadas, abrem uma versão maior em um pop-up.
+28. Tradutor de Idiomas Básico (com Arrays): Um input de texto e um botão para "traduzir" (mapear palavras de um array para outro).
+29. Validador de Cartão de Crédito (Algoritmo de Luhn): Um input para número de cartão e validação usando o algoritmo de Luhn.
+30. Agendador de Lembretes: Permite adicionar lembretes com data/hora que disparam um `alert` ou notificação.
+31. Exibidor de Piada Aleatória (API): Usa a API `fetch` para buscar e exibir uma piada aleatória (ex: JokeAPI).
+32. Previsão do Tempo Simples (API): Inputs para cidade/país e exibe a temperatura atual usando uma API de clima (ex: OpenWeatherMap).
+33. Buscador de Gifs (API): Um campo de busca que, ao enviar, exibe GIFs relacionados usando a Giphy API.
+34. Conversor de Moedas (API): Inputs para valor e moedas, e um botão para converter usando uma API de taxas de câmbio.
+35. Gerador de Usuários Aleatórios (API): Exibe dados de um usuário aleatório (nome, foto, email) usando a Random User API.
+36. Visualizador de Posts de Blog (API): Busca e exibe uma lista de posts de um blog (ex: JSONPlaceholder) e permite visualizar detalhes de um post.
+37. Buscador de Receitas (API): Um campo de busca por ingredientes ou nome e exibe receitas de uma API de receitas.
+38. Jogo "Quem é Esse Pokémon?" (API): Exibe a silhueta de um Pokémon e o usuário tenta adivinhar o nome, buscando o nome real na Pokémon API.
+39. Aplicação de Notas com Editor MarkDown Simples: Permite criar e salvar notas, com a capacidade de renderizar MarkDown básico para HTML.
+40. Dashboard Personalizável: Permite que o usuário organize widgets (ex: relógio, previsão do tempo, lista de tarefas) em uma tela (conceito de arrastar e soltar).
+41. Aplicação de Desenho Simples (Canvas API): Um `canvas` onde o usuário pode desenhar com o mouse, escolhendo cores e espessura da linha.
+42. Jogo de Plataforma Básico (Canvas API): Um pequeno personagem que se move com as teclas e pula em plataformas simples no `canvas`.
+43. Editor de Imagens Simples (Canvas API): Carrega uma imagem e permite aplicar filtros CSS (como sépia, escala de cinza) ou redimensionar via `canvas`.
+44. Aplicação de Arrastar e Soltar Itens (Drag & Drop API): Permite arrastar itens de uma lista para outra.
+45. Formulário Multi-Passos: Um formulário grande dividido em várias etapas, com navegação "Próximo" e "Anterior".
+46. Aplicação SPA de Conteúdo (Simulando Rotas): Uma aplicação de página única que muda o conteúdo visível sem recarregar a página, usando hashes na URL ou History API.
+47. Gerenciador de Contatos (CRUD com Local Storage): Adicionar, visualizar, editar e excluir contatos, persistindo os dados no Local Storage.
+48. Chat Básico com WebSockets (conceitual): Um cliente de chat que pode enviar e receber mensagens de um servidor WebSocket simples (pode usar um serviço de echo online para simular).
+49. Aplicação de Gerenciamento de Projetos (CRUD Avançado): Gerenciar projetos e tarefas, com status, prazos, e a capacidade de atribuir tarefas (usando classes e modularização).
+50. Jogo Multijogador de Turnos (Conceitual com WebSockets): Um jogo de tabuleiro simples onde dois jogadores (em navegadores diferentes) interagem por meio de um servidor WebSocket para trocar jogadas.

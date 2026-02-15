@@ -17,7 +17,7 @@ client = genai.Client(
 # ==============================
 
 prompt_objetivos = """
-Gere 50 objetivos de aprendizagem para a disciplina Aprendendo Machine Learning.
+Gere 50 objetivos de aprendizagem para a disciplina Aprendendo Javascript.
 
 Regras:
 - Liste exatamente 50 objetivos.

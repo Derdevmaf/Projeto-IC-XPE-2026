@@ -1,0 +1,15 @@
+[project]
+name = "projeto-ic-xpe-2026"
+version = "0.1.0"
+description = "Projeto de Iniciação Científica XPE 2026 reorganizado"
+authors = [
+    {name = "Autor", email = "autor@exemplo.com"},
+]
+dependencies = [
+    "python-dotenv",
+    "openai",
+]
+
+[tool.black]
+line-length = 88
+target-version = ['py311']

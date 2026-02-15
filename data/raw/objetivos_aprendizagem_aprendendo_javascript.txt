@@ -1,0 +1,52 @@
+Aqui estão 50 objetivos de aprendizagem para a disciplina "Aprendendo Javascript", com foco em progressão e especificidade:
+
+1.  Compreender o papel do JavaScript no desenvolvimento web e suas aplicações.
+2.  Configurar um ambiente de desenvolvimento básico com navegador e editor de código.
+3.  Incluir JavaScript em uma página HTML usando a tag `<script>`.
+4.  Utilizar o `console.log()` para depuração e exibição de informações.
+5.  Declarar variáveis usando `var`, `let` e `const`.
+6.  Explicar a diferença de escopo entre `var`, `let` e `const`.
+7.  Identificar e manipular os tipos de dados primitivos (String, Number, Boolean, Null, Undefined, Symbol, BigInt).
+8.  Realizar operações aritméticas básicas (+, -, *, /, %, **).
+9.  Aplicar operadores de atribuição (=, +=, -=, *=, /=).
+10. Usar operadores de comparação (==, ===, !=, !==, <, >, <=, >=).
+11. Diferenciar a comparação de igualdade estrita (`===`) da não estrita (`==`).
+12. Empregar operadores lógicos (&&, ||, !).
+13. Implementar estruturas condicionais `if`, `else if` e `else`.
+14. Utilizar a estrutura condicional `switch` para múltiplos casos.
+15. Criar laços de repetição `for` para iterar sobre sequências.
+16. Construir laços de repetição `while` e `do...while`.
+17. Controlar o fluxo de laços com `break` e `continue`.
+18. Definir e invocar funções com e sem parâmetros.
+19. Retornar valores de funções usando a palavra-chave `return`.
+20. Explicar o conceito de escopo de função (local e global).
+21. Utilizar funções anônimas e *arrow functions* (ES6+).
+22. Entender o conceito de *hoisting* em JavaScript.
+23. Criar e manipular arrays (listas) de dados.
+24. Acessar elementos de arrays por índice.
+25. Adicionar e remover elementos de arrays (`push`, `pop`, `shift`, `unshift`).
+26. Iterar sobre arrays usando `for`, `forEach`, `map`, `filter` e `reduce`.
+27. Utilizar métodos de array como `splice`, `slice`, `indexOf` e `includes`.
+28. Declarar e manipular objetos literais (JSON-like).
+29. Acessar propriedades de objetos usando notação de ponto e colchetes.
+30. Adicionar, modificar e remover propriedades de objetos.
+31. Criar métodos dentro de objetos.
+32. Entender o conceito básico da palavra-chave `this` em objetos.
+33. Utilizar desestruturação de arrays e objetos (ES6+).
+34. Empregar *template literals* (template strings) para concatenação de strings (ES6+).
+35. Aplicar o operador *spread* (`...`) em arrays e objetos (ES6+).
+36. Utilizar o operador *rest* (`...`) em parâmetros de função (ES6+).
+37. Capturar e tratar erros usando blocos `try...catch`.
+38. Selecionar elementos HTML usando `document.getElementById()` e `document.querySelector()`.
+39. Selecionar múltiplos elementos HTML usando `document.querySelectorAll()`.
+40. Modificar o conteúdo de elementos HTML (`innerText`, `innerHTML`).
+41. Alterar atributos de elementos HTML (`setAttribute`, `getAttribute`).
+42. Manipular estilos CSS de elementos HTML via JavaScript.
+43. Adicionar e remover classes CSS de elementos (`classList.add`, `classList.remove`, `classList.toggle`).
+44. Criar e anexar novos elementos HTML dinamicamente ao DOM.
+45. Registrar e lidar com eventos do usuário (ex: `click`, `mouseover`, `submit`) usando `addEventListener`.
+46. Remover *event listeners* usando `removeEventListener`.
+47. Entender o conceito de *event bubbling* e *event capturing*.
+48. Realizar requisições assíncronas simples usando `fetch` (básico).
+49. Lidar com a resposta de requisições `fetch` usando `Promise.then()` e `Promise.catch()`.
+50. Implementar funções assíncronas usando `async` e `await` para requisições mais complexas.
