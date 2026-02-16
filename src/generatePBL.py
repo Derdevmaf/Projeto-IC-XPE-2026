@@ -8,12 +8,12 @@ load_dotenv()
 client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
 prompt_pbl = """
-Gere 50 projetos PBL (Project-Based Learning) para a disciplina Aprendendo Javascript.
+Gere 15 projetos PBL (Project-Based Learning) para a disciplina Aprendendo Javascript.
 
 Regras:
-- Liste exatamente 50 projetos.
+- Liste exatamente 15 projetos.
 - Um por linha.
-- Numerados de 1 a 50.
+- Numerados de 1 a 15.
 - Projetos devem aumentar progressivamente em complexidade.
 """
 

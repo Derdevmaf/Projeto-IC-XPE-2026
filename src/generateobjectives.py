@@ -17,12 +17,12 @@ client = genai.Client(
 # ==============================
 
 prompt_objetivos = """
-Gere 50 objetivos de aprendizagem para a disciplina Aprendendo Javascript.
+Gere 15 objetivos de aprendizagem para a disciplina Aprendendo Javascript.
 
 Regras:
-- Liste exatamente 50 objetivos.
+- Liste exatamente 15 objetivos.
 - Um por linha.
-- Numerados de 1 a 50.
+- Numerados de 1 a 15.
 - Seja específico e progressivo em complexidade.
 """
 

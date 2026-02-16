@@ -104,7 +104,7 @@ for id_comum in identificadores_comuns:
 
     for pbl in projetos:
 
-        print(f"   🔎 Avaliando PBL: {pbl[:50]}...")
+        print(f"   🔎 Avaliando PBL: {pbl[:15]}...")
 
         prompt = f"""
         Dado o projeto abaixo e a lista de objetivos de aprendizagem,
