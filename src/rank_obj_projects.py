@@ -1,9 +1,8 @@
 import os
 import glob
 import time
-import re
 import csv
-from datetime import datetime
+import json
 from dotenv import load_dotenv
 from google import genai
 
@@ -13,8 +12,12 @@ from google import genai
 
 load_dotenv()
 
+api_key = os.getenv("GEMINI_API_KEY")
+if not api_key:
+    raise ValueError("❌ GEMINI_API_KEY não encontrada no .env")
+
 client = genai.Client(
-    api_key=os.getenv("GEMINI_API_KEY"),
+    api_key=api_key,
     http_options={"api_version": "v1"}
 )
 
@@ -23,6 +26,7 @@ client = genai.Client(
 # ==========================================================
 
 K = 5  # Top K objetivos por projeto
+SLEEP_SECONDS = 3  # Delay para evitar rate limit
 
 # ==========================================================
 # 📁 Diretórios
@@ -38,38 +42,79 @@ os.makedirs(DATA_PROCESSED_DIR, exist_ok=True)
 # 📚 Funções Auxiliares
 # ==========================================================
 
-def carregar_linhas(caminho):
+def carregar_objetivos_json(caminho):
     with open(caminho, "r", encoding="utf-8") as f:
-        linhas = f.readlines()
+        dados = json.load(f)
+
+    if not isinstance(dados, list):
+        raise ValueError(f"❌ Estrutura inesperada em {caminho} (esperado lista)")
 
     objetivos = []
-    for linha in linhas:
-        linha = linha.strip()
-        if re.match(r"^\d+\.", linha):
-            objetivos.append(linha)
+
+    for item in dados:
+        if "objetivo_de_apendizagem" not in item:
+            raise KeyError(
+                f"❌ Campo 'objetivo_de_aprendizagem' não encontrado.\n"
+                f"Campos disponíveis: {list(item.keys())}"
+            )
+        objetivos.append(item["objetivo_de_apendizagem"])
 
     return objetivos
 
+
+def carregar_projetos_json(caminho):
+    with open(caminho, "r", encoding="utf-8") as f:
+        dados = json.load(f)
+
+    if not isinstance(dados, list):
+        raise ValueError(f"❌ Estrutura inesperada em {caminho} (esperado lista)")
+
+    projetos = []
+
+    for item in dados:
+        if "nome_do_projeto" not in item:
+            raise KeyError(
+                f"❌ Campo 'nome_do_projeto' não encontrado.\n"
+                f"Campos disponíveis: {list(item.keys())}"
+            )
+        projetos.append(item["nome_do_projeto"])
+
+    return projetos
+
+
 def extrair_identificador(caminho_completo, prefixo):
     nome_base = os.path.basename(caminho_completo)
-    return nome_base.replace(prefixo, "").replace(".txt", "")
+    nome_sem_prefixo = nome_base.replace(prefixo, "")
+    nome_sem_extensao = os.path.splitext(nome_sem_prefixo)[0]
+    return nome_sem_extensao
+
 
 def chamar_gemini(prompt):
-    response = client.models.generate_content(
-        model="gemini-2.5-flash",
-        contents=prompt
-    )
-    return response.text
+    try:
+        response = client.models.generate_content(
+            model="gemini-2.5-flash",
+            contents=prompt
+        )
+        return response.text
+    except Exception as e:
+        print(f"❌ Erro ao chamar Gemini: {e}")
+        return None
+
 
 # ==========================================================
-# 🔎 Buscar arquivos
+# 🔎 Buscar arquivos JSON
 # ==========================================================
 
-arquivos_objetivos = glob.glob(os.path.join(DATA_RAW_DIR, "objetivos_aprendizagem_*.txt"))
-arquivos_pbl = glob.glob(os.path.join(DATA_RAW_DIR, "projetos_pbl_*.txt"))
+arquivos_objetivos = glob.glob(
+    os.path.join(DATA_RAW_DIR, "projetos_objetivos_*.json")
+)
+
+arquivos_pbl = glob.glob(
+    os.path.join(DATA_RAW_DIR, "projetos_pbl_*.json")
+)
 
 mapa_objetivos = {
-    extrair_identificador(f, "objetivos_aprendizagem_"): f
+    extrair_identificador(f, "projetos_objetivos_"): f
     for f in arquivos_objetivos
 }
 
@@ -78,10 +123,17 @@ mapa_pbl = {
     for f in arquivos_pbl
 }
 
-identificadores_comuns = sorted(set(mapa_objetivos.keys()) & set(mapa_pbl.keys()))
+print("Objetivos encontrados:", list(mapa_objetivos.keys()))
+print("PBL encontrados:", list(mapa_pbl.keys()))
+
+identificadores_comuns = sorted(
+    set(mapa_objetivos.keys()) &
+    set(mapa_pbl.keys())
+)
 
 if not identificadores_comuns:
     print("❌ Nenhum par correspondente encontrado.")
+    print("Verifique se os sufixos dos arquivos são idênticos.")
     exit()
 
 # ==========================================================
@@ -92,11 +144,14 @@ for id_comum in identificadores_comuns:
 
     print(f"\n🚀 Processando disciplina: {id_comum}")
 
-    objetivos = carregar_linhas(mapa_objetivos[id_comum])
-    projetos = carregar_linhas(mapa_pbl[id_comum])
+    objetivos = carregar_objetivos_json(mapa_objetivos[id_comum])
+    projetos = carregar_projetos_json(mapa_pbl[id_comum])
 
     # Inicializar matriz LO × PBL
-    matriz = {lo: {pbl: 0 for pbl in projetos} for lo in objetivos}
+    matriz = {
+        lo: {pbl: 0 for pbl in projetos}
+        for lo in objetivos
+    }
 
     # ======================================================
     # Para cada PBL → rankear LOs
@@ -104,48 +159,50 @@ for id_comum in identificadores_comuns:
 
     for pbl in projetos:
 
-        print(f"   🔎 Avaliando PBL: {pbl[:15]}...")
+        print(f"   🔎 Avaliando PBL: {pbl[:50]}...")
 
         prompt = f"""
-        Dado o projeto abaixo e a lista de objetivos de aprendizagem,
-        liste os {K} objetivos que este projeto mais exercita,
-        em ordem de relevância.
+Dado o projeto abaixo e a lista de objetivos de aprendizagem,
+liste os {K} objetivos que este projeto mais exercita,
+em ordem de relevância (do mais relevante para o menos relevante).
 
-        Projeto:
-        {pbl}
+Projeto:
+{pbl}
 
-        Objetivos:
-        {chr(10).join(objetivos)}
+Objetivos:
+{chr(10).join(objetivos)}
 
-        Responda apenas com a lista numerada dos objetivos escolhidos.
-        """
+Responda apenas com a lista numerada dos objetivos escolhidos.
+Não explique.
+"""
 
         resposta = chamar_gemini(prompt)
 
         if not resposta:
             continue
 
-        # Extrair ranking retornado
         linhas_resposta = resposta.split("\n")
 
         posicao = 1
+
         for linha in linhas_resposta:
             linha = linha.strip()
 
             if not linha:
                 continue
 
-            # Tenta encontrar qual LO foi citado
             for lo in objetivos:
+                # Match mais robusto
                 if lo.lower() in linha.lower():
-                    matriz[lo][pbl] = posicao
-                    posicao += 1
+                    if matriz[lo][pbl] == 0:
+                        matriz[lo][pbl] = posicao
+                        posicao += 1
                     break
 
             if posicao > K:
                 break
 
-        time.sleep(3)
+        time.sleep(SLEEP_SECONDS)
 
     # ======================================================
     # 💾 Gerar CSV
@@ -159,10 +216,8 @@ for id_comum in identificadores_comuns:
     with open(nome_csv, "w", newline="", encoding="utf-8") as csvfile:
         writer = csv.writer(csvfile)
 
-        # Cabeçalho
         writer.writerow(["Learning Objective"] + projetos)
 
-        # Linhas
         for lo in objetivos:
             linha = [lo] + [matriz[lo][pbl] for pbl in projetos]
             writer.writerow(linha)

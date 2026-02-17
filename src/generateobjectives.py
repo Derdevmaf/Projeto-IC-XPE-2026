@@ -1,43 +1,53 @@
-import os
-import re
-from dotenv import load_dotenv
 from google import genai
+import os
+from dotenv import load_dotenv
+import re
+import json
 
-# Carregar .env
 load_dotenv()
 
-# Criar cliente (API estável)
-client = genai.Client(
-    api_key=os.getenv("GEMINI_API_KEY"),
-    http_options={"api_version": "v1"}
-)
+client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
 # ==============================
-# 1️⃣ GERAR OBJETIVOS
+# 1️⃣ GERAR OBJETIVOS EM JSON
 # ==============================
 
 prompt_objetivos = """
-Gere 15 objetivos de aprendizagem para a disciplina Aprendendo Javascript.
+Gere 15 objetivos de aprendizagem para a disciplina Aprendendo SQL.
+
+IMPORTANTE:
+- A saída deve ser SOMENTE um JSON válido.
+- Não escreva explicações.
+- Não use markdown.
+- Não escreva ```json.
+- Retorne apenas um array JSON com 15 objetos.
+
+Cada objeto deve conter EXATAMENTE o seguinte campo:
+
+{
+  "objetivo_de_apendizagem": string
+}
 
 Regras:
-- Liste exatamente 15 objetivos.
-- Um por linha.
-- Numerados de 1 a 15.
-- Seja específico e progressivo em complexidade.
+- Objetivos devem aumentar progressivamente em complexidade.
+- Linguagem clara, técnica e mensurável.
+- Não invente campos extras.
 """
 
-response_obj = client.models.generate_content(
+response = client.models.generate_content(
     model="gemini-2.5-flash",
     contents=prompt_objetivos
 )
 
-objetivos_texto = response_obj.text
+resposta_texto = response.text.strip()
 
-# 🔎 Extrair nome da disciplina
+# ==============================
+# 2️⃣ EXTRAIR NOME DA DISCIPLINA
+# ==============================
+
 match = re.search(r"disciplina (.+?)\.", prompt_objetivos)
 disciplina = match.group(1) if match else "disciplina"
 
-# 🧹 Normalizar nome para arquivo
 disciplina_formatada = (
     disciplina.lower()
     .replace(" ", "_")
@@ -46,9 +56,34 @@ disciplina_formatada = (
     .replace("á", "a")
 )
 
-nome_arquivo = f"objetivos_aprendizagem_{disciplina_formatada}.txt"
+nome_arquivo = f"projetos_objetivos_{disciplina_formatada}.json"
 
-with open(nome_arquivo, "w", encoding="utf-8") as f:
-    f.write(objetivos_texto)
+# ==============================
+# 3️⃣ VALIDAR JSON
+# ==============================
 
-print(f"✅ Objetivos gerados! Arquivo: {nome_arquivo}")
+try:
+    dados_json = json.loads(resposta_texto)
+
+    if not isinstance(dados_json, list):
+        raise ValueError("A resposta não é uma lista JSON.")
+
+    if len(dados_json) != 15:
+        raise ValueError("A lista não contém exatamente 15 objetivos.")
+
+    # Validar estrutura
+    for obj in dados_json:
+        if set(obj.keys()) != {"objetivo_de_apendizagem"}:
+            raise ValueError("Um ou mais objetos possuem campos incorretos.")
+
+    # Salvar JSON validado
+    with open(nome_arquivo, "w", encoding="utf-8") as f:
+        json.dump(dados_json, f, indent=2, ensure_ascii=False)
+
+    print(f"✅ Objetivos gerados com sucesso! Arquivo: {nome_arquivo}")
+
+except (json.JSONDecodeError, ValueError) as e:
+    print("❌ Erro ao validar JSON gerado pela IA:")
+    print(e)
+    print("\nResposta recebida:")
+    print(resposta_texto)
