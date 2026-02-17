@@ -1,346 +1,304 @@
 [
   {
-    "nome_do_projeto": "Gestão de Acervo de Biblioteca",
-    "nome_da_aula": "Introdução a Bancos de Dados e Comandos DDL/DML Básicos",
-    "descricao_resumida": "Crie um banco de dados e uma tabela para armazenar informações de livros. Insira, atualize e exclua registros para gerenciar o acervo.",
-    "objetivo_de_apendizagem": "Compreender a criação de schemas, tabelas e a manipulação básica de dados (INSERT, UPDATE, DELETE).",
+    "nome_do_projeto": "Explorando a Loja de Livros",
+    "nome_da_aula": "Introdução ao SELECT e Bases de Dados",
+    "descricao_resumida": "Os alunos deverão consultar uma base de dados simples de uma livraria para listar todos os livros disponíveis, seus autores e preços.",
+    "objetivo_de_apendizagem": "Compreender a estrutura básica de uma tabela e utilizar a cláusula SELECT para recuperar dados.",
     "unidades_de_conhecimento_utilizadas": [
-      "CREATE DATABASE",
-      "CREATE TABLE",
-      "INSERT INTO",
-      "UPDATE",
-      "DELETE FROM",
-      "SELECT FROM"
-    ],
-    "tags": [
-      "DDL",
-      "DML",
-      "CRUD",
-      "Tabelas"
-    ],
-    "nivel_complexidade": "iniciante"
-  },
-  {
-    "nome_do_projeto": "Sistema de Registro Acadêmico",
-    "nome_da_aula": "Consultas Simples com SELECT e WHERE",
-    "descricao_resumida": "Crie uma tabela de alunos e realize consultas para encontrar alunos por nome, idade ou curso, utilizando critérios de filtragem.",
-    "objetivo_de_apendizagem": "Executar consultas básicas utilizando SELECT, FROM e WHERE para filtrar dados.",
-    "unidades_de_conhecimento_utilizadas": [
-      "CREATE TABLE",
-      "INSERT INTO",
       "SELECT",
       "FROM",
-      "WHERE",
-      "Operadores de Comparação"
+      "Tabelas",
+      "Bancos de Dados Relacionais"
     ],
     "tags": [
       "Consulta",
-      "Filtragem",
-      "SELECT"
+      "SELECT",
+      "Livraria",
+      "Dados"
     ],
     "nivel_complexidade": "iniciante"
   },
   {
-    "nome_do_projeto": "Monitoramento Básico de Inventário",
-    "nome_da_aula": "Filtragem Avançada e Ordenação de Dados",
-    "descricao_resumida": "Crie uma tabela de produtos com quantidade em estoque. Consulte produtos com estoque baixo, produtos em uma faixa de preço e ordene os resultados.",
-    "objetivo_de_apendizagem": "Aplicar múltiplos critérios de filtragem com AND/OR e ordenar resultados com ORDER BY e limitar a exibição com LIMIT.",
+    "nome_do_projeto": "Filtrando Produtos em Estoque",
+    "nome_da_aula": "Cláusula WHERE",
+    "descricao_resumida": "Os alunos deverão consultar uma base de dados de produtos para encontrar itens com quantidade em estoque abaixo de um limite e produtos de uma categoria específica.",
+    "objetivo_de_apendizagem": "Aplicar a cláusula WHERE para filtrar registros com base em condições simples e múltiplas (AND, OR).",
     "unidades_de_conhecimento_utilizadas": [
-      "CREATE TABLE",
-      "INSERT INTO",
       "SELECT",
+      "FROM",
       "WHERE",
-      "AND",
-      "OR",
-      "ORDER BY",
-      "LIMIT"
+      "Operadores de Comparação",
+      "Operadores Lógicos (AND, OR)"
     ],
     "tags": [
-      "Filtragem",
-      "Ordenação",
-      "Estoque",
-      "LIMIT"
-    ],
-    "nivel_complexidade": "iniciante"
-  },
-  {
-    "nome_do_projeto": "Planejador de Tarefas Pessoal",
-    "nome_da_aula": "Manipulação de Datas e Strings",
-    "descricao_resumida": "Crie uma tabela para tarefas com título, descrição, data de criação e prazo. Consulte tarefas pendentes, tarefas que vencem em breve e filtre por palavras-chave.",
-    "objetivo_de_apendizagem": "Utilizar funções de data e string para filtrar e exibir informações de forma útil.",
-    "unidades_de_conhecimento_utilizadas": [
-      "CREATE TABLE",
-      "INSERT INTO",
-      "SELECT",
+      "Filtro",
       "WHERE",
-      "Funções de Data (e.g., CURDATE(), DATE_ADD)",
-      "LIKE",
-      "STR_TO_DATE"
-    ],
-    "tags": [
-      "Datas",
-      "Strings",
-      "WHERE",
-      "Funções"
-    ],
-    "nivel_complexidade": "iniciante"
-  },
-  {
-    "nome_do_projeto": "Apuração de Votos para Enquetes",
-    "nome_da_aula": "Agregação de Dados com Funções Básicas",
-    "descricao_resumida": "Crie uma tabela de opções de enquete e registre votos. Conte o total de votos para cada opção e identifique a opção mais votada.",
-    "objetivo_de_apendizagem": "Utilizar funções de agregação (COUNT, SUM, AVG) para sumarizar dados e agrupá-los usando GROUP BY.",
-    "unidades_de_conhecimento_utilizadas": [
-      "CREATE TABLE",
-      "INSERT INTO",
-      "SELECT",
-      "COUNT",
-      "SUM",
-      "AVG",
-      "GROUP BY",
-      "ORDER BY"
-    ],
-    "tags": [
-      "Agregação",
-      "COUNT",
-      "GROUP BY",
-      "Enquete"
-    ],
-    "nivel_complexidade": "iniciante"
-  },
-  {
-    "nome_do_projeto": "Análise de Compras de Clientes",
-    "nome_da_aula": "Introdução a JOINs: INNER JOIN",
-    "descricao_resumida": "Crie tabelas de clientes e pedidos. Liste todos os pedidos e os respectivos clientes que os realizaram, exibindo informações combinadas.",
-    "objetivo_de_apendizagem": "Conectar dados de múltiplas tabelas usando INNER JOIN para obter um conjunto de resultados combinados.",
-    "unidades_de_conhecimento_utilizadas": [
-      "CREATE TABLE",
-      "INSERT INTO",
-      "SELECT",
-      "INNER JOIN",
-      "ON"
-    ],
-    "tags": [
-      "JOIN",
-      "Relacionamento",
-      "INNER JOIN",
-      "Clientes"
-    ],
-    "nivel_complexidade": "intermediario"
-  },
-  {
-    "nome_do_projeto": "Inventário Detalhado",
-    "nome_da_aula": "JOINs Múltiplos e LEFT/RIGHT JOIN",
-    "descricao_resumida": "Crie tabelas de produtos, categorias e fornecedores. Liste todos os produtos, incluindo aqueles sem categoria ou fornecedor, com seus detalhes, utilizando múltiplos tipos de JOIN.",
-    "objetivo_de_apendizagem": "Utilizar LEFT JOIN e RIGHT JOIN para incluir dados não correspondentes e encadear múltiplos JOINs para consultas complexas.",
-    "unidades_de_conhecimento_utilizadas": [
-      "CREATE TABLE",
-      "INSERT INTO",
-      "SELECT",
-      "LEFT JOIN",
-      "RIGHT JOIN",
-      "ON",
-      "Múltiplos JOINs"
-    ],
-    "tags": [
-      "LEFT JOIN",
-      "RIGHT JOIN",
-      "Múltiplos JOINs",
-      "Inventário"
-    ],
-    "nivel_complexidade": "intermediario"
-  },
-  {
-    "nome_do_projeto": "Ranking de Vendas de Equipe",
-    "nome_da_aula": "Agregação com GROUP BY e HAVING",
-    "descricao_resumida": "Crie tabelas de vendedores e vendas. Calcule o total de vendas por vendedor e identifique aqueles que superaram uma meta de vendas utilizando cláusulas de agrupamento e filtragem de grupos.",
-    "objetivo_de_apendizagem": "Agrupar resultados com GROUP BY, aplicar funções de agregação e filtrar grupos com HAVING.",
-    "unidades_de_conhecimento_utilizadas": [
-      "CREATE TABLE",
-      "INSERT INTO",
-      "SELECT",
-      "SUM",
-      "AVG",
-      "GROUP BY",
-      "HAVING",
-      "ORDER BY"
-    ],
-    "tags": [
-      "Agregação",
-      "GROUP BY",
-      "HAVING",
-      "Vendas",
-      "Desempenho"
-    ],
-    "nivel_complexidade": "intermediario"
-  },
-  {
-    "nome_do_projeto": "Gerenciamento de Produtos Sem Vendas",
-    "nome_da_aula": "Subconsultas e IN/NOT IN",
-    "descricao_resumida": "Crie tabelas de produtos e itens de pedido. Encontre produtos que nunca foram vendidos e produtos que tiveram um volume de vendas abaixo da média, utilizando subconsultas.",
-    "objetivo_de_apendizagem": "Utilizar subconsultas com IN e NOT IN para resolver problemas de filtragem complexos e subconsultas correlacionadas para comparações avançadas.",
-    "unidades_de_conhecimento_utilizadas": [
-      "CREATE TABLE",
-      "INSERT INTO",
-      "SELECT",
-      "WHERE",
-      "Subquery",
-      "IN",
-      "NOT IN",
-      "EXISTS",
-      "NOT EXISTS"
-    ],
-    "tags": [
-      "Subquery",
-      "NOT IN",
-      "Filtragem",
+      "Condição",
       "Estoque"
     ],
-    "nivel_complexidade": "intermediario"
+    "nivel_complexidade": "iniciante"
   },
   {
-    "nome_do_projeto": "Relatório de Pedidos Detalhados",
-    "nome_da_aula": "Funções de Agregação, JOINs e Alias",
-    "descricao_resumida": "Crie tabelas de pedidos, itens de pedido e produtos. Exiba o valor total de cada pedido, listando todos os itens, seus preços e o subtotal, utilizando aliases para clareza.",
-    "objetivo_de_apendizagem": "Combinar múltiplos JOINs com funções de agregação, aplicar cálculos complexos e utilizar aliases para melhorar a legibilidade de consultas complexas.",
+    "nome_do_projeto": "Ranking de Vendas por Preço",
+    "nome_da_aula": "Ordenando Resultados com ORDER BY",
+    "descricao_resumida": "Os alunos deverão listar produtos de uma loja, ordenando-os por preço em ordem crescente e decrescente, e depois por nome.",
+    "objetivo_de_apendizagem": "Utilizar a cláusula ORDER BY para ordenar conjuntos de resultados de forma ascendente ou descendente, por uma ou mais colunas.",
     "unidades_de_conhecimento_utilizadas": [
-      "CREATE TABLE",
-      "INSERT INTO",
       "SELECT",
-      "JOIN",
-      "GROUP BY",
-      "SUM",
-      "COUNT",
-      "AS (Alias)",
-      "CASE WHEN"
+      "FROM",
+      "WHERE",
+      "ORDER BY",
+      "ASC",
+      "DESC"
     ],
     "tags": [
-      "JOIN",
-      "Agregação",
-      "Alias",
-      "Pedidos",
-      "Cálculos"
+      "Ordenação",
+      "Classificação",
+      "ORDER BY",
+      "Resultados"
     ],
-    "nivel_complexidade": "intermediario"
+    "nivel_complexidade": "iniciante"
   },
   {
-    "nome_do_projeto": "Monitoramento de Variação de Preços",
-    "nome_da_aula": "Common Table Expressions (CTEs) e Funções de Janela (ROW_NUMBER/RANK)",
-    "descricao_resumida": "Crie uma tabela de histórico de preços para produtos. Utilize CTEs e funções de janela para mostrar o preço atual, o preço anterior e a diferença de preço para cada produto ao longo do tempo.",
-    "objetivo_de_apendizagem": "Empregar CTEs para estruturar consultas complexas e utilizar funções de janela como ROW_NUMBER(), RANK(), LAG() e LEAD() para análises sequenciais e comparativas.",
+    "nome_do_projeto": "Cadastro de Novos Clientes",
+    "nome_da_aula": "Inserindo Dados com INSERT INTO",
+    "descricao_resumida": "Os alunos devem criar e popular uma tabela de clientes com novos registros, garantindo a utilização correta de diferentes tipos de dados (texto, número, data).",
+    "objetivo_de_apendizagem": "Entender a sintaxe do INSERT INTO e como inserir novos registros em uma tabela, respeitando os tipos de dados e restrições básicas.",
     "unidades_de_conhecimento_utilizadas": [
-      "CREATE TABLE",
       "INSERT INTO",
-      "WITH (CTE)",
-      "SELECT",
-      "ROW_NUMBER()",
-      "RANK()",
-      "LAG()",
-      "LEAD()",
-      "OVER (PARTITION BY, ORDER BY)"
+      "Tipos de Dados (INT, VARCHAR, DATE)",
+      "NULOS",
+      "Chaves Primárias (conceito)"
     ],
     "tags": [
-      "CTE",
-      "Window Functions",
-      "LAG",
-      "Histórico",
-      "Preços"
+      "Inserção",
+      "Cadastro",
+      "INSERT",
+      "Tipos de Dados"
     ],
-    "nivel_complexidade": "avancado"
+    "nivel_complexidade": "iniciante"
   },
   {
-    "nome_do_projeto": "Análise RFM (Recência, Frequência, Valor Monetário)",
-    "nome_da_aula": "Funções de Janela para Classificação e Percentis",
-    "descricao_resumida": "Crie tabelas de clientes e pedidos. Classifique os clientes em percentis (e.g., top 25%) com base na sua recência de compra, frequência de compra e valor total gasto, utilizando funções de janela.",
-    "objetivo_de_apendizagem": "Aplicar funções de janela como NTILE(), RANK(), DENSE_RANK() e SUM() OVER para segmentar, classificar e analisar clientes com base em múltiplos critérios de negócio.",
+    "nome_do_projeto": "Gerenciamento de Estoque e Clientes",
+    "nome_da_aula": "Atualizando e Excluindo Dados (UPDATE, DELETE)",
+    "descricao_resumida": "Os alunos deverão atualizar o preço de alguns produtos e a informação de contato de clientes. Depois, deverão remover produtos que estão fora de linha ou clientes inativos.",
+    "objetivo_de_apendizagem": "Aplicar as cláusulas UPDATE para modificar dados existentes e DELETE para remover registros, com uso cuidadoso da cláusula WHERE.",
     "unidades_de_conhecimento_utilizadas": [
-      "CREATE TABLE",
-      "INSERT INTO",
-      "SELECT",
-      "NTILE()",
-      "RANK()",
-      "DENSE_RANK()",
-      "SUM() OVER (PARTITION BY, ORDER BY)",
-      "Subqueries"
-    ],
-    "tags": [
-      "Window Functions",
-      "NTILE",
-      "Segmentação",
-      "Clientes",
-      "RFM"
-    ],
-    "nivel_complexidade": "avancado"
-  },
-  {
-    "nome_do_projeto": "Gerenciamento de Auditoria de Estoque",
-    "nome_da_aula": "Triggers e Transações (Conceitos)",
-    "descricao_resumida": "Projete um sistema onde cada alteração na quantidade de um produto (insert, update, delete) é automaticamente registrada em uma tabela de auditoria. Discuta a implementação de triggers e a importância de transações para a integridade dos dados.",
-    "objetivo_de_apendizagem": "Compreender o conceito e aplicação de triggers para automatizar tarefas de auditoria e a importância de transações (BEGIN TRANSACTION, COMMIT, ROLLBACK) para garantir a consistência e integridade dos dados.",
-    "unidades_de_conhecimento_utilizadas": [
-      "CREATE TABLE",
-      "INSERT INTO",
       "UPDATE",
-      "DELETE FROM",
-      "CREATE TRIGGER (conceitual e sintaxe básica)",
+      "DELETE",
+      "WHERE",
+      "SET"
+    ],
+    "tags": [
+      "Atualização",
+      "Exclusão",
+      "Gerenciamento",
+      "UPDATE",
+      "DELETE"
+    ],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Análise de Desempenho de Vendas",
+    "nome_da_aula": "Funções de Agregação (COUNT, SUM, AVG, MIN, MAX)",
+    "descricao_resumida": "Os alunos devem calcular o número total de vendas, o valor total das vendas, a média de vendas por transação, o valor da venda mais alta e mais baixa.",
+    "objetivo_de_apendizagem": "Utilizar as funções de agregação para realizar cálculos e obter resumos estatísticos de conjuntos de dados.",
+    "unidades_de_conhecimento_utilizadas": [
+      "COUNT",
+      "SUM",
+      "AVG",
+      "MIN",
+      "MAX",
+      "SELECT",
+      "FROM",
+      "WHERE"
+    ],
+    "tags": [
+      "Agregação",
+      "Estatística",
+      "Funções Agregadas",
+      "Relatórios"
+    ],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Vendas por Categoria e Região",
+    "nome_da_aula": "Agrupando Dados com GROUP BY e HAVING",
+    "descricao_resumida": "Os alunos deverão agrupar as vendas por categoria de produto e por região do cliente, calculando a soma total das vendas para cada grupo. Depois, deverão filtrar grupos com vendas acima de um certo valor.",
+    "objetivo_de_apendizagem": "Empregar GROUP BY para agrupar linhas com valores idênticos em uma ou mais colunas e HAVING para filtrar esses grupos agregados.",
+    "unidades_de_conhecimento_utilizadas": [
+      "GROUP BY",
+      "HAVING",
+      "Funções de Agregação (SUM, COUNT)",
+      "SELECT",
+      "FROM"
+    ],
+    "tags": [
+      "Agrupamento",
+      "GROUP BY",
+      "HAVING",
+      "Análise",
+      "Relatório"
+    ],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Detalhes Completos de Pedidos",
+    "nome_da_aula": "Conectando Tabelas com INNER JOIN",
+    "descricao_resumida": "Os alunos deverão unir tabelas de 'Pedidos' e 'Clientes' para listar todos os pedidos junto com os nomes dos clientes que os fizeram.",
+    "objetivo_de_apendizagem": "Entender e aplicar a cláusula INNER JOIN para combinar linhas de duas ou mais tabelas com base em uma condição de correspondência comum.",
+    "unidades_de_conhecimento_utilizadas": [
+      "INNER JOIN",
+      "ON",
+      "Chaves Estrangeiras (conceito)",
+      "SELECT"
+    ],
+    "tags": [
+      "JOIN",
+      "INNER JOIN",
+      "Relacionamento",
+      "Tabelas",
+      "Conexão"
+    ],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Análise de Clientes e Produtos sem Vendas",
+    "nome_da_aula": "Explorando Outros Tipos de JOIN (LEFT, RIGHT, FULL)",
+    "descricao_resumida": "Os alunos deverão identificar clientes que não realizaram pedidos e produtos que nunca foram vendidos, utilizando diferentes tipos de JOIN.",
+    "objetivo_de_apendizagem": "Distinguir e aplicar LEFT JOIN, RIGHT JOIN e FULL JOIN para combinar tabelas, incluindo registros sem correspondência.",
+    "unidades_de_conhecimento_utilizadas": [
+      "LEFT JOIN",
+      "RIGHT JOIN",
+      "FULL JOIN",
+      "ON",
+      "NULL"
+    ],
+    "tags": [
+      "JOIN",
+      "LEFT JOIN",
+      "RIGHT JOIN",
+      "FULL JOIN",
+      "Análise de Gaps"
+    ],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Encontrando Produtos Mais Caros que a Média",
+    "nome_da_aula": "Subconsultas Simples",
+    "descricao_resumida": "Os alunos deverão encontrar todos os produtos cujo preço é maior do que o preço médio de todos os produtos na base de dados.",
+    "objetivo_de_apendizagem": "Utilizar subconsultas (subqueries) para resolver problemas onde uma consulta interna fornece dados para uma consulta externa.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Subqueries",
+      "SELECT",
+      "WHERE",
+      "Funções de Agregação (AVG)"
+    ],
+    "tags": [
+      "Subconsulta",
+      "Subquery",
+      "Aninhamento",
+      "Filtragem Avançada"
+    ],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Criando Relatórios Virtuais para Gerência",
+    "nome_da_aula": "Organizando Dados com VIEWS",
+    "descricao_resumida": "Os alunos deverão criar visualizações (VIEWS) para simplificar consultas complexas, como um relatório de vendas diárias ou uma lista de clientes premium.",
+    "objetivo_de_apendizagem": "Entender o conceito de VIEW e como criá-las para encapsular consultas complexas, tornando o acesso aos dados mais simples e seguro.",
+    "unidades_de_conhecimento_utilizadas": [
+      "CREATE VIEW",
+      "SELECT",
+      "JOIN",
+      "Funções de Agregação"
+    ],
+    "tags": [
+      "View",
+      "Visualização",
+      "Relatório",
+      "Abstração",
+      "Segurança"
+    ],
+    "nivel_complexidade": "avancado"
+  },
+  {
+    "nome_do_projeto": "Otimizando Consultas Lentas",
+    "nome_da_aula": "Melhorando a Performance com INDEXES",
+    "descricao_resumida": "Os alunos deverão identificar gargalos de desempenho em consultas em uma tabela grande e propor e implementar a criação de índices para otimizá-las.",
+    "objetivo_de_apendizagem": "Compreender a importância dos índices para o desempenho de consultas e saber como criá-los em colunas apropriadas.",
+    "unidades_de_conhecimento_utilizadas": [
+      "CREATE INDEX",
+      "Performance",
+      "Otimização de Consultas",
+      "Chaves (Primária, Estrangeira, Única)"
+    ],
+    "tags": [
+      "Índice",
+      "Performance",
+      "Otimização",
+      "Consulta Rápida"
+    ],
+    "nivel_complexidade": "avancado"
+  },
+  {
+    "nome_do_projeto": "Automatizando Processos de Negócio",
+    "nome_da_aula": "Procedimentos Armazenados e Funções",
+    "descricao_resumida": "Os alunos deverão criar um procedimento armazenado para inserir um novo pedido e uma função para calcular o valor total de um pedido.",
+    "objetivo_de_apendizagem": "Entender o conceito e a sintaxe básica de Stored Procedures e Functions para encapsular lógica de negócios e reutilizar código SQL.",
+    "unidades_de_conhecimento_utilizadas": [
+      "CREATE PROCEDURE",
+      "CREATE FUNCTION",
+      "Parâmetros",
+      "Variáveis",
+      "DML (INSERT, UPDATE)"
+    ],
+    "tags": [
+      "Procedimento Armazenado",
+      "Função",
+      "Automação",
+      "Lógica de Negócio",
+      "Reutilização"
+    ],
+    "nivel_complexidade": "avancado"
+  },
+  {
+    "nome_do_projeto": "Garantindo a Integridade de Transações Financeiras",
+    "nome_da_aula": "Transações e Propriedades ACID",
+    "descricao_resumida": "Os alunos deverão simular uma transferência bancária, aplicando o conceito de transações (BEGIN TRANSACTION, COMMIT, ROLLBACK) para garantir a consistência dos dados.",
+    "objetivo_de_apendizagem": "Compreender as propriedades ACID e aplicar o controle de transações para garantir a integridade e consistência dos dados em operações multi-passo.",
+    "unidades_de_conhecimento_utilizadas": [
       "BEGIN TRANSACTION",
       "COMMIT",
       "ROLLBACK",
-      "NEW",
-      "OLD"
+      "ACID (Atomicity, Consistency, Isolation, Durability)"
     ],
     "tags": [
-      "Triggers",
-      "Auditoria",
-      "Transações",
+      "Transação",
+      "ACID",
       "Integridade",
-      "DML"
+      "Consistência",
+      "Concorrência"
     ],
     "nivel_complexidade": "avancado"
   },
   {
-    "nome_do_projeto": "Otimização de Relatório de Desempenho de Vendas",
-    "nome_da_aula": "Views e Índices para Performance",
-    "descricao_resumida": "Receba um conjunto de consultas complexas que geram relatórios de vendas. Refatore-as usando Views para simplificar e proponha a criação de índices estratégicos para melhorar o desempenho, analisando o plano de execução.",
-    "objetivo_de_apendizagem": "Utilizar Views para abstrair complexidade e gerenciar acesso a dados, e compreender como a criação de índices e a análise de planos de execução (EXPLAIN) podem otimizar a performance de consultas.",
+    "nome_do_projeto": "Ranking de Vendas e Médias Móveis",
+    "nome_da_aula": "Análises Avançadas com Funções de Janela",
+    "descricao_resumida": "Os alunos deverão classificar vendas por departamento e calcular médias móveis de vendas ao longo do tempo, utilizando funções de janela.",
+    "objetivo_de_apendizagem": "Aplicar funções de janela (RANK, ROW_NUMBER, NTILE, AVG OVER) para realizar cálculos em um conjunto de linhas relacionadas a uma linha atual sem agrupar o resultado.",
     "unidades_de_conhecimento_utilizadas": [
-      "CREATE VIEW",
-      "SELECT (complexas)",
-      "CREATE INDEX (conceitual e sintaxe básica)",
-      "EXPLAIN (ou equivalente da ferramenta)",
-      "Análise de performance",
-      "DROP INDEX"
+      "Funções de Janela (ROW_NUMBER, RANK, DENSE_RANK, NTILE, LAG, LEAD, AVG OVER)",
+      "OVER()",
+      "PARTITION BY",
+      "ORDER BY"
     ],
     "tags": [
-      "Views",
-      "Índices",
-      "Otimização",
-      "Performance",
-      "EXPLAIN"
-    ],
-    "nivel_complexidade": "avancado"
-  },
-  {
-    "nome_do_projeto": "Simulação de Sistema de Recomendação",
-    "nome_da_aula": "Consultas Recursivas (CTEs Recursivas) e Lógica de Negócios Complexa",
-    "descricao_resumida": "Crie um modelo de dados para simular histórico de compras e relacionamentos entre produtos/usuários. Desenvolva consultas que sugiram 'clientes que compraram X também compraram Y' ou 'produtos relacionados' utilizando CTEs recursivas para explorar conexões indiretas.",
-    "objetivo_de_apendizagem": "Aplicar Common Table Expressions recursivas para navegar em relacionamentos hierárquicos ou complexos, e desenvolver lógica de negócios avançada em SQL para sistemas de recomendação ou análise de redes.",
-    "unidades_de_conhecimento_utilizadas": [
-      "CREATE TABLE",
-      "INSERT INTO",
-      "WITH RECURSIVE (CTE)",
-      "JOIN (Múltiplos)",
-      "GROUP BY",
-      "COUNT",
-      "DISTINCT",
-      "UNION ALL"
-    ],
-    "tags": [
-      "CTE Recursiva",
-      "Recomendação",
-      "Lógica de Negócios",
-      "Complexidade",
-      "Grafos"
+      "Funções de Janela",
+      "Window Functions",
+      "Ranking",
+      "Análise Avançada",
+      "BI"
     ],
     "nivel_complexidade": "avancado"
   }

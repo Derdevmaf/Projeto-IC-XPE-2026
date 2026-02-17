@@ -56,7 +56,18 @@ disciplina_formatada = (
     .replace("á", "a")
 )
 
-nome_arquivo = f"projetos_objetivos_{disciplina_formatada}.json"
+# Caminho absoluto baseado na estrutura do projeto
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+PASTA_RAW = os.path.join(BASE_DIR, "data", "raw")
+
+# Garante que a pasta exista
+os.makedirs(PASTA_RAW, exist_ok=True)
+
+nome_arquivo = os.path.join(
+    PASTA_RAW,
+    f"projetos_objetivos_{disciplina_formatada}.json"
+)
+
 
 # ==============================
 # 3️⃣ VALIDAR JSON
