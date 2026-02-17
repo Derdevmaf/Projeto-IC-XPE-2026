@@ -1,0 +1,47 @@
+[
+  {
+    "objetivo_de_apendizagem": "Identificar os componentes fundamentais de um sistema de gerenciamento de banco de dados (SGBD) e a função do SQL."
+  },
+  {
+    "objetivo_de_apendizagem": "Formular consultas básicas para selecionar todas as colunas ou colunas específicas de uma tabela utilizando a cláusula SELECT."
+  },
+  {
+    "objetivo_de_apendizagem": "Filtrar registros de uma tabela utilizando a cláusula WHERE com operadores de comparação (=, !=, >, <, >=, <=)."
+  },
+  {
+    "objetivo_de_apendizagem": "Aplicar operadores lógicos (AND, OR, NOT) na cláusula WHERE para combinar múltiplas condições de filtragem."
+  },
+  {
+    "objetivo_de_apendizagem": "Ordenar os resultados de uma consulta em ordem ascendente ou descendente utilizando a cláusula ORDER BY."
+  },
+  {
+    "objetivo_de_apendizagem": "Limitar o número de registros retornados por uma consulta utilizando cláusulas como LIMIT ou TOP."
+  },
+  {
+    "objetivo_de_apendizagem": "Utilizar funções de agregação (COUNT, SUM, AVG, MIN, MAX) para calcular valores sumarizados em um conjunto de dados."
+  },
+  {
+    "objetivo_de_apendizagem": "Agrupar linhas com valores semelhantes em uma ou mais colunas utilizando a cláusula GROUP BY."
+  },
+  {
+    "objetivo_de_apendizagem": "Filtrar grupos de resultados agregados utilizando a cláusula HAVING."
+  },
+  {
+    "objetivo_de_apendizagem": "Inserir novos registros em uma tabela utilizando a instrução INSERT INTO."
+  },
+  {
+    "objetivo_de_apendizagem": "Modificar dados existentes em uma tabela utilizando a instrução UPDATE com a cláusula WHERE."
+  },
+  {
+    "objetivo_de_apendizagem": "Excluir registros de uma tabela utilizando a instrução DELETE FROM com a cláusula WHERE."
+  },
+  {
+    "objetivo_de_apendizagem": "Combinar dados de duas tabelas relacionadas utilizando a cláusula INNER JOIN."
+  },
+  {
+    "objetivo_de_apendizagem": "Utilizar LEFT JOIN e RIGHT JOIN para recuperar dados de tabelas mesmo quando não há correspondência em ambas."
+  },
+  {
+    "objetivo_de_apendizagem": "Escrever subconsultas (subqueries) para resolver problemas complexos que exigem consultas aninhadas."
+  }
+]

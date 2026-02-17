@@ -1,0 +1,16 @@
+Learning Objective,Explorando a Biblioteca Digital,Gerenciamento de Tarefas Diárias,Organizando uma Coleção de Filmes,Classificação de Produtos em um E-commerce,Busca Avançada em Catálogo de Eventos,Análise de Desempenho de Vendas por Região,Identificando Clientes de Alto Valor,Relatório de Pedidos com Detalhes do Cliente,Análise de Inatividade de Usuários e Produtos,Descoberta de Produtos Acima da Média,Ranking de Vendas por Vendedor em Cada Mês,Análise de Caminho de Carreira de Funcionários,Relatório de Avaliações com Condições Dinâmicas,Previsão de Estoque e Comportamento de Consumo,Sistema de Reserva de Passagens Aéreas
+Compreender os conceitos fundamentais de bancos de dados relacionais e a importância do SQL como linguagem de consulta.,1,0,0,0,0,0,0,0,0,0,0,0,0,5,0
+Escrever consultas SQL básicas para selecionar colunas específicas e todas as colunas de uma tabela utilizando a cláusula SELECT.,2,4,2,0,3,5,0,2,0,4,0,1,3,0,0
+"Filtrar dados de uma tabela utilizando a cláusula WHERE com operadores de comparação (>, <, =, !=, >=, <=) e lógicos (AND, OR, NOT).",3,5,3,3,1,4,0,3,5,3,0,2,1,4,5
+Ordenar resultados de consultas utilizando a cláusula ORDER BY em ordem ascendente e descendente com base em uma ou mais colunas.,5,0,0,0,4,0,5,4,0,0,3,0,0,0,0
+"Limitar o número de registros retornados por uma consulta utilizando as cláusulas LIMIT, TOP ou OFFSET, conforme o dialeto SQL.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Aplicar funções de agregação como COUNT, SUM, AVG, MIN e MAX para resumir dados em conjuntos de resultados.",0,0,0,0,0,2,1,5,2,1,2,4,4,1,0
+Agrupar dados utilizando a cláusula GROUP BY para realizar agregações por categorias ou grupos específicos.,0,0,0,5,0,1,2,0,1,0,1,5,5,2,0
+Filtrar grupos de dados com base em condições de agregação utilizando a cláusula HAVING.,0,0,0,0,0,0,3,0,4,0,0,0,0,0,0
+Realizar junções INNER JOIN entre duas ou mais tabelas para combinar dados relacionados com base em chaves comuns.,4,0,5,1,2,3,4,1,0,5,4,3,2,3,4
+"Utilizar junções LEFT JOIN, RIGHT JOIN e FULL OUTER JOIN para incluir todos os registros de uma ou ambas as tabelas, independentemente de correspondência.",0,0,0,0,0,0,0,0,3,0,0,0,0,0,0
+Escrever subconsultas (subqueries) para resolver problemas que exigem múltiplas etapas de consulta aninhadas.,0,0,0,0,5,0,0,0,0,2,5,0,0,0,0
+"Executar operações de manipulação de dados (INSERT, UPDATE, DELETE) para adicionar, modificar e remover registros em tabelas.",0,3,1,0,0,0,0,0,0,0,0,0,0,0,3
+"Criar e modificar a estrutura de tabelas utilizando DDL (CREATE TABLE, ALTER TABLE, DROP TABLE) e definir tipos de dados apropriados.",0,1,4,4,0,0,0,0,0,0,0,0,0,0,1
+"Implementar restrições de integridade de dados (PRIMARY KEY, FOREIGN KEY, UNIQUE, NOT NULL, CHECK) para garantir a consistência do banco de dados.",0,2,0,2,0,0,0,0,0,0,0,0,0,0,2
+"Criar e utilizar VIEWS para simplificar consultas complexas, controlar o acesso aos dados e abstrair a estrutura subjacente.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
