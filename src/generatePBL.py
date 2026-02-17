@@ -13,7 +13,7 @@ client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 # ==============================
 
 prompt_pbl = """
-Gere 15 projetos PBL (Project-Based Learning) para a disciplina Aprendendo SQL.
+Gere 15 projetos PBL (Project-Based Learning) para a disciplina Aprendizado por Reforço.
 
 IMPORTANTE:
 - A saída deve ser SOMENTE um JSON válido.

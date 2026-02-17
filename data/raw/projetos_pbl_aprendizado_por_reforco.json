@@ -1,0 +1,299 @@
+[
+  {
+    "nome_do_projeto": "Agente no Mundo do Grelha (Gridworld)",
+    "nome_da_aula": "Introdução ao Aprendizado por Reforço e Processos de Decisão de Markov (MDPs)",
+    "descricao_resumida": "Implementar um agente que navega em um ambiente simples de grelha para alcançar um objetivo, evitando obstáculos. O agente deve aprender a política ótima para maximizar recompensas.",
+    "objetivo_de_apendizagem": "Compreender os conceitos fundamentais de MDPs, estados, ações, recompensas e políticas. Implementar um algoritmo básico de busca de política.",
+    "unidades_de_conhecimento_utilizadas": [
+      "MDPs",
+      "Estados",
+      "Ações",
+      "Recompensas",
+      "Políticas",
+      "Função de Valor"
+    ],
+    "tags": [
+      "Gridworld",
+      "MDP",
+      "Fundamentos",
+      "Busca de Política"
+    ],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Iteração de Valor e Política no FrozenLake",
+    "nome_da_aula": "Métodos de Programação Dinâmica",
+    "descricao_resumida": "Aplicar os algoritmos de Iteração de Valor e Iteração de Política para resolver o ambiente FrozenLake (OpenAI Gym), comparando a convergência e o desempenho de ambos.",
+    "objetivo_de_apendizagem": "Dominar a implementação e o funcionamento da Iteração de Valor e Iteração de Política para problemas de RL com estados e ações discretos.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Iteração de Valor",
+      "Iteração de Política",
+      "Equação de Bellman",
+      "Convergência",
+      "OpenAI Gym (Básico)"
+    ],
+    "tags": [
+      "Programação Dinâmica",
+      "FrozenLake",
+      "Iteração de Valor",
+      "Iteração de Política"
+    ],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Q-Learning para o Caçador de Tesouros",
+    "nome_da_aula": "Métodos de Controle sem Modelo: Q-Learning",
+    "descricao_resumida": "Desenvolver um agente utilizando Q-Learning para navegar em um ambiente simulado de caça ao tesouro, onde o agente deve aprender a melhor estratégia sem conhecimento prévio do modelo do ambiente.",
+    "objetivo_de_apendizagem": "Implementar e entender o algoritmo Q-Learning, explorando o trade-off exploração-explotação e a atualização da Q-tabela.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Q-Learning",
+      "Exploração-Explotação (epsilon-greedy)",
+      "Tabela Q",
+      "Atualização Temporal (TD)",
+      "Taxa de Aprendizagem"
+    ],
+    "tags": [
+      "Q-Learning",
+      "Sem Modelo",
+      "TD-Control",
+      "Epsilon-greedy"
+    ],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "SARSA no Ambiente Taxi-v3",
+    "nome_da_aula": "Métodos de Controle sem Modelo: SARSA",
+    "descricao_resumida": "Construir um agente SARSA para o ambiente Taxi-v3 do OpenAI Gym, onde o agente precisa pegar e deixar passageiros em locais específicos. Comparar o desempenho com Q-Learning (se possível).",
+    "objetivo_de_apendizagem": "Entender e implementar o algoritmo SARSA, diferenciando-o do Q-Learning e suas implicações em políticas on-policy vs off-policy.",
+    "unidades_de_conhecimento_utilizadas": [
+      "SARSA",
+      "On-policy",
+      "Off-policy",
+      "OpenAI Gym",
+      "TD(0)"
+    ],
+    "tags": [
+      "SARSA",
+      "On-policy",
+      "Taxi-v3",
+      "Sem Modelo"
+    ],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Criação de Ambiente Personalizado e Comparação de Algoritmos Tabulares",
+    "nome_da_aula": "Criação de Ambientes e Desafios de Escala",
+    "descricao_resumida": "Projetar um ambiente de RL simples (por exemplo, um jogo de tabuleiro 3x3) e testar os algoritmos Q-Learning e SARSA nesse novo ambiente, analisando suas adaptações e limitações com o aumento do espaço de estados/ações.",
+    "objetivo_de_apendizagem": "Habilitar a criação de ambientes customizados para RL e aprofundar a compreensão das diferenças práticas entre algoritmos de controle sem modelo.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Design de Ambientes",
+      "Representação de Estados e Ações",
+      "Comparação de Algoritmos",
+      "Escalabilidade"
+    ],
+    "tags": [
+      "Ambiente Customizado",
+      "Comparação de Algoritmos",
+      "Espaços de Estado/Ação"
+    ],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "DQN para CarPole-v1",
+    "nome_da_aula": "Aprendizado por Reforço Profundo (DQN)",
+    "descricao_resumida": "Implementar um agente Deep Q-Network (DQN) para resolver o problema CarPole-v1 do OpenAI Gym, onde o agente deve equilibrar um poste em um carrinho.",
+    "objetivo_de_apendizagem": "Aplicar redes neurais para aproximação de funções de valor, entender a experiência de replay e o uso de redes alvo no DQN.",
+    "unidades_de_conhecimento_utilizadas": [
+      "DQN",
+      "Redes Neurais",
+      "Replay Buffer",
+      "Rede Alvo",
+      "Experiência Replay",
+      "CarPole-v1"
+    ],
+    "tags": [
+      "DQN",
+      "Deep Learning",
+      "Q-Network",
+      "Aproximação de Função"
+    ],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Policy Gradient para Acrobot-v1",
+    "nome_da_aula": "Métodos de Policy Gradient (REINFORCE)",
+    "descricao_resumida": "Desenvolver um agente baseado em Policy Gradient (REINFORCE) para controlar o pêndulo Acrobot-v1, onde o objetivo é levantar o pêndulo acima de uma linha.",
+    "objetivo_de_apendizagem": "Compreender e implementar algoritmos de Policy Gradient, focando na otimização direta da política usando gradiente de Monte Carlo.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Policy Gradient",
+      "REINFORCE",
+      "Monte Carlo",
+      "Política Estocástica",
+      "Acrobot-v1"
+    ],
+    "tags": [
+      "Policy Gradient",
+      "REINFORCE",
+      "Monte Carlo Policy Gradient"
+    ],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Actor-Critic para BipedalWalker-v3 (versão discreta simplificada)",
+    "nome_da_aula": "Métodos Actor-Critic",
+    "descricao_resumida": "Implementar um algoritmo Actor-Critic para um ambiente de controle contínuo (ou sua versão discreta simplificada) como BipedalWalker, onde um agente com 'pernas' precisa andar.",
+    "objetivo_de_apendizagem": "Entender a arquitetura Actor-Critic, a interação entre o ator (política) e o crítico (função de valor), e a vantagem de reduzir a variância.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Actor-Critic",
+      "Vantagem (Advantage)",
+      "Função de Valor de Estados",
+      "Função de Política"
+    ],
+    "tags": [
+      "Actor-Critic",
+      "Vantagem",
+      "Controle Contínuo (simplificado)"
+    ],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Estratégias de Exploração Avançadas em MountainCar",
+    "nome_da_aula": "Exploração e Explotação",
+    "descricao_resumida": "Comparar diferentes estratégias de exploração (e.g., epsilon-greedy decrescente, ruído gaussiano, UCB) para resolver o ambiente MountainCar-v0, analisando seu impacto na velocidade de aprendizado e na performance final.",
+    "objetivo_de_apendizagem": "Aprofundar o conhecimento sobre as estratégias de exploração e explotação, suas vantagens e desvantagens em diferentes cenários de ambiente.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Exploração",
+      "Explotação",
+      "Epsilon-greedy",
+      "Ruído Gaussiano",
+      "Upper Confidence Bound (UCB)",
+      "Intrinsically Motivated Exploration"
+    ],
+    "tags": [
+      "Exploração",
+      "Explotação",
+      "MountainCar",
+      "Hyperparâmetros"
+    ],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "DQN Duplo e Dueling para Ambientes Atari (Pong ou Breakout)",
+    "nome_da_aula": "Avanços em Deep Q-Networks",
+    "descricao_resumida": "Implementar variações do DQN, como Double DQN e Dueling DQN, e aplicá-las a um jogo Atari do OpenAI Gym (e.g., Pong-v0 ou Breakout-v0), comparando seus desempenhos e entendendo as melhorias.",
+    "objetivo_de_apendizagem": "Entender as melhorias arquitetônicas e algorítmicas do Double DQN e Dueling DQN, e como elas endereçam problemas de superestimação de valores e representação.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Double DQN",
+      "Dueling DQN",
+      "Jogos Atari",
+      "Representação de Imagens",
+      "Superestimação"
+    ],
+    "tags": [
+      "DQN Avançado",
+      "Atari",
+      "Deep Learning"
+    ],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "DDPG/TD3 para Controle Contínuo (HalfCheetah-v3)",
+    "nome_da_aula": "Algoritmos de Policy Gradient para Espaços de Ação Contínuos",
+    "descricao_resumida": "Implementar um algoritmo DDPG (Deep Deterministic Policy Gradient) ou TD3 (Twin Delayed DDPG) para resolver um problema de controle contínuo complexo, como o HalfCheetah-v3 do PyBullet/MuJoCo.",
+    "objetivo_de_apendizagem": "Dominar a aplicação de algoritmos de RL para espaços de ação contínuos, compreendendo os desafios e as soluções específicas para esse tipo de problema.",
+    "unidades_de_conhecimento_utilizadas": [
+      "DDPG",
+      "TD3",
+      "Ações Contínuas",
+      "Redes de Ator-Crítico Determinísticas",
+      "Ruído de Ação"
+    ],
+    "tags": [
+      "DDPG",
+      "TD3",
+      "Controle Contínuo",
+      "MuJoCo",
+      "PyBullet"
+    ],
+    "nivel_complexidade": "avancado"
+  },
+  {
+    "nome_do_projeto": "Aprendizado Baseado em Modelo com Dyna-Q",
+    "nome_da_aula": "Aprendizado por Reforço Baseado em Modelo",
+    "descricao_resumida": "Implementar o algoritmo Dyna-Q em um ambiente simples (Gridworld ou similar) para demonstrar como a construção e o uso de um modelo do ambiente podem acelerar o aprendizado.",
+    "objetivo_de_apendizagem": "Entender a diferença entre RL baseado em modelo e sem modelo, e como um modelo pode ser aprendido e utilizado para planejamento e melhoria da política.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Dyna-Q",
+      "Aprendizado Baseado em Modelo",
+      "Planejamento",
+      "Simulação de Modelo",
+      "Geração de Experiências"
+    ],
+    "tags": [
+      "Baseado em Modelo",
+      "Dyna-Q",
+      "Planejamento",
+      "Eficiência"
+    ],
+    "nivel_complexidade": "avancado"
+  },
+  {
+    "nome_do_projeto": "Aprendizado por Reforço Multiagente (MARL) em um Cenário de Cooperação/Competição",
+    "nome_da_aula": "Aprendizado por Reforço Multiagente",
+    "descricao_resumida": "Desenvolver um sistema com múltiplos agentes que aprendem a cooperar ou competir em um ambiente simulado (e.g., um jogo simples de coleta de recursos ou perseguição). Explorar desafios como não estacionariedade e coordenação.",
+    "objetivo_de_apendizagem": "Compreender os fundamentos do MARL, os desafios únicos que ele apresenta (e.g., não estacionariedade, crédito, coordenação) e abordagens básicas para resolvê-los.",
+    "unidades_de_conhecimento_utilizadas": [
+      "MARL",
+      "Jogos Multiagente",
+      "Não Estacionariedade",
+      "Crédito",
+      "Vantagem Conjunta"
+    ],
+    "tags": [
+      "MARL",
+      "Multiagente",
+      "Cooperação",
+      "Competição"
+    ],
+    "nivel_complexidade": "avancado"
+  },
+  {
+    "nome_do_projeto": "Aprendizado por Reforço Hierárquico (HRL) para Tarefas Complexas",
+    "nome_da_aula": "Hierarquias e Abstração em RL",
+    "descricao_resumida": "Propor e implementar uma arquitetura HRL para resolver um problema de tarefa complexa que pode ser decomposto em subtarefas (e.g., um robô que precisa navegar por uma casa para pegar um objeto específico).",
+    "objetivo_de_apendizagem": "Entender como a decomposição hierárquica pode simplificar o aprendizado em tarefas de longo horizonte e grandes espaços de estados/ações, e explorar conceitos como opções e metas.",
+    "unidades_de_conhecimento_utilizadas": [
+      "HRL",
+      "Opções",
+      "Metas",
+      "Decomposição de Tarefas",
+      "Aprendizado de Longo Horizonte"
+    ],
+    "tags": [
+      "HRL",
+      "Hierarquia",
+      "Opções",
+      "Abstração"
+    ],
+    "nivel_complexidade": "avancado"
+  },
+  {
+    "nome_do_projeto": "Aplicação de RL em um Problema do Mundo Real (Sugestão/Pesquisa)",
+    "nome_da_aula": "Aplicações e Tópicos Avançados em RL",
+    "descricao_resumida": "Pesquisar e propor uma aplicação de Aprendizado por Reforço para um problema do mundo real (e.g., otimização de tráfego, gestão de energia, recomendação personalizada, robótica) e esboçar uma arquitetura de solução. Pode envolver a simulação de um aspecto da solução.",
+    "objetivo_de_apendizagem": "Conectar os conceitos teóricos e práticos de RL com problemas complexos do mundo real, identificando desafios e oportunidades para a aplicação da tecnologia.",
+    "unidades_de_conhecimento_utilizadas": [
+      "RL Aplicado",
+      "Engenharia de Prompt/Ambiente",
+      "Modelagem de Problemas",
+      "Análise de Viabilidade"
+    ],
+    "tags": [
+      "Aplicação Real",
+      "Projeto Final",
+      "Pesquisa",
+      "Inovação"
+    ],
+    "nivel_complexidade": "avancado"
+  }
+]
