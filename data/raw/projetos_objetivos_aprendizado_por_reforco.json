@@ -1,47 +1,47 @@
 [
   {
-    "objetivo_de_apendizagem": "Definir os componentes fundamentais de um problema de Aprendizado por Reforço (RL), incluindo agente, ambiente, estado, ação, recompensa e política."
+    "objetivo_de_aprendizagem": "Definir os componentes fundamentais de um problema de Aprendizado por Reforço (RL), incluindo agente, ambiente, estado, ação, recompensa e política."
   },
   {
-    "objetivo_de_apendizagem": "Formular um problema de decisão sequencial como um Processo de Decisão de Markov (MDP), identificando seus elementos principais como estados, ações, probabilidades de transição e recompensas."
+    "objetivo_de_aprendizagem": "Formular um problema de decisão sequencial como um Processo de Decisão de Markov (MDP), identificando seus elementos principais como estados, ações, probabilidades de transição e recompensas."
   },
   {
-    "objetivo_de_apendizagem": "Aplicar as equações de Bellman para calcular funções de valor de estado (V) e ação (Q) em MDPs dados."
+    "objetivo_de_aprendizagem": "Aplicar as equações de Bellman para calcular funções de valor de estado (V) e ação (Q) em MDPs dados."
   },
   {
-    "objetivo_de_apendizagem": "Implementar algoritmos de Programação Dinâmica, como Iteração de Política e Iteração de Valor, para encontrar políticas ótimas em MDPs com modelo conhecido."
+    "objetivo_de_aprendizagem": "Implementar algoritmos de Programação Dinâmica, como Iteração de Política e Iteração de Valor, para encontrar políticas ótimas em MDPs com modelo conhecido."
   },
   {
-    "objetivo_de_apendizagem": "Diferenciar entre métodos de Monte Carlo e Aprendizagem por Diferenças Temporais (TD(0)) para predição de valor em ambientes sem modelo, identificando suas vantagens e desvantagens."
+    "objetivo_de_aprendizagem": "Diferenciar entre métodos de Monte Carlo e Aprendizagem por Diferenças Temporais (TD(0)) para predição de valor em ambientes sem modelo, identificando suas vantagens e desvantagens."
   },
   {
-    "objetivo_de_apendizagem": "Implementar algoritmos de controle model-free on-policy, como SARSA, para aprender políticas ótimas em ambientes desconhecidos, considerando o dilema exploração-explotação."
+    "objetivo_de_aprendizagem": "Implementar algoritmos de controle model-free on-policy, como SARSA, para aprender políticas ótimas em ambientes desconhecidos, considerando o dilema exploração-explotação."
   },
   {
-    "objetivo_de_apendizagem": "Implementar algoritmos de controle model-free off-policy, como Q-learning, para aprender políticas ótimas, compreendendo a importância da política de comportamento e da política alvo."
+    "objetivo_de_aprendizagem": "Implementar algoritmos de controle model-free off-policy, como Q-learning, para aprender políticas ótimas, compreendendo a importância da política de comportamento e da política alvo."
   },
   {
-    "objetivo_de_apendizagem": "Utilizar técnicas de aproximação de função linear para lidar com espaços de estados ou ações grandes e contínuos em problemas de Aprendizado por Reforço."
+    "objetivo_de_aprendizagem": "Utilizar técnicas de aproximação de função linear para lidar com espaços de estados ou ações grandes e contínuos em problemas de Aprendizado por Reforço."
   },
   {
-    "objetivo_de_apendizagem": "Explicar a arquitetura e os mecanismos-chave das Redes Q Profundas (DQN), como replay de experiência e redes alvo, para estabilizar o treinamento em ambientes complexos."
+    "objetivo_de_aprendizagem": "Explicar a arquitetura e os mecanismos-chave das Redes Q Profundas (DQN), como replay de experiência e redes alvo, para estabilizar o treinamento em ambientes complexos."
   },
   {
-    "objetivo_de_apendizagem": "Implementar o algoritmo REINFORCE para otimização de política em problemas com espaços de ação discretos, utilizando a abordagem de gradientes de política."
+    "objetivo_de_aprendizagem": "Implementar o algoritmo REINFORCE para otimização de política em problemas com espaços de ação discretos, utilizando a abordagem de gradientes de política."
   },
   {
-    "objetivo_de_apendizagem": "Desenvolver agentes Actor-Critic para ambientes com espaços de estados e/ou ações grandes, combinando os benefícios de métodos baseados em valor e em política para melhor desempenho e estabilidade."
+    "objetivo_de_aprendizagem": "Desenvolver agentes Actor-Critic para ambientes com espaços de estados e/ou ações grandes, combinando os benefícios de métodos baseados em valor e em política para melhor desempenho e estabilidade."
   },
   {
-    "objetivo_de_apendizagem": "Aplicar algoritmos de Aprendizado por Reforço Profundo para problemas de controle em ambientes com espaços de ações contínuos, como DDPG ou TD3."
+    "objetivo_de_aprendizagem": "Aplicar algoritmos de Aprendizado por Reforço Profundo para problemas de controle em ambientes com espaços de ações contínuos, como DDPG ou TD3."
   },
   {
-    "objetivo_de_apendizagem": "Analisar e comparar diferentes estratégias de exploração avançadas, além de epsilon-greedy, como Upper Confidence Bound (UCB) e exploração baseada em curiosidade."
+    "objetivo_de_aprendizagem": "Analisar e comparar diferentes estratégias de exploração avançadas, além de epsilon-greedy, como Upper Confidence Bound (UCB) e exploração baseada em curiosidade."
   },
   {
-    "objetivo_de_apendizagem": "Avaliar criticamente a adequação de diferentes algoritmos de Aprendizado por Reforço para resolver problemas do mundo real, considerando suas vantagens, limitações e requisitos computacionais."
+    "objetivo_de_aprendizagem": "Avaliar criticamente a adequação de diferentes algoritmos de Aprendizado por Reforço para resolver problemas do mundo real, considerando suas vantagens, limitações e requisitos computacionais."
   },
   {
-    "objetivo_de_apendizagem": "Propor e justificar a seleção de um pipeline de Aprendizado por Reforço completo para um novo problema, desde a formulação até a avaliação do desempenho e o ajuste de hiperparâmetros."
+    "objetivo_de_aprendizagem": "Propor e justificar a seleção de um pipeline de Aprendizado por Reforço completo para um novo problema, desde a formulação até a avaliação do desempenho e o ajuste de hiperparâmetros."
   }
 ]
