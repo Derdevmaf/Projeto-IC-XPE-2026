@@ -7,8 +7,8 @@ Este projeto foi reorganizado seguindo a estrutura padrão de projetos de ciênc
 ```text
 ├── README.md          <- Este arquivo
 ├── data
-│   ├── processed      <- Conjuntos de dados finais (Rankings)
-│   └── raw            <- Dados originais imutáveis (Objetivos e Projetos)
+│   ├── processed      <- Conjuntos de dados finais (Rankings em csv)
+│   └── raw            <- Dados originais imutáveis (Objetivos e Projetos em .json)
 ├── docs               <- Documentação do projeto
 ├── models             <- Modelos de I.A listados
 ├── pyproject.toml     <- Configuração do projeto e metadados
@@ -18,7 +18,7 @@ Este projeto foi reorganizado seguindo a estrutura padrão de projetos de ciênc
 └── src                <- Código fonte do projeto 
     ├── generateobjectives.py     <- Script para gerar objetivos
     ├── generatePBL.py    <- Script para gerar PBL 
-    ├── train.py   <- Script de ranking   
+    ├── rank_obj_projects.py   <- Script de ranking   
 ```
 
 ## Como Usar
