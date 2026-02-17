@@ -192,10 +192,13 @@ Não explique.
                 continue
 
             for lo in objetivos:
-                # Match mais robusto
                 if lo.lower() in linha.lower():
                     if matriz[lo][pbl] == 0:
-                        matriz[lo][pbl] = posicao
+
+                        # 🔥 Nova lógica linear
+                        score = K - (posicao - 1)
+                        matriz[lo][pbl] = score
+
                         posicao += 1
                     break
 
