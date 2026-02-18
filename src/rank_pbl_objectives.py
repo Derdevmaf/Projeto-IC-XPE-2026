@@ -3,6 +3,7 @@ import glob
 import time
 import csv
 import json
+import re
 from dotenv import load_dotenv
 from google import genai
 
@@ -92,15 +93,13 @@ def extrair_identificador(caminho_completo, prefixo):
 def chamar_gemini(prompt):
     try:
         response = client.models.generate_content(
-            model="gemini-2.5-flash",
+            model="gemini-2.0-flash-lite",
             contents=prompt
         )
         return response.text
     except Exception as e:
         print(f"❌ Erro ao chamar Gemini: {e}")
         return None
-    
-    
 
 
 # ==========================================================
@@ -185,27 +184,31 @@ Não explique.
 
         linhas_resposta = resposta.split("\n")
 
-        posicao = 1
-
         for linha in linhas_resposta:
             linha = linha.strip()
 
             if not linha:
                 continue
 
-            for pbl in projetos:
-                if pbl.lower() in linha.lower():
-                    if matriz[lo][pbl] == 0:
+            # Extrair número da posição (ex: "1. Projeto X")
+            match = re.match(r"(\d+)[\.\-\)]\s*(.*)", linha)
 
-                        # Score linear decrescente
-                        score = K - (posicao - 1)
-                        matriz[lo][pbl] = score
+            if not match:
+                continue
 
-                        posicao += 1
-                    break
+            posicao = int(match.group(1))
+            texto_projeto = match.group(2).strip()
 
             if posicao > K:
-                break
+                continue
+
+            for pbl in projetos:
+                if pbl.lower() in texto_projeto.lower():
+
+                    # Converter ranking em score (1º=5, 2º=4, ...)
+                    score = K - (posicao - 1)
+                    matriz[lo][pbl] = score
+                    break
 
         time.sleep(SLEEP_SECONDS)
 
