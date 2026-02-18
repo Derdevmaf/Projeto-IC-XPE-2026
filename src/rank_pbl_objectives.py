@@ -92,7 +92,7 @@ def extrair_identificador(caminho_completo, prefixo):
 def chamar_gemini(prompt):
     try:
         response = client.models.generate_content(
-            model="gemma-3-27b-it",
+            model="gemini-2.5-flash",
             contents=prompt
         )
         return response.text
