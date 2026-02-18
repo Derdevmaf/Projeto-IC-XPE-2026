@@ -1,12 +1,22 @@
-from google import genai
 import os
 from dotenv import load_dotenv
 import re
 import json
+from openai import OpenAI
 
 load_dotenv()
 
-client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
+# ==============================
+# 🔐 Configurar OpenAI
+# ==============================
+
+openai_api_key = os.getenv("OPENAI_API_KEY")
+if not openai_api_key:
+    raise ValueError("❌ OPENAI_API_KEY não encontrada no .env")
+
+client = OpenAI(api_key=openai_api_key)
+
+MODEL = "gpt-4o-mini"
 
 # ==============================
 # 1️⃣ GERAR OBJETIVOS EM JSON
@@ -34,12 +44,19 @@ Regras:
 - Não invente campos extras.
 """
 
-response = client.models.generate_content(
-    model="gemini-2.5-flash",
-    contents=prompt_objetivos
-)
+try:
+    response = client.responses.create(
+        model=MODEL,
+        input=prompt_objetivos
+    )
 
-resposta_texto = response.text.strip()
+    resposta_texto = response.output_text.strip()
+
+except Exception as e:
+    print("❌ Erro ao chamar OpenAI:")
+    print(e)
+    exit()
+
 
 # ==============================
 # 2️⃣ EXTRAIR NOME DA DISCIPLINA
@@ -56,18 +73,15 @@ disciplina_formatada = (
     .replace("á", "a")
 )
 
-# Caminho absoluto baseado na estrutura do projeto
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PASTA_RAW = os.path.join(BASE_DIR, "data", "raw")
 
-# Garante que a pasta exista
 os.makedirs(PASTA_RAW, exist_ok=True)
 
 nome_arquivo = os.path.join(
     PASTA_RAW,
     f"projetos_objetivos_{disciplina_formatada}.json"
 )
-
 
 # ==============================
 # 3️⃣ VALIDAR JSON
@@ -82,12 +96,10 @@ try:
     if len(dados_json) != 15:
         raise ValueError("A lista não contém exatamente 15 objetivos.")
 
-    # Validar estrutura
     for obj in dados_json:
         if set(obj.keys()) != {"objetivo_de_apendizagem"}:
             raise ValueError("Um ou mais objetos possuem campos incorretos.")
 
-    # Salvar JSON validado
     with open(nome_arquivo, "w", encoding="utf-8") as f:
         json.dump(dados_json, f, indent=2, ensure_ascii=False)
 

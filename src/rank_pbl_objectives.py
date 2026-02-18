@@ -5,7 +5,7 @@ import csv
 import json
 import re
 from dotenv import load_dotenv
-from google import genai
+from openai import OpenAI
 
 # ==========================================================
 # 🔐 Carregar .env
@@ -13,14 +13,11 @@ from google import genai
 
 load_dotenv()
 
-api_key = os.getenv("GEMINI_API_KEY")
-if not api_key:
-    raise ValueError("❌ GEMINI_API_KEY não encontrada no .env")
+openai_api_key = os.getenv("OPENAI_API_KEY")
+if not openai_api_key:
+    raise ValueError("❌ OPENAI_API_KEY não encontrada no .env")
 
-client = genai.Client(
-    api_key=api_key,
-    http_options={"api_version": "v1"}
-)
+client = OpenAI(api_key=openai_api_key)
 
 # ==========================================================
 # ⚙ Configuração
@@ -28,6 +25,7 @@ client = genai.Client(
 
 K = 5  # Top K PBLs por objetivo
 SLEEP_SECONDS = 3  # Delay para evitar rate limit
+MODEL = "gpt-4o-mini"
 
 # ==========================================================
 # 📁 Diretórios
@@ -38,6 +36,25 @@ DATA_RAW_DIR = os.path.join(BASE_DIR, "data", "raw")
 DATA_PROCESSED_DIR = os.path.join(BASE_DIR, "data", "processed")
 
 os.makedirs(DATA_PROCESSED_DIR, exist_ok=True)
+
+# ==========================================================
+# 🤖 Função OpenAI
+# ==========================================================
+
+def run_openai_model(prompt, model=MODEL, effort="medium"):
+    try:
+        response = client.responses.create(
+            model=model,
+            input=prompt
+        )
+
+        resposta_texto = response.output_text.strip()
+        return resposta_texto
+
+    except Exception as e:
+        print(f"❌ Erro ao chamar OpenAI: {e}")
+        return None
+
 
 # ==========================================================
 # 📚 Funções Auxiliares
@@ -90,18 +107,6 @@ def extrair_identificador(caminho_completo, prefixo):
     return nome_sem_extensao
 
 
-def chamar_gemini(prompt):
-    try:
-        response = client.models.generate_content(
-            model="gemini-2.0-flash-lite",
-            contents=prompt
-        )
-        return response.text
-    except Exception as e:
-        print(f"❌ Erro ao chamar Gemini: {e}")
-        return None
-
-
 # ==========================================================
 # 🔎 Buscar arquivos JSON
 # ==========================================================
@@ -134,8 +139,8 @@ identificadores_comuns = sorted(
 
 if not identificadores_comuns:
     print("❌ Nenhum par correspondente encontrado.")
-    print("Verifique se os sufixos dos arquivos são idênticos.")
     exit()
+
 
 # ==========================================================
 # 🚀 Processamento por disciplina
@@ -148,15 +153,10 @@ for id_comum in identificadores_comuns:
     objetivos = carregar_objetivos_json(mapa_objetivos[id_comum])
     projetos = carregar_projetos_json(mapa_pbl[id_comum])
 
-    # Inicializar matriz LO × PBL
     matriz = {
         lo: {pbl: 0 for pbl in projetos}
         for lo in objetivos
     }
-
-    # ======================================================
-    # 🔁 Para cada LO → rankear PBLs
-    # ======================================================
 
     for lo in objetivos:
 
@@ -177,7 +177,7 @@ Responda apenas com a lista numerada dos projetos escolhidos.
 Não explique.
 """
 
-        resposta = chamar_gemini(prompt)
+        resposta = run_openai_model(prompt)
 
         if not resposta:
             continue
@@ -190,7 +190,6 @@ Não explique.
             if not linha:
                 continue
 
-            # Extrair número da posição (ex: "1. Projeto X")
             match = re.match(r"(\d+)[\.\-\)]\s*(.*)", linha)
 
             if not match:
@@ -204,17 +203,11 @@ Não explique.
 
             for pbl in projetos:
                 if pbl.lower() in texto_projeto.lower():
-
-                    # Converter ranking em score (1º=5, 2º=4, ...)
                     score = K - (posicao - 1)
                     matriz[lo][pbl] = score
                     break
 
         time.sleep(SLEEP_SECONDS)
-
-    # ======================================================
-    # 💾 Gerar CSV
-    # ======================================================
 
     nome_csv = os.path.join(
         DATA_PROCESSED_DIR,
@@ -223,7 +216,6 @@ Não explique.
 
     with open(nome_csv, "w", newline="", encoding="utf-8") as csvfile:
         writer = csv.writer(csvfile)
-
         writer.writerow(["Learning Objective"] + projetos)
 
         for lo in objetivos:
