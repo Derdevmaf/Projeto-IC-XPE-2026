@@ -23,7 +23,7 @@ MODEL = "gpt-4o-mini"
 # ==============================
 
 prompt_pbl = """
-Gere 15 projetos PBL (Project-Based Learning) para a disciplina Aprendizado por Reforço.
+Gere 15 projetos PBL (Project-Based Learning) para a disciplina Programação Python.
 
 IMPORTANTE:
 - A saída deve ser SOMENTE um JSON válido.

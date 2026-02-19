@@ -1,7 +1,7 @@
 import pandas as pd
 
 # 1️⃣ Carregar a matriz (LO nas linhas, PBLs nas colunas)
-df = pd.read_csv("../data/processed/LO_PBL_aprendizado_por_reforco.csv")
+df = pd.read_csv("../data/processed/LO_PBL_programacao_python.csv")
 
 # 2️⃣ Criar matriz binária (1 se >0, 0 se 0)
 matriz_binaria = (df.iloc[:, 1:] > 0).astype(int)

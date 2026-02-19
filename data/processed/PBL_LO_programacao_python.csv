@@ -1,0 +1,16 @@
+Learning Objective,Calculadora Simples,Jogo da Adivinhação,Lista de Tarefas,Conversor de Moedas,Calculadora de IMC,Contador de Palavras,Gerador de Senhas,Sistema de Cadastro de Usuários,Jogo da Forca,Agenda de Contatos,Simulador de Votação,Analisador de Dados CSV,Web Scraper Básico,API de Clima,Chatbot Simples
+Compreender a sintaxe básica da linguagem Python.,5,4,0,2,3,0,0,0,1,0,0,0,0,0,0
+Identificar e utilizar tipos de dados primitivos em Python.,5,4,0,3,2,1,0,0,0,0,0,0,0,0,0
+Realizar operações aritméticas usando variáveis.,5,0,0,4,3,0,0,2,0,0,1,0,0,0,0
+Escrever e executar scripts simples em Python.,4,5,0,1,0,0,2,0,3,0,0,0,0,0,0
+"Utilizar estruturas condicionais (if, else, elif) em programas.",2,5,0,1,0,0,0,0,4,0,3,0,0,0,0
+Implementar estruturas de repetição (for e while) em projetos.,0,4,2,0,0,3,0,0,5,0,1,0,0,0,0
+Criar e manipular listas e dicionários.,0,2,3,0,0,0,0,4,0,5,0,0,0,0,1
+Desenvolver funções personalizadas para otimizar o código.,0,1,0,0,0,0,0,0,0,0,0,5,4,3,2
+Aplicar conceitos de escopo e passagem de argumentos em funções.,5,2,0,3,4,1,0,0,0,0,0,0,0,0,0
+Implementar tratamento de exceções utilizando try e except.,0,0,0,3,0,0,0,5,2,4,0,1,0,0,0
+Manipular arquivos para leitura e escrita em Python.,0,0,1,0,0,2,0,4,0,3,0,5,0,0,0
+Usar módulos e bibliotecas padrão para expandir funcionalidades do código.,0,0,0,0,0,0,3,2,0,0,0,0,4,5,1
+Compreender e aplicar conceitos de programação orientada a objetos.,0,0,2,0,0,0,0,5,4,1,0,0,0,0,3
+Realizar testes unitários para garantir a qualidade do código.,0,0,0,1,0,0,0,5,0,0,0,2,0,3,4
+Implementar uma aplicação simples utilizando uma interface gráfica.,4,3,5,0,0,0,0,1,2,0,0,0,0,0,0

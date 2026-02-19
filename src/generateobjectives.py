@@ -23,7 +23,7 @@ MODEL = "gpt-4o-mini"
 # ==============================
 
 prompt_objetivos = """
-Gere 15 objetivos de aprendizagem para a disciplina Aprendizado por Reforço.
+Gere 15 objetivos de aprendizagem para a disciplina Programação Python.
 
 IMPORTANTE:
 - A saída deve ser SOMENTE um JSON válido.
@@ -35,7 +35,7 @@ IMPORTANTE:
 Cada objeto deve conter EXATAMENTE o seguinte campo:
 
 {
-  "objetivo_de_apendizagem": string
+  "objetivo_de_aprendizagem": string
 }
 
 Regras:
@@ -97,7 +97,7 @@ try:
         raise ValueError("A lista não contém exatamente 15 objetivos.")
 
     for obj in dados_json:
-        if set(obj.keys()) != {"objetivo_de_apendizagem"}:
+        if set(obj.keys()) != {"objetivo_de_aprendizagem"}:
             raise ValueError("Um ou mais objetos possuem campos incorretos.")
 
     with open(nome_arquivo, "w", encoding="utf-8") as f:

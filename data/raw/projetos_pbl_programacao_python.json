@@ -1,0 +1,257 @@
+[
+  {
+    "nome_do_projeto": "Calculadora Simples",
+    "nome_da_aula": "Desenvolvendo uma Calculadora em Python",
+    "descricao_resumida": "Criação de uma calculadora que realiza operações básicas.",
+    "objetivo_de_aprendizagem": "Compreender a lógica de operações matemáticas em Python.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Operadores Aritméticos",
+      "Funções",
+      "Entrada/Saída"
+    ],
+    "tags": [
+      "calculadora",
+      "funções",
+      "iniciante"
+    ],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Jogo da Adivinhação",
+    "nome_da_aula": "Programando um Jogo da Adivinhação",
+    "descricao_resumida": "Desenvolvimento de um jogo onde o usuário adivinha um número gerado pelo computador.",
+    "objetivo_de_aprendizagem": "Desenvolver lógica condicional e loops em Python.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Estruturas Condicionais",
+      "Loops",
+      "Aleatoriedade"
+    ],
+    "tags": [
+      "jogo",
+      "condicionais",
+      "iniciante"
+    ],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Lista de Tarefas",
+    "nome_da_aula": "Criando uma Lista de Tarefas Interativa",
+    "descricao_resumida": "Desenvolvimento de uma aplicação para gerenciar tarefas simples.",
+    "objetivo_de_aprendizagem": "Aprender a manipular listas e funções em Python.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Listas",
+      "Funções",
+      "Entrada/Saída"
+    ],
+    "tags": [
+      "lista",
+      "tarefas",
+      "iniciante"
+    ],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Conversor de Moedas",
+    "nome_da_aula": "Construindo um Conversor de Moedas",
+    "descricao_resumida": "Criação de uma ferramenta que converte diferentes moedas.",
+    "objetivo_de_aprendizagem": "Compreender entradas, saídas e cálculos em Python.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Funções",
+      "Operadores Aritméticos",
+      "Entrada/Saída"
+    ],
+    "tags": [
+      "conversor",
+      "moedas",
+      "iniciante"
+    ],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Calculadora de IMC",
+    "nome_da_aula": "Calculando o IMC com Python",
+    "descricao_resumida": "Desenvolvimento de uma aplicação que calcula o índice de massa corporal.",
+    "objetivo_de_aprendizagem": "Utilizar fórmulas matemáticas e obter entrada do usuário.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Operadores Aritméticos",
+      "Entrada/Saída",
+      "Funções"
+    ],
+    "tags": [
+      "saúde",
+      "IMC",
+      "iniciante"
+    ],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Contador de Palavras",
+    "nome_da_aula": "Analisando Texto com Python",
+    "descricao_resumida": "Desenvolvimento de um programa que conta palavras em um texto.",
+    "objetivo_de_aprendizagem": "Manipular strings e listas de forma eficaz.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Strings",
+      "Listas",
+      "Funções"
+    ],
+    "tags": [
+      "texto",
+      "análise",
+      "intermediario"
+    ],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Gerador de Senhas",
+    "nome_da_aula": "Criando um Gerador de Senhas Aleatórias",
+    "descricao_resumida": "Desenvolver um programa que gera senhas seguras.",
+    "objetivo_de_aprendizagem": "Utilizar bibliotecas e manipular strings.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Bibliotecas",
+      "Strings",
+      "Aleatoriedade"
+    ],
+    "tags": [
+      "segurança",
+      "senhas",
+      "intermediario"
+    ],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Sistema de Cadastro de Usuários",
+    "nome_da_aula": "Implementando um Sistema de Cadastro",
+    "descricao_resumida": "Criação de um sistema para gerenciar usuários com validações.",
+    "objetivo_de_aprendizagem": "Aprender sobre manipulação de dados e armazenamento em listas.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Listas",
+      "Funções",
+      "Condicionais"
+    ],
+    "tags": [
+      "cadastro",
+      "usuários",
+      "intermediario"
+    ],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Jogo da Forca",
+    "nome_da_aula": "Desenvolvendo o Jogo da Forca",
+    "descricao_resumida": "Criação do jogo da forca com interface simples.",
+    "objetivo_de_aprendizagem": "Integrar lógica, loops e strings em um jogo interativo.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Loops",
+      "Strings",
+      "Condicionais"
+    ],
+    "tags": [
+      "jogo",
+      "forca",
+      "intermediario"
+    ],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Agenda de Contatos",
+    "nome_da_aula": "Construindo uma Agenda Eletrônica",
+    "descricao_resumida": "Desenvolvimento de uma aplicação para gerenciar contatos.",
+    "objetivo_de_aprendizagem": "Aprender sobre manipulação de dicionários e listas.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Dicionários",
+      "Listas",
+      "Funções"
+    ],
+    "tags": [
+      "contatos",
+      "agenda",
+      "intermediario"
+    ],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Simulador de Votação",
+    "nome_da_aula": "Criando um Simulador de Votação",
+    "descricao_resumida": "Desenvolvimento de um sistema de votação com contagem de votos.",
+    "objetivo_de_aprendizagem": "Compreender estruturas de controle e manipulação de dados.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Listas",
+      "Dicionários",
+      "Condicionais"
+    ],
+    "tags": [
+      "votação",
+      "simulador",
+      "avancado"
+    ],
+    "nivel_complexidade": "avancado"
+  },
+  {
+    "nome_do_projeto": "Analisador de Dados CSV",
+    "nome_da_aula": "Lendo e Processando Arquivos CSV",
+    "descricao_resumida": "Desenvolvimento de uma ferramenta para analisar dados de arquivos CSV.",
+    "objetivo_de_aprendizagem": "Trabalhar com bibliotecas externas e manipulação de arquivos.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Pandas",
+      "Manipulação de Arquivos",
+      "Dicionários"
+    ],
+    "tags": [
+      "CSV",
+      "análise de dados",
+      "avancado"
+    ],
+    "nivel_complexidade": "avancado"
+  },
+  {
+    "nome_do_projeto": "Web Scraper Básico",
+    "nome_da_aula": "Criando um Web Scraper com Python",
+    "descricao_resumida": "Desenvolvimento de um scraper que coleta dados de uma página da web.",
+    "objetivo_de_aprendizagem": "Aprender a fazer requisições HTTP e extrair informações.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Requests",
+      "BeautifulSoup",
+      "Manipulação de Strings"
+    ],
+    "tags": [
+      "web scraping",
+      "dados",
+      "avancado"
+    ],
+    "nivel_complexidade": "avancado"
+  },
+  {
+    "nome_do_projeto": "API de Clima",
+    "nome_da_aula": "Integrando com APIs de Clima",
+    "descricao_resumida": "Criação de uma aplicação que consulta dados climáticos via API.",
+    "objetivo_de_aprendizagem": "Aprender a trabalhar com APIs REST e formatação de dados.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Requests",
+      "JSON",
+      "Tratamento de Erros"
+    ],
+    "tags": [
+      "API",
+      "clima",
+      "avancado"
+    ],
+    "nivel_complexidade": "avancado"
+  },
+  {
+    "nome_do_projeto": "Chatbot Simples",
+    "nome_da_aula": "Desenvolvendo um Chatbot Interativo",
+    "descricao_resumida": "Criação de um chatbot que responde perguntas básicas.",
+    "objetivo_de_aprendizagem": "Integrar lógica, condição e manipulação de strings.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Strings",
+      "Condicionais",
+      "Funções"
+    ],
+    "tags": [
+      "chatbot",
+      "interatividade",
+      "avancado"
+    ],
+    "nivel_complexidade": "avancado"
+  }
+]

@@ -1,16 +1,16 @@
 PBL,#LOs
-Agente no Mundo do Grelha (Gridworld),5
-Iteração de Valor e Política no FrozenLake,5
-Q-Learning para o Caçador de Tesouros,5
-SARSA no Ambiente Taxi-v3,5
-Criação de Ambiente Personalizado e Comparação de Algoritmos Tabulares,5
-DQN para CarPole-v1,5
-Policy Gradient para Acrobot-v1,5
-Actor-Critic para BipedalWalker-v3 (versão discreta simplificada),5
-Estratégias de Exploração Avançadas em MountainCar,5
-DQN Duplo e Dueling para Ambientes Atari (Pong ou Breakout),5
-DDPG/TD3 para Controle Contínuo (HalfCheetah-v3),5
-Aprendizado Baseado em Modelo com Dyna-Q,5
-Aprendizado por Reforço Multiagente (MARL) em um Cenário de Cooperação/Competição,5
-Aprendizado por Reforço Hierárquico (HRL) para Tarefas Complexas,5
-Aplicação de RL em um Problema do Mundo Real (Sugestão/Pesquisa),5
+Calculadora Simples,5
+Jogo da Adivinhação,5
+Lista de Tarefas,5
+Conversor de Moedas,5
+Calculadora de IMC,5
+Contador de Palavras,5
+Gerador de Senhas,5
+Sistema de Cadastro de Usuários,5
+Jogo da Forca,5
+Agenda de Contatos,5
+Simulador de Votação,5
+Analisador de Dados CSV,5
+Web Scraper Básico,5
+API de Clima,5
+Chatbot Simples,5

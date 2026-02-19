@@ -1,0 +1,47 @@
+[
+  {
+    "objetivo_de_aprendizagem": "Compreender a sintaxe básica da linguagem Python."
+  },
+  {
+    "objetivo_de_aprendizagem": "Identificar e utilizar tipos de dados primitivos em Python."
+  },
+  {
+    "objetivo_de_aprendizagem": "Realizar operações aritméticas usando variáveis."
+  },
+  {
+    "objetivo_de_aprendizagem": "Escrever e executar scripts simples em Python."
+  },
+  {
+    "objetivo_de_aprendizagem": "Utilizar estruturas condicionais (if, else, elif) em programas."
+  },
+  {
+    "objetivo_de_aprendizagem": "Implementar estruturas de repetição (for e while) em projetos."
+  },
+  {
+    "objetivo_de_aprendizagem": "Criar e manipular listas e dicionários."
+  },
+  {
+    "objetivo_de_aprendizagem": "Desenvolver funções personalizadas para otimizar o código."
+  },
+  {
+    "objetivo_de_aprendizagem": "Aplicar conceitos de escopo e passagem de argumentos em funções."
+  },
+  {
+    "objetivo_de_aprendizagem": "Implementar tratamento de exceções utilizando try e except."
+  },
+  {
+    "objetivo_de_aprendizagem": "Manipular arquivos para leitura e escrita em Python."
+  },
+  {
+    "objetivo_de_aprendizagem": "Usar módulos e bibliotecas padrão para expandir funcionalidades do código."
+  },
+  {
+    "objetivo_de_aprendizagem": "Compreender e aplicar conceitos de programação orientada a objetos."
+  },
+  {
+    "objetivo_de_aprendizagem": "Realizar testes unitários para garantir a qualidade do código."
+  },
+  {
+    "objetivo_de_aprendizagem": "Implementar uma aplicação simples utilizando uma interface gráfica."
+  }
+]
