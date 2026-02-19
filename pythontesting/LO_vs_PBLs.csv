@@ -1,16 +1,16 @@
 Learning Objective,#PBLs
-"Definir os componentes fundamentais de um problema de Aprendizado por Reforço (RL), incluindo agente, ambiente, estado, ação, recompensa e política.",14
-"Formular um problema de decisão sequencial como um Processo de Decisão de Markov (MDP), identificando seus elementos principais como estados, ações, probabilidades de transição e recompensas.",13
-"Implementar algoritmos de controle model-free off-policy, como Q-learning, para aprender políticas ótimas, compreendendo a importância da política de comportamento e da política alvo.",8
-Aplicar as equações de Bellman para calcular funções de valor de estado (V) e ação (Q) em MDPs dados.,6
-"Diferenciar entre métodos de Monte Carlo e Aprendizagem por Diferenças Temporais (TD(0)) para predição de valor em ambientes sem modelo, identificando suas vantagens e desvantagens.",6
-"Desenvolver agentes Actor-Critic para ambientes com espaços de estados e/ou ações grandes, combinando os benefícios de métodos baseados em valor e em política para melhor desempenho e estabilidade.",6
-"Implementar algoritmos de controle model-free on-policy, como SARSA, para aprender políticas ótimas em ambientes desconhecidos, considerando o dilema exploração-explotação.",5
-"Implementar algoritmos de Programação Dinâmica, como Iteração de Política e Iteração de Valor, para encontrar políticas ótimas em MDPs com modelo conhecido.",4
-"Explicar a arquitetura e os mecanismos-chave das Redes Q Profundas (DQN), como replay de experiência e redes alvo, para estabilizar o treinamento em ambientes complexos.",3
-"Propor e justificar a seleção de um pipeline de Aprendizado por Reforço completo para um novo problema, desde a formulação até a avaliação do desempenho e o ajuste de hiperparâmetros.",3
+Utilizar técnicas de aproximação de função linear para lidar com espaços de estados ou ações grandes e contínuos em problemas de Aprendizado por Reforço.,0
+"Aplicar algoritmos de Aprendizado por Reforço Profundo para problemas de controle em ambientes com espaços de ações contínuos, como DDPG ou TD3.",1
 "Implementar o algoritmo REINFORCE para otimização de política em problemas com espaços de ação discretos, utilizando a abordagem de gradientes de política.",2
 "Avaliar criticamente a adequação de diferentes algoritmos de Aprendizado por Reforço para resolver problemas do mundo real, considerando suas vantagens, limitações e requisitos computacionais.",2
 "Analisar e comparar diferentes estratégias de exploração avançadas, além de epsilon-greedy, como Upper Confidence Bound (UCB) e exploração baseada em curiosidade.",2
-"Aplicar algoritmos de Aprendizado por Reforço Profundo para problemas de controle em ambientes com espaços de ações contínuos, como DDPG ou TD3.",1
-Utilizar técnicas de aproximação de função linear para lidar com espaços de estados ou ações grandes e contínuos em problemas de Aprendizado por Reforço.,0
+"Propor e justificar a seleção de um pipeline de Aprendizado por Reforço completo para um novo problema, desde a formulação até a avaliação do desempenho e o ajuste de hiperparâmetros.",3
+"Explicar a arquitetura e os mecanismos-chave das Redes Q Profundas (DQN), como replay de experiência e redes alvo, para estabilizar o treinamento em ambientes complexos.",3
+"Implementar algoritmos de Programação Dinâmica, como Iteração de Política e Iteração de Valor, para encontrar políticas ótimas em MDPs com modelo conhecido.",4
+"Implementar algoritmos de controle model-free on-policy, como SARSA, para aprender políticas ótimas em ambientes desconhecidos, considerando o dilema exploração-explotação.",5
+Aplicar as equações de Bellman para calcular funções de valor de estado (V) e ação (Q) em MDPs dados.,6
+"Desenvolver agentes Actor-Critic para ambientes com espaços de estados e/ou ações grandes, combinando os benefícios de métodos baseados em valor e em política para melhor desempenho e estabilidade.",6
+"Diferenciar entre métodos de Monte Carlo e Aprendizagem por Diferenças Temporais (TD(0)) para predição de valor em ambientes sem modelo, identificando suas vantagens e desvantagens.",6
+"Implementar algoritmos de controle model-free off-policy, como Q-learning, para aprender políticas ótimas, compreendendo a importância da política de comportamento e da política alvo.",8
+"Formular um problema de decisão sequencial como um Processo de Decisão de Markov (MDP), identificando seus elementos principais como estados, ações, probabilidades de transição e recompensas.",13
+"Definir os componentes fundamentais de um problema de Aprendizado por Reforço (RL), incluindo agente, ambiente, estado, ação, recompensa e política.",14

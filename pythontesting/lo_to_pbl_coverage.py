@@ -16,7 +16,7 @@ df_lo_pbls = pd.DataFrame({
 })
 
 # 5️⃣ Ordenar do maior para o menor
-df_lo_pbls = df_lo_pbls.sort_values("#PBLs", ascending=False)
+df_lo_pbls = df_lo_pbls.sort_values("#PBLs", ascending=True)
 
 # 6️⃣ Mostrar tabela
 print(df_lo_pbls)
