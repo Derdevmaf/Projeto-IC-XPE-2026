@@ -1,0 +1,257 @@
+[
+  {
+    "nome_do_projeto": "Calculadora Simples",
+    "nome_da_aula": "Fundamentos de Python",
+    "descricao_resumida": "Desenvolvimento de uma calculadora que realiza operações básicas.",
+    "objetivo_de_aprendizagem": "Compreender operações matemáticas e entradas de usuário.",
+    "unidades_de_conhecimento_utilizadas": [
+      "variáveis",
+      "entrada de dados",
+      "condicionais"
+    ],
+    "tags": [
+      "calculadora",
+      "inicial",
+      "matemática"
+    ],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Conversor de Moedas",
+    "nome_da_aula": "Manipulação de Dados",
+    "descricao_resumida": "Aplicativo que converte valores entre diferentes moedas.",
+    "objetivo_de_aprendizagem": "Entender conversões de unidades e APIs externas.",
+    "unidades_de_conhecimento_utilizadas": [
+      "funções",
+      "API",
+      "listas"
+    ],
+    "tags": [
+      "moedas",
+      "API",
+      "inicial"
+    ],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Jogo da Adivinhação",
+    "nome_da_aula": "Estruturas de Controle",
+    "descricao_resumida": "Criação de um jogo em que o usuário adivinha um número aleatório.",
+    "objetivo_de_aprendizagem": "Trabalhar com loops e condicionais.",
+    "unidades_de_conhecimento_utilizadas": [
+      "loops",
+      "condicionais",
+      "números aleatórios"
+    ],
+    "tags": [
+      "jogo",
+      "adivinhação",
+      "inicial"
+    ],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Agenda de Contatos",
+    "nome_da_aula": "Estruturas de Dados",
+    "descricao_resumida": "Sistema para armazenar e consultar contatos.",
+    "objetivo_de_aprendizagem": "Aprender sobre listas e dicionários.",
+    "unidades_de_conhecimento_utilizadas": [
+      "listas",
+      "dicionários",
+      "funções"
+    ],
+    "tags": [
+      "agenda",
+      "contatos",
+      "inicial"
+    ],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Gerador de Nomes Aleatórios",
+    "nome_da_aula": "Manipulação de Strings",
+    "descricao_resumida": "Programa que gera nomes aleatórios com base em listas predefinidas.",
+    "objetivo_de_aprendizagem": "Trabalhar com strings e listas.",
+    "unidades_de_conhecimento_utilizadas": [
+      "strings",
+      "listas",
+      "funções"
+    ],
+    "tags": [
+      "gerador",
+      "nomes",
+      "inicial"
+    ],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Simulador de Dados",
+    "nome_da_aula": "Números Aleatórios",
+    "descricao_resumida": "Simulação do lançamento de dados com resultados aleatórios.",
+    "objetivo_de_aprendizagem": "Entender aleatoriedade e loops.",
+    "unidades_de_conhecimento_utilizadas": [
+      "loop",
+      "número aleatório",
+      "condicional"
+    ],
+    "tags": [
+      "dados",
+      "simulador",
+      "inicial"
+    ],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "To-Do List",
+    "nome_da_aula": "Manipulação de Listas",
+    "descricao_resumida": "Aplicativo para gerenciar tarefas pendentes.",
+    "objetivo_de_aprendizagem": "Gerenciar listas e interações do usuário.",
+    "unidades_de_conhecimento_utilizadas": [
+      "listas",
+      "funções",
+      "entrada de dados"
+    ],
+    "tags": [
+      "to-do",
+      "lista",
+      "intermediário"
+    ],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Jogo da Forca",
+    "nome_da_aula": "Strings e Condicionais",
+    "descricao_resumida": "Jogo clássicodo da forca implementado em Python.",
+    "objetivo_de_aprendizagem": "Exercitar strings e lógica de jogo.",
+    "unidades_de_conhecimento_utilizadas": [
+      "strings",
+      "loops",
+      "condicionais"
+    ],
+    "tags": [
+      "jogo",
+      "forca",
+      "intermediário"
+    ],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Análise de Dados com Pandas",
+    "nome_da_aula": "Manipulação de Dados",
+    "descricao_resumida": "Análise simples de um conjunto de dados usando a biblioteca Pandas.",
+    "objetivo_de_aprendizagem": "Compreender manipulação de dados em DataFrames.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Pandas",
+      "DataFrames",
+      "análise de dados"
+    ],
+    "tags": [
+      "análise",
+      "dados",
+      "intermediário"
+    ],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Chatbot Simples",
+    "nome_da_aula": "Programação Orientada a Objetos",
+    "descricao_resumida": "Construção de um chatbot que responde a perguntas básicas.",
+    "objetivo_de_aprendizagem": "Entender conceitos de POO e interação básica.",
+    "unidades_de_conhecimento_utilizadas": [
+      "POO",
+      "funções",
+      "entrada de dados"
+    ],
+    "tags": [
+      "chatbot",
+      "interactivo",
+      "intermediário"
+    ],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Sistema de Login",
+    "nome_da_aula": "Segurança em Aplicações",
+    "descricao_resumida": "Desenvolvimento de um sistema de autenticação de usuários.",
+    "objetivo_de_aprendizagem": "Aprender sobre segurança e gerenciamento de usuários.",
+    "unidades_de_conhecimento_utilizadas": [
+      "dicionários",
+      "funções",
+      "entrada de dados"
+    ],
+    "tags": [
+      "login",
+      "segurança",
+      "intermediário"
+    ],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Portfolio Pessoal",
+    "nome_da_aula": "Desenvolvimento Web com Flask",
+    "descricao_resumida": "Criação de um site pessoal usando Flask para apresentação de projetos.",
+    "objetivo_de_aprendizagem": "Entender desenvolvimento web e frameworks.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Flask",
+      "HTML",
+      "CSS"
+    ],
+    "tags": [
+      "web",
+      "Flask",
+      "avançado"
+    ],
+    "nivel_complexidade": "avancado"
+  },
+  {
+    "nome_do_projeto": "Jogo 2D com Pygame",
+    "nome_da_aula": "Desenvolvimento de Jogos",
+    "descricao_resumida": "Construção de um jogo 2D usando a biblioteca Pygame.",
+    "objetivo_de_aprendizagem": "Aprender sobre gráficos, eventos e física em jogos.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Pygame",
+      "gráficos",
+      "programação orientada a objetos"
+    ],
+    "tags": [
+      "jogo",
+      "2D",
+      "avançado"
+    ],
+    "nivel_complexidade": "avancado"
+  },
+  {
+    "nome_do_projeto": "Scraping de Dados",
+    "nome_da_aula": "Coleta de Dados",
+    "descricao_resumida": "Extração de informações de sites usando Beautiful Soup.",
+    "objetivo_de_aprendizagem": "Entender como coletar e manipular dados da web.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Beautiful Soup",
+      "requests",
+      "HTML"
+    ],
+    "tags": [
+      "scraping",
+      "dados",
+      "avançado"
+    ],
+    "nivel_complexidade": "avancado"
+  },
+  {
+    "nome_do_projeto": "API RESTful com Flask",
+    "nome_da_aula": "Desenvolvimento de APIs",
+    "descricao_resumida": "Construção de uma API REST usando Flask para gerenciar dados.",
+    "objetivo_de_aprendizagem": "Compreender a criação e interação com APIs REST.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Flask",
+      "REST",
+      "JSON"
+    ],
+    "tags": [
+      "API",
+      "Flask",
+      "avançado"
+    ],
+    "nivel_complexidade": "avancado"
+  }
+]

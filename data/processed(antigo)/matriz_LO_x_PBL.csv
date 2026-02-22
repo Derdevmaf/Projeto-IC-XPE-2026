@@ -1,0 +1,16 @@
+LO,Calculadora Simples,Conversor de Moedas,Jogo da Adivinhação,Agenda de Contatos,Gerador de Nomes Aleatórios,Simulador de Dados,To-Do List,Jogo da Forca,Análise de Dados com Pandas,Chatbot Simples,Sistema de Login,Portfolio Pessoal,Jogo 2D com Pygame,Scraping de Dados,API RESTful com Flask
+Compreender a sintaxe básica da linguagem Python.,1,1,1,1,1,1,1,1,1,1,0,1,1,1,0
+Criar e executar scripts simples em Python.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Identificar e utilizar diferentes tipos de dados em Python.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Implementar operações aritméticas e lógicas básicas.,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0
+Utilizar variáveis e entender seu escopo.,1,1,1,1,1,1,1,1,0,1,0,1,1,1,0
+Construir e manipular listas em Python.,0,1,0,1,1,1,1,0,1,1,0,0,1,1,1
+Criar e utilizar funções simples.,1,1,0,1,1,1,1,1,1,1,0,1,1,1,0
+"Implementar estruturas de decisão, como if-else.",1,1,1,1,1,1,1,1,1,1,1,1,1,0,1
+Utilizar loops para iterar sobre listas e outras coleções.,0,1,0,1,1,1,1,1,0,1,0,1,1,1,0
+Gerar e manipular dicionários.,0,1,0,1,0,1,0,0,0,1,1,0,0,1,1
+Lidar com exceções e implementar tratamento de erros.,1,1,0,1,0,0,1,1,1,1,1,1,1,1,1
+Criar e utilizar módulos em Python.,0,1,0,1,1,0,1,0,0,1,1,1,1,1,1
+Interagir com arquivos para leitura e gravação de dados.,0,1,0,1,0,0,1,0,1,1,1,1,0,1,1
+Implementar conceitos de programação orientada a objetos.,0,1,0,1,0,1,1,0,0,1,1,1,1,0,1
+Utilizar bibliotecas externas para expandir a funcionalidade do Python.,0,1,0,0,0,0,1,0,1,1,1,1,1,1,1

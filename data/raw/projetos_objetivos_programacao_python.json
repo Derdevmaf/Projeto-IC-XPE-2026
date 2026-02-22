@@ -3,45 +3,60 @@
     "objetivo_de_aprendizagem": "Compreender a sintaxe básica da linguagem Python."
   },
   {
-    "objetivo_de_aprendizagem": "Identificar e utilizar tipos de dados primitivos em Python."
+    "objetivo_de_aprendizagem": "Criar e executar scripts simples em Python."
   },
   {
-    "objetivo_de_aprendizagem": "Realizar operações aritméticas usando variáveis."
+    "objetivo_de_aprendizagem": "Identificar e utilizar diferentes tipos de dados em Python."
   },
   {
-    "objetivo_de_aprendizagem": "Escrever e executar scripts simples em Python."
+    "objetivo_de_aprendizagem": "Realizar conversão de tipos (type casting) entre diferentes tipos de dados."
   },
   {
-    "objetivo_de_aprendizagem": "Utilizar estruturas condicionais (if, else, elif) em programas."
+    "objetivo_de_aprendizagem": "Implementar operações aritméticas e lógicas básicas."
   },
   {
-    "objetivo_de_aprendizagem": "Implementar estruturas de repetição (for e while) em projetos."
+    "objetivo_de_aprendizagem": "Utilizar variáveis e entender seu escopo."
   },
   {
-    "objetivo_de_aprendizagem": "Criar e manipular listas e dicionários."
+    "objetivo_de_aprendizagem": "Manipular e trabalhar com strings em Python."
   },
   {
-    "objetivo_de_aprendizagem": "Desenvolver funções personalizadas para otimizar o código."
+    "objetivo_de_aprendizagem": "Construir e manipular listas em Python."
   },
   {
-    "objetivo_de_aprendizagem": "Aplicar conceitos de escopo e passagem de argumentos em funções."
+    "objetivo_de_aprendizagem": "Criar e manipular tuplas em Python."
   },
   {
-    "objetivo_de_aprendizagem": "Implementar tratamento de exceções utilizando try e except."
+    "objetivo_de_aprendizagem": "Criar e manipular conjuntos (sets) em Python."
   },
   {
-    "objetivo_de_aprendizagem": "Manipular arquivos para leitura e escrita em Python."
+    "objetivo_de_aprendizagem": "Gerar e manipular dicionários."
   },
   {
-    "objetivo_de_aprendizagem": "Usar módulos e bibliotecas padrão para expandir funcionalidades do código."
+    "objetivo_de_aprendizagem": "Implementar estruturas de decisão, como if-else."
   },
   {
-    "objetivo_de_aprendizagem": "Compreender e aplicar conceitos de programação orientada a objetos."
+    "objetivo_de_aprendizagem": "Utilizar loops para iterar sobre listas e outras coleções."
   },
   {
-    "objetivo_de_aprendizagem": "Realizar testes unitários para garantir a qualidade do código."
+    "objetivo_de_aprendizagem": "Criar e utilizar funções simples."
   },
   {
-    "objetivo_de_aprendizagem": "Implementar uma aplicação simples utilizando uma interface gráfica."
+    "objetivo_de_aprendizagem": "Utilizar funções embutidas (built-in functions) da linguagem."
+  },
+  {
+    "objetivo_de_aprendizagem": "Lidar com exceções e implementar tratamento de erros."
+  },
+  {
+    "objetivo_de_aprendizagem": "Criar e utilizar módulos em Python."
+  },
+  {
+    "objetivo_de_aprendizagem": "Interagir com arquivos para leitura e gravação de dados."
+  },
+  {
+    "objetivo_de_aprendizagem": "Implementar conceitos de programação orientada a objetos."
+  },
+  {
+    "objetivo_de_aprendizagem": "Utilizar bibliotecas externas para expandir a funcionalidade do Python."
   }
 ]

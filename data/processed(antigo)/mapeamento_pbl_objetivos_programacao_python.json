@@ -1,0 +1,977 @@
+[
+  {
+    "nome_do_projeto": "Calculadora Simples",
+    "mapeamento_objetivos": [
+      {
+        "objetivo": "Compreender a sintaxe básica da linguagem Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Criar e executar scripts simples em Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Identificar e utilizar diferentes tipos de dados em Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Implementar operações aritméticas e lógicas básicas.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Utilizar variáveis e entender seu escopo.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Construir e manipular listas em Python.",
+        "demanda": "nao"
+      },
+      {
+        "objetivo": "Criar e utilizar funções simples.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Implementar estruturas de decisão, como if-else.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Utilizar loops para iterar sobre listas e outras coleções.",
+        "demanda": "nao"
+      },
+      {
+        "objetivo": "Gerar e manipular dicionários.",
+        "demanda": "nao"
+      },
+      {
+        "objetivo": "Lidar com exceções e implementar tratamento de erros.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Criar e utilizar módulos em Python.",
+        "demanda": "nao"
+      },
+      {
+        "objetivo": "Interagir com arquivos para leitura e gravação de dados.",
+        "demanda": "nao"
+      },
+      {
+        "objetivo": "Implementar conceitos de programação orientada a objetos.",
+        "demanda": "nao"
+      },
+      {
+        "objetivo": "Utilizar bibliotecas externas para expandir a funcionalidade do Python.",
+        "demanda": "nao"
+      }
+    ]
+  },
+  {
+    "nome_do_projeto": "Conversor de Moedas",
+    "mapeamento_objetivos": [
+      {
+        "objetivo": "Compreender a sintaxe básica da linguagem Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Criar e executar scripts simples em Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Identificar e utilizar diferentes tipos de dados em Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Implementar operações aritméticas e lógicas básicas.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Utilizar variáveis e entender seu escopo.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Construir e manipular listas em Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Criar e utilizar funções simples.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Implementar estruturas de decisão, como if-else.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Utilizar loops para iterar sobre listas e outras coleções.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Gerar e manipular dicionários.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Lidar com exceções e implementar tratamento de erros.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Criar e utilizar módulos em Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Interagir com arquivos para leitura e gravação de dados.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Implementar conceitos de programação orientada a objetos.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Utilizar bibliotecas externas para expandir a funcionalidade do Python.",
+        "demanda": "sim"
+      }
+    ]
+  },
+  {
+    "nome_do_projeto": "Jogo da Adivinhação",
+    "mapeamento_objetivos": [
+      {
+        "objetivo": "Compreender a sintaxe básica da linguagem Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Criar e executar scripts simples em Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Identificar e utilizar diferentes tipos de dados em Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Implementar operações aritméticas e lógicas básicas.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Utilizar variáveis e entender seu escopo.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Construir e manipular listas em Python.",
+        "demanda": "nao"
+      },
+      {
+        "objetivo": "Criar e utilizar funções simples.",
+        "demanda": "nao"
+      },
+      {
+        "objetivo": "Implementar estruturas de decisão, como if-else.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Utilizar loops para iterar sobre listas e outras coleções.",
+        "demanda": "nao"
+      },
+      {
+        "objetivo": "Gerar e manipular dicionários.",
+        "demanda": "nao"
+      },
+      {
+        "objetivo": "Lidar com exceções e implementar tratamento de erros.",
+        "demanda": "nao"
+      },
+      {
+        "objetivo": "Criar e utilizar módulos em Python.",
+        "demanda": "nao"
+      },
+      {
+        "objetivo": "Interagir com arquivos para leitura e gravação de dados.",
+        "demanda": "nao"
+      },
+      {
+        "objetivo": "Implementar conceitos de programação orientada a objetos.",
+        "demanda": "nao"
+      },
+      {
+        "objetivo": "Utilizar bibliotecas externas para expandir a funcionalidade do Python.",
+        "demanda": "nao"
+      }
+    ]
+  },
+  {
+    "nome_do_projeto": "Agenda de Contatos",
+    "mapeamento_objetivos": [
+      {
+        "objetivo": "Compreender a sintaxe básica da linguagem Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Criar e executar scripts simples em Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Identificar e utilizar diferentes tipos de dados em Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Implementar operações aritméticas e lógicas básicas.",
+        "demanda": "nao"
+      },
+      {
+        "objetivo": "Utilizar variáveis e entender seu escopo.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Construir e manipular listas em Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Criar e utilizar funções simples.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Implementar estruturas de decisão, como if-else.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Utilizar loops para iterar sobre listas e outras coleções.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Gerar e manipular dicionários.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Lidar com exceções e implementar tratamento de erros.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Criar e utilizar módulos em Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Interagir com arquivos para leitura e gravação de dados.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Implementar conceitos de programação orientada a objetos.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Utilizar bibliotecas externas para expandir a funcionalidade do Python.",
+        "demanda": "nao"
+      }
+    ]
+  },
+  {
+    "nome_do_projeto": "Gerador de Nomes Aleatórios",
+    "mapeamento_objetivos": [
+      {
+        "objetivo": "Compreender a sintaxe básica da linguagem Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Criar e executar scripts simples em Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Identificar e utilizar diferentes tipos de dados em Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Implementar operações aritméticas e lógicas básicas.",
+        "demanda": "nao"
+      },
+      {
+        "objetivo": "Utilizar variáveis e entender seu escopo.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Construir e manipular listas em Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Criar e utilizar funções simples.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Implementar estruturas de decisão, como if-else.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Utilizar loops para iterar sobre listas e outras coleções.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Gerar e manipular dicionários.",
+        "demanda": "nao"
+      },
+      {
+        "objetivo": "Lidar com exceções e implementar tratamento de erros.",
+        "demanda": "nao"
+      },
+      {
+        "objetivo": "Criar e utilizar módulos em Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Interagir com arquivos para leitura e gravação de dados.",
+        "demanda": "nao"
+      },
+      {
+        "objetivo": "Implementar conceitos de programação orientada a objetos.",
+        "demanda": "nao"
+      },
+      {
+        "objetivo": "Utilizar bibliotecas externas para expandir a funcionalidade do Python.",
+        "demanda": "nao"
+      }
+    ]
+  },
+  {
+    "nome_do_projeto": "Simulador de Dados",
+    "mapeamento_objetivos": [
+      {
+        "objetivo": "Compreender a sintaxe básica da linguagem Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Criar e executar scripts simples em Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Identificar e utilizar diferentes tipos de dados em Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Implementar operações aritméticas e lógicas básicas.",
+        "demanda": "nao"
+      },
+      {
+        "objetivo": "Utilizar variáveis e entender seu escopo.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Construir e manipular listas em Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Criar e utilizar funções simples.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Implementar estruturas de decisão, como if-else.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Utilizar loops para iterar sobre listas e outras coleções.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Gerar e manipular dicionários.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Lidar com exceções e implementar tratamento de erros.",
+        "demanda": "nao"
+      },
+      {
+        "objetivo": "Criar e utilizar módulos em Python.",
+        "demanda": "nao"
+      },
+      {
+        "objetivo": "Interagir com arquivos para leitura e gravação de dados.",
+        "demanda": "nao"
+      },
+      {
+        "objetivo": "Implementar conceitos de programação orientada a objetos.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Utilizar bibliotecas externas para expandir a funcionalidade do Python.",
+        "demanda": "nao"
+      }
+    ]
+  },
+  {
+    "nome_do_projeto": "To-Do List",
+    "mapeamento_objetivos": [
+      {
+        "objetivo": "Compreender a sintaxe básica da linguagem Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Criar e executar scripts simples em Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Identificar e utilizar diferentes tipos de dados em Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Implementar operações aritméticas e lógicas básicas.",
+        "demanda": "nao"
+      },
+      {
+        "objetivo": "Utilizar variáveis e entender seu escopo.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Construir e manipular listas em Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Criar e utilizar funções simples.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Implementar estruturas de decisão, como if-else.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Utilizar loops para iterar sobre listas e outras coleções.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Gerar e manipular dicionários.",
+        "demanda": "nao"
+      },
+      {
+        "objetivo": "Lidar com exceções e implementar tratamento de erros.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Criar e utilizar módulos em Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Interagir com arquivos para leitura e gravação de dados.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Implementar conceitos de programação orientada a objetos.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Utilizar bibliotecas externas para expandir a funcionalidade do Python.",
+        "demanda": "sim"
+      }
+    ]
+  },
+  {
+    "nome_do_projeto": "Jogo da Forca",
+    "mapeamento_objetivos": [
+      {
+        "objetivo": "Compreender a sintaxe básica da linguagem Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Criar e executar scripts simples em Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Identificar e utilizar diferentes tipos de dados em Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Implementar operações aritméticas e lógicas básicas.",
+        "demanda": "nao"
+      },
+      {
+        "objetivo": "Utilizar variáveis e entender seu escopo.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Construir e manipular listas em Python.",
+        "demanda": "nao"
+      },
+      {
+        "objetivo": "Criar e utilizar funções simples.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Implementar estruturas de decisão, como if-else.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Utilizar loops para iterar sobre listas e outras coleções.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Gerar e manipular dicionários.",
+        "demanda": "nao"
+      },
+      {
+        "objetivo": "Lidar com exceções e implementar tratamento de erros.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Criar e utilizar módulos em Python.",
+        "demanda": "nao"
+      },
+      {
+        "objetivo": "Interagir com arquivos para leitura e gravação de dados.",
+        "demanda": "nao"
+      },
+      {
+        "objetivo": "Implementar conceitos de programação orientada a objetos.",
+        "demanda": "nao"
+      },
+      {
+        "objetivo": "Utilizar bibliotecas externas para expandir a funcionalidade do Python.",
+        "demanda": "nao"
+      }
+    ]
+  },
+  {
+    "nome_do_projeto": "Análise de Dados com Pandas",
+    "mapeamento_objetivos": [
+      {
+        "objetivo": "Compreender a sintaxe básica da linguagem Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Criar e executar scripts simples em Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Identificar e utilizar diferentes tipos de dados em Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Implementar operações aritméticas e lógicas básicas.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Utilizar variáveis e entender seu escopo.",
+        "demanda": "nao"
+      },
+      {
+        "objetivo": "Construir e manipular listas em Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Criar e utilizar funções simples.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Implementar estruturas de decisão, como if-else.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Utilizar loops para iterar sobre listas e outras coleções.",
+        "demanda": "nao"
+      },
+      {
+        "objetivo": "Gerar e manipular dicionários.",
+        "demanda": "nao"
+      },
+      {
+        "objetivo": "Lidar com exceções e implementar tratamento de erros.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Criar e utilizar módulos em Python.",
+        "demanda": "nao"
+      },
+      {
+        "objetivo": "Interagir com arquivos para leitura e gravação de dados.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Implementar conceitos de programação orientada a objetos.",
+        "demanda": "nao"
+      },
+      {
+        "objetivo": "Utilizar bibliotecas externas para expandir a funcionalidade do Python.",
+        "demanda": "sim"
+      }
+    ]
+  },
+  {
+    "nome_do_projeto": "Chatbot Simples",
+    "mapeamento_objetivos": [
+      {
+        "objetivo": "Compreender a sintaxe básica da linguagem Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Criar e executar scripts simples em Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Identificar e utilizar diferentes tipos de dados em Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Implementar operações aritméticas e lógicas básicas.",
+        "demanda": "nao"
+      },
+      {
+        "objetivo": "Utilizar variáveis e entender seu escopo.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Construir e manipular listas em Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Criar e utilizar funções simples.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Implementar estruturas de decisão, como if-else.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Utilizar loops para iterar sobre listas e outras coleções.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Gerar e manipular dicionários.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Lidar com exceções e implementar tratamento de erros.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Criar e utilizar módulos em Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Interagir com arquivos para leitura e gravação de dados.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Implementar conceitos de programação orientada a objetos.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Utilizar bibliotecas externas para expandir a funcionalidade do Python.",
+        "demanda": "sim"
+      }
+    ]
+  },
+  {
+    "nome_do_projeto": "Sistema de Login",
+    "mapeamento_objetivos": [
+      {
+        "objetivo": "Compreender a sintaxe básica da linguagem Python.",
+        "demanda": "nao"
+      },
+      {
+        "objetivo": "Criar e executar scripts simples em Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Identificar e utilizar diferentes tipos de dados em Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Implementar operações aritméticas e lógicas básicas.",
+        "demanda": "nao"
+      },
+      {
+        "objetivo": "Utilizar variáveis e entender seu escopo.",
+        "demanda": "nao"
+      },
+      {
+        "objetivo": "Construir e manipular listas em Python.",
+        "demanda": "nao"
+      },
+      {
+        "objetivo": "Criar e utilizar funções simples.",
+        "demanda": "nao"
+      },
+      {
+        "objetivo": "Implementar estruturas de decisão, como if-else.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Utilizar loops para iterar sobre listas e outras coleções.",
+        "demanda": "nao"
+      },
+      {
+        "objetivo": "Gerar e manipular dicionários.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Lidar com exceções e implementar tratamento de erros.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Criar e utilizar módulos em Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Interagir com arquivos para leitura e gravação de dados.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Implementar conceitos de programação orientada a objetos.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Utilizar bibliotecas externas para expandir a funcionalidade do Python.",
+        "demanda": "sim"
+      }
+    ]
+  },
+  {
+    "nome_do_projeto": "Portfolio Pessoal",
+    "mapeamento_objetivos": [
+      {
+        "objetivo": "Compreender a sintaxe básica da linguagem Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Criar e executar scripts simples em Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Identificar e utilizar diferentes tipos de dados em Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Implementar operações aritméticas e lógicas básicas.",
+        "demanda": "nao"
+      },
+      {
+        "objetivo": "Utilizar variáveis e entender seu escopo.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Construir e manipular listas em Python.",
+        "demanda": "nao"
+      },
+      {
+        "objetivo": "Criar e utilizar funções simples.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Implementar estruturas de decisão, como if-else.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Utilizar loops para iterar sobre listas e outras coleções.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Gerar e manipular dicionários.",
+        "demanda": "nao"
+      },
+      {
+        "objetivo": "Lidar com exceções e implementar tratamento de erros.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Criar e utilizar módulos em Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Interagir com arquivos para leitura e gravação de dados.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Implementar conceitos de programação orientada a objetos.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Utilizar bibliotecas externas para expandir a funcionalidade do Python.",
+        "demanda": "sim"
+      }
+    ]
+  },
+  {
+    "nome_do_projeto": "Jogo 2D com Pygame",
+    "mapeamento_objetivos": [
+      {
+        "objetivo": "Compreender a sintaxe básica da linguagem Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Criar e executar scripts simples em Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Identificar e utilizar diferentes tipos de dados em Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Implementar operações aritméticas e lógicas básicas.",
+        "demanda": "nao"
+      },
+      {
+        "objetivo": "Utilizar variáveis e entender seu escopo.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Construir e manipular listas em Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Criar e utilizar funções simples.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Implementar estruturas de decisão, como if-else.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Utilizar loops para iterar sobre listas e outras coleções.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Gerar e manipular dicionários.",
+        "demanda": "nao"
+      },
+      {
+        "objetivo": "Lidar com exceções e implementar tratamento de erros.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Criar e utilizar módulos em Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Interagir com arquivos para leitura e gravação de dados.",
+        "demanda": "nao"
+      },
+      {
+        "objetivo": "Implementar conceitos de programação orientada a objetos.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Utilizar bibliotecas externas para expandir a funcionalidade do Python.",
+        "demanda": "sim"
+      }
+    ]
+  },
+  {
+    "nome_do_projeto": "Scraping de Dados",
+    "mapeamento_objetivos": [
+      {
+        "objetivo": "Compreender a sintaxe básica da linguagem Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Criar e executar scripts simples em Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Identificar e utilizar diferentes tipos de dados em Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Implementar operações aritméticas e lógicas básicas.",
+        "demanda": "nao"
+      },
+      {
+        "objetivo": "Utilizar variáveis e entender seu escopo.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Construir e manipular listas em Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Criar e utilizar funções simples.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Implementar estruturas de decisão, como if-else.",
+        "demanda": "nao"
+      },
+      {
+        "objetivo": "Utilizar loops para iterar sobre listas e outras coleções.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Gerar e manipular dicionários.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Lidar com exceções e implementar tratamento de erros.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Criar e utilizar módulos em Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Interagir com arquivos para leitura e gravação de dados.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Implementar conceitos de programação orientada a objetos.",
+        "demanda": "nao"
+      },
+      {
+        "objetivo": "Utilizar bibliotecas externas para expandir a funcionalidade do Python.",
+        "demanda": "sim"
+      }
+    ]
+  },
+  {
+    "nome_do_projeto": "API RESTful com Flask",
+    "mapeamento_objetivos": [
+      {
+        "objetivo": "Compreender a sintaxe básica da linguagem Python.",
+        "demanda": "nao"
+      },
+      {
+        "objetivo": "Criar e executar scripts simples em Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Identificar e utilizar diferentes tipos de dados em Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Implementar operações aritméticas e lógicas básicas.",
+        "demanda": "nao"
+      },
+      {
+        "objetivo": "Utilizar variáveis e entender seu escopo.",
+        "demanda": "nao"
+      },
+      {
+        "objetivo": "Construir e manipular listas em Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Criar e utilizar funções simples.",
+        "demanda": "nao"
+      },
+      {
+        "objetivo": "Implementar estruturas de decisão, como if-else.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Utilizar loops para iterar sobre listas e outras coleções.",
+        "demanda": "nao"
+      },
+      {
+        "objetivo": "Gerar e manipular dicionários.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Lidar com exceções e implementar tratamento de erros.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Criar e utilizar módulos em Python.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Interagir com arquivos para leitura e gravação de dados.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Implementar conceitos de programação orientada a objetos.",
+        "demanda": "sim"
+      },
+      {
+        "objetivo": "Utilizar bibliotecas externas para expandir a funcionalidade do Python.",
+        "demanda": "sim"
+      }
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+PBL,Calculadora Simples,Conversor de Moedas,Jogo da Adivinhação,Agenda de Contatos,Gerador de Nomes Aleatórios,Simulador de Dados,To-Do List,Jogo da Forca,Análise de Dados com Pandas,Chatbot Simples,Portfolio Pessoal,Jogo 2D com Pygame,Scraping de Dados,Sistema de Login,API RESTful com Flask
+Calculadora Simples,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Conversor de Moedas,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Jogo da Adivinhação,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Agenda de Contatos,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0
+Gerador de Nomes Aleatórios,0,1,0,1,0,0,1,0,0,1,0,1,0,0,0
+Simulador de Dados,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0
+To-Do List,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0
+Jogo da Forca,0,1,0,1,0,0,1,0,0,1,1,1,0,0,0
+Análise de Dados com Pandas,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Chatbot Simples,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Portfolio Pessoal,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0
+Jogo 2D com Pygame,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0
+Scraping de Dados,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0
+Sistema de Login,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1
+API RESTful com Flask,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0

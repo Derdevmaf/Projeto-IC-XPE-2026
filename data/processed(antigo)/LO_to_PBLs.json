@@ -1,0 +1,238 @@
+[
+  {
+    "LO": "Compreender a sintaxe básica da linguagem Python.",
+    "PBLs": [
+      "Calculadora Simples",
+      "Conversor de Moedas",
+      "Jogo da Adivinhação",
+      "Agenda de Contatos",
+      "Gerador de Nomes Aleatórios",
+      "Simulador de Dados",
+      "To-Do List",
+      "Jogo da Forca",
+      "Análise de Dados com Pandas",
+      "Chatbot Simples",
+      "Portfolio Pessoal",
+      "Jogo 2D com Pygame",
+      "Scraping de Dados"
+    ]
+  },
+  {
+    "LO": "Criar e executar scripts simples em Python.",
+    "PBLs": [
+      "Calculadora Simples",
+      "Conversor de Moedas",
+      "Jogo da Adivinhação",
+      "Agenda de Contatos",
+      "Gerador de Nomes Aleatórios",
+      "Simulador de Dados",
+      "To-Do List",
+      "Jogo da Forca",
+      "Análise de Dados com Pandas",
+      "Chatbot Simples",
+      "Sistema de Login",
+      "Portfolio Pessoal",
+      "Jogo 2D com Pygame",
+      "Scraping de Dados",
+      "API RESTful com Flask"
+    ]
+  },
+  {
+    "LO": "Identificar e utilizar diferentes tipos de dados em Python.",
+    "PBLs": [
+      "Calculadora Simples",
+      "Conversor de Moedas",
+      "Jogo da Adivinhação",
+      "Agenda de Contatos",
+      "Gerador de Nomes Aleatórios",
+      "Simulador de Dados",
+      "To-Do List",
+      "Jogo da Forca",
+      "Análise de Dados com Pandas",
+      "Chatbot Simples",
+      "Sistema de Login",
+      "Portfolio Pessoal",
+      "Jogo 2D com Pygame",
+      "Scraping de Dados",
+      "API RESTful com Flask"
+    ]
+  },
+  {
+    "LO": "Implementar operações aritméticas e lógicas básicas.",
+    "PBLs": [
+      "Calculadora Simples",
+      "Conversor de Moedas",
+      "Jogo da Adivinhação",
+      "Análise de Dados com Pandas"
+    ]
+  },
+  {
+    "LO": "Utilizar variáveis e entender seu escopo.",
+    "PBLs": [
+      "Calculadora Simples",
+      "Conversor de Moedas",
+      "Jogo da Adivinhação",
+      "Agenda de Contatos",
+      "Gerador de Nomes Aleatórios",
+      "Simulador de Dados",
+      "To-Do List",
+      "Jogo da Forca",
+      "Chatbot Simples",
+      "Portfolio Pessoal",
+      "Jogo 2D com Pygame",
+      "Scraping de Dados"
+    ]
+  },
+  {
+    "LO": "Construir e manipular listas em Python.",
+    "PBLs": [
+      "Conversor de Moedas",
+      "Agenda de Contatos",
+      "Gerador de Nomes Aleatórios",
+      "Simulador de Dados",
+      "To-Do List",
+      "Análise de Dados com Pandas",
+      "Chatbot Simples",
+      "Jogo 2D com Pygame",
+      "Scraping de Dados",
+      "API RESTful com Flask"
+    ]
+  },
+  {
+    "LO": "Criar e utilizar funções simples.",
+    "PBLs": [
+      "Calculadora Simples",
+      "Conversor de Moedas",
+      "Agenda de Contatos",
+      "Gerador de Nomes Aleatórios",
+      "Simulador de Dados",
+      "To-Do List",
+      "Jogo da Forca",
+      "Análise de Dados com Pandas",
+      "Chatbot Simples",
+      "Portfolio Pessoal",
+      "Jogo 2D com Pygame",
+      "Scraping de Dados"
+    ]
+  },
+  {
+    "LO": "Implementar estruturas de decisão, como if-else.",
+    "PBLs": [
+      "Calculadora Simples",
+      "Conversor de Moedas",
+      "Jogo da Adivinhação",
+      "Agenda de Contatos",
+      "Gerador de Nomes Aleatórios",
+      "Simulador de Dados",
+      "To-Do List",
+      "Jogo da Forca",
+      "Análise de Dados com Pandas",
+      "Chatbot Simples",
+      "Sistema de Login",
+      "Portfolio Pessoal",
+      "Jogo 2D com Pygame",
+      "API RESTful com Flask"
+    ]
+  },
+  {
+    "LO": "Utilizar loops para iterar sobre listas e outras coleções.",
+    "PBLs": [
+      "Conversor de Moedas",
+      "Agenda de Contatos",
+      "Gerador de Nomes Aleatórios",
+      "Simulador de Dados",
+      "To-Do List",
+      "Jogo da Forca",
+      "Chatbot Simples",
+      "Portfolio Pessoal",
+      "Jogo 2D com Pygame",
+      "Scraping de Dados"
+    ]
+  },
+  {
+    "LO": "Gerar e manipular dicionários.",
+    "PBLs": [
+      "Conversor de Moedas",
+      "Agenda de Contatos",
+      "Simulador de Dados",
+      "Chatbot Simples",
+      "Sistema de Login",
+      "Scraping de Dados",
+      "API RESTful com Flask"
+    ]
+  },
+  {
+    "LO": "Lidar com exceções e implementar tratamento de erros.",
+    "PBLs": [
+      "Calculadora Simples",
+      "Conversor de Moedas",
+      "Agenda de Contatos",
+      "To-Do List",
+      "Jogo da Forca",
+      "Análise de Dados com Pandas",
+      "Chatbot Simples",
+      "Sistema de Login",
+      "Portfolio Pessoal",
+      "Jogo 2D com Pygame",
+      "Scraping de Dados",
+      "API RESTful com Flask"
+    ]
+  },
+  {
+    "LO": "Criar e utilizar módulos em Python.",
+    "PBLs": [
+      "Conversor de Moedas",
+      "Agenda de Contatos",
+      "Gerador de Nomes Aleatórios",
+      "To-Do List",
+      "Chatbot Simples",
+      "Sistema de Login",
+      "Portfolio Pessoal",
+      "Jogo 2D com Pygame",
+      "Scraping de Dados",
+      "API RESTful com Flask"
+    ]
+  },
+  {
+    "LO": "Interagir com arquivos para leitura e gravação de dados.",
+    "PBLs": [
+      "Conversor de Moedas",
+      "Agenda de Contatos",
+      "To-Do List",
+      "Análise de Dados com Pandas",
+      "Chatbot Simples",
+      "Sistema de Login",
+      "Portfolio Pessoal",
+      "Scraping de Dados",
+      "API RESTful com Flask"
+    ]
+  },
+  {
+    "LO": "Implementar conceitos de programação orientada a objetos.",
+    "PBLs": [
+      "Conversor de Moedas",
+      "Agenda de Contatos",
+      "Simulador de Dados",
+      "To-Do List",
+      "Chatbot Simples",
+      "Sistema de Login",
+      "Portfolio Pessoal",
+      "Jogo 2D com Pygame",
+      "API RESTful com Flask"
+    ]
+  },
+  {
+    "LO": "Utilizar bibliotecas externas para expandir a funcionalidade do Python.",
+    "PBLs": [
+      "Conversor de Moedas",
+      "To-Do List",
+      "Análise de Dados com Pandas",
+      "Chatbot Simples",
+      "Sistema de Login",
+      "Portfolio Pessoal",
+      "Jogo 2D com Pygame",
+      "Scraping de Dados",
+      "API RESTful com Flask"
+    ]
+  }
+]

@@ -23,14 +23,14 @@ MODEL = "gpt-4o-mini"
 # ==============================
 
 prompt_objetivos = """
-Gere 15 objetivos de aprendizagem para a disciplina Programação Python.
+Gere 50 objetivos de aprendizagem para a disciplina Programação Python.
 
 IMPORTANTE:
 - A saída deve ser SOMENTE um JSON válido.
 - Não escreva explicações.
 - Não use markdown.
 - Não escreva ```json.
-- Retorne apenas um array JSON com 15 objetos.
+- Retorne apenas um array JSON com 50 objetos.
 
 Cada objeto deve conter EXATAMENTE o seguinte campo:
 
@@ -93,8 +93,8 @@ try:
     if not isinstance(dados_json, list):
         raise ValueError("A resposta não é uma lista JSON.")
 
-    if len(dados_json) != 15:
-        raise ValueError("A lista não contém exatamente 15 objetivos.")
+    if len(dados_json) != 50:
+        raise ValueError("A lista não contém exatamente 50 objetivos.")
 
     for obj in dados_json:
         if set(obj.keys()) != {"objetivo_de_aprendizagem"}:

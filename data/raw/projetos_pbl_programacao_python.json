@@ -1,257 +1,642 @@
 [
   {
-    "nome_do_projeto": "Calculadora Simples",
-    "nome_da_aula": "Desenvolvendo uma Calculadora em Python",
-    "descricao_resumida": "Criação de uma calculadora que realiza operações básicas.",
-    "objetivo_de_aprendizagem": "Compreender a lógica de operações matemáticas em Python.",
+    "nome_do_projeto": "Introdução à Sintaxe Python",
+    "nome_da_aula": "Explorando a Sintaxe",
+    "descricao_resumida": "Os alunos criarão um programa simples que imprime mensagens na tela para entender os comandos básicos da linguagem.",
+    "objetivo_de_aprendizagem": "Compreender a sintaxe básica da linguagem Python.",
     "unidades_de_conhecimento_utilizadas": [
-      "Operadores Aritméticos",
-      "Funções",
-      "Entrada/Saída"
+      "Sintaxe",
+      "Comandos básicos"
     ],
     "tags": [
-      "calculadora",
-      "funções",
-      "iniciante"
+      "Python",
+      "Introdução",
+      "Sintaxe"
     ],
     "nivel_complexidade": "iniciante"
   },
   {
-    "nome_do_projeto": "Jogo da Adivinhação",
-    "nome_da_aula": "Programando um Jogo da Adivinhação",
-    "descricao_resumida": "Desenvolvimento de um jogo onde o usuário adivinha um número gerado pelo computador.",
-    "objetivo_de_aprendizagem": "Desenvolver lógica condicional e loops em Python.",
+    "nome_do_projeto": "Desafio da Calculadora Simples",
+    "nome_da_aula": "Construindo uma Calculadora",
+    "descricao_resumida": "Os alunos desenvolverão uma calculadora que realiza operações básicas utilizando a sintaxe Python e integração de variáveis.",
+    "objetivo_de_aprendizagem": "Compreender a sintaxe básica da linguagem Python.",
     "unidades_de_conhecimento_utilizadas": [
-      "Estruturas Condicionais",
-      "Loops",
-      "Aleatoriedade"
+      "Sintaxe",
+      "Operações básicas"
     ],
     "tags": [
-      "jogo",
-      "condicionais",
-      "iniciante"
+      "Python",
+      "Calculadora",
+      "Sintaxe"
+    ],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Criando um Script de Apresentação",
+    "nome_da_aula": "Scripts em Python",
+    "descricao_resumida": "Os alunos criarão um script que apresenta seu nome e idade em um formato definido.",
+    "objetivo_de_aprendizagem": "Criar e executar scripts simples em Python.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Scripts Python",
+      "Execução de programas"
+    ],
+    "tags": [
+      "Python",
+      "Script",
+      "Execução"
     ],
     "nivel_complexidade": "iniciante"
   },
   {
-    "nome_do_projeto": "Lista de Tarefas",
-    "nome_da_aula": "Criando uma Lista de Tarefas Interativa",
-    "descricao_resumida": "Desenvolvimento de uma aplicação para gerenciar tarefas simples.",
-    "objetivo_de_aprendizagem": "Aprender a manipular listas e funções em Python.",
+    "nome_do_projeto": "Jogo de Adivinhação",
+    "nome_da_aula": "Desenvolvendo Jogos Simples",
+    "descricao_resumida": "Os alunos desenvolverão um jogo que utiliza inputs do usuário e condicional para adivinhar um número.",
+    "objetivo_de_aprendizagem": "Criar e executar scripts simples em Python.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Condicionais",
+      "Funções básicas"
+    ],
+    "tags": [
+      "Python",
+      "Jogo",
+      "Script"
+    ],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Identificando Tipos de Dados",
+    "nome_da_aula": "Explorando Tipos de Dados",
+    "descricao_resumida": "Os alunos criarão um breve programa que recebe diferentes tipos de dados e imprime seus tipos.",
+    "objetivo_de_aprendizagem": "Identificar e utilizar diferentes tipos de dados em Python.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Tipos de dados",
+      "Identificação"
+    ],
+    "tags": [
+      "Python",
+      "Tipos de dados",
+      "Identificação"
+    ],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Estatísticas de Dados",
+    "nome_da_aula": "Analisando Tipos de Dados",
+    "descricao_resumida": "Os alunos trabalharão com uma lista de dados de idades e calcularão a média, o mínimo e o máximo.",
+    "objetivo_de_aprendizagem": "Identificar e utilizar diferentes tipos de dados em Python.",
     "unidades_de_conhecimento_utilizadas": [
       "Listas",
-      "Funções",
-      "Entrada/Saída"
+      "Cálculos básicos"
     ],
     "tags": [
-      "lista",
-      "tarefas",
-      "iniciante"
+      "Python",
+      "Dados",
+      "Estatísticas"
+    ],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Conversão de Tipos Simples",
+    "nome_da_aula": "Aprendendo Type Casting",
+    "descricao_resumida": "Os alunos desenvolverão um script para converter números inteiros em strings e vice-versa.",
+    "objetivo_de_aprendizagem": "Realizar conversão de tipos (type casting) entre diferentes tipos de dados.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Type casting",
+      "Conversão"
+    ],
+    "tags": [
+      "Python",
+      "Type Casting",
+      "Conversão"
     ],
     "nivel_complexidade": "iniciante"
   },
   {
-    "nome_do_projeto": "Conversor de Moedas",
-    "nome_da_aula": "Construindo um Conversor de Moedas",
-    "descricao_resumida": "Criação de uma ferramenta que converte diferentes moedas.",
-    "objetivo_de_aprendizagem": "Compreender entradas, saídas e cálculos em Python.",
+    "nome_do_projeto": "Sistema de Cálculo de Notas",
+    "nome_da_aula": "Manipulação de Tipos de Dados",
+    "descricao_resumida": "Os alunos criarão um programa que pede notas como entrada e as converte para diferentes tipos para gerar a média.",
+    "objetivo_de_aprendizagem": "Realizar conversão de tipos (type casting) entre diferentes tipos de dados.",
     "unidades_de_conhecimento_utilizadas": [
-      "Funções",
-      "Operadores Aritméticos",
-      "Entrada/Saída"
+      "Entradas",
+      "Média Aritmética"
     ],
     "tags": [
-      "conversor",
-      "moedas",
-      "iniciante"
+      "Python",
+      "Notas",
+      "Cálculo"
     ],
-    "nivel_complexidade": "iniciante"
+    "nivel_complexidade": "intermediario"
   },
   {
-    "nome_do_projeto": "Calculadora de IMC",
-    "nome_da_aula": "Calculando o IMC com Python",
-    "descricao_resumida": "Desenvolvimento de uma aplicação que calcula o índice de massa corporal.",
-    "objetivo_de_aprendizagem": "Utilizar fórmulas matemáticas e obter entrada do usuário.",
+    "nome_do_projeto": "Calculadora de Operações Básicas",
+    "nome_da_aula": "Aritmética em Python",
+    "descricao_resumida": "Os alunos desenvolverão um programa que realiza adição, subtração, multiplicação e divisão com números inteiros.",
+    "objetivo_de_aprendizagem": "Implementar operações aritméticas e lógicas básicas.",
     "unidades_de_conhecimento_utilizadas": [
-      "Operadores Aritméticos",
-      "Entrada/Saída",
+      "Operações Aritméticas",
       "Funções"
     ],
     "tags": [
-      "saúde",
-      "IMC",
-      "iniciante"
+      "Python",
+      "Aritmética",
+      "Operações"
     ],
     "nivel_complexidade": "iniciante"
   },
   {
-    "nome_do_projeto": "Contador de Palavras",
-    "nome_da_aula": "Analisando Texto com Python",
-    "descricao_resumida": "Desenvolvimento de um programa que conta palavras em um texto.",
-    "objetivo_de_aprendizagem": "Manipular strings e listas de forma eficaz.",
+    "nome_do_projeto": "Simulador de Jogo da Velha",
+    "nome_da_aula": "Jogo da Velha com Lógica",
+    "descricao_resumida": "Os alunos desenvolverão um jogo da velha que usa lógicas de decisão para determinar o vencedor.",
+    "objetivo_de_aprendizagem": "Implementar operações aritméticas e lógicas básicas.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Lógica",
+      "Estruturas de decisão"
+    ],
+    "tags": [
+      "Python",
+      "Jogo",
+      "Lógica"
+    ],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Introduzindo Variáveis",
+    "nome_da_aula": "Trabalhando com Variáveis",
+    "descricao_resumida": "Os alunos criarão um projeto simples que utiliza variáveis para armazenar e exibir informações pessoais.",
+    "objetivo_de_aprendizagem": "Utilizar variáveis e entender seu escopo.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Variáveis",
+      "Escopo"
+    ],
+    "tags": [
+      "Python",
+      "Variáveis",
+      "Pessoal"
+    ],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Gerenciador de Notas",
+    "nome_da_aula": "Variáveis em Ação",
+    "descricao_resumida": "Os alunos criarão um sistema que armazena e manipula notas de alunos, demonstrando o uso de variáveis.",
+    "objetivo_de_aprendizagem": "Utilizar variáveis e entender seu escopo.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Manipulação de Dados",
+      "Escopo"
+    ],
+    "tags": [
+      "Python",
+      "Notas",
+      "Gerenciamento"
+    ],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "String Simples",
+    "nome_da_aula": "Introdução a Strings",
+    "descricao_resumida": "Os alunos criarão um projeto que solicita ao usuário uma string e a exibe de diferentes maneiras.",
+    "objetivo_de_aprendizagem": "Manipular e trabalhar com strings em Python.",
     "unidades_de_conhecimento_utilizadas": [
       "Strings",
+      "Entradas"
+    ],
+    "tags": [
+      "Python",
+      "Strings",
+      "Introdução"
+    ],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Mini Editor de Texto",
+    "nome_da_aula": "Desenvolvendo com Strings",
+    "descricao_resumida": "Os alunos criarão um editor de texto simples que permite manipular strings (cortar, juntar, substituir).",
+    "objetivo_de_aprendizagem": "Manipular e trabalhar com strings em Python.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Manipulação de Strings",
+      "Entradas"
+    ],
+    "tags": [
+      "Python",
+      "Editor",
+      "Strings"
+    ],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Coleção de Nomes",
+    "nome_da_aula": "Listas em Python",
+    "descricao_resumida": "Os alunos criarão uma lista simples para armazenar e exibir nomes de amigos.",
+    "objetivo_de_aprendizagem": "Construir e manipular listas em Python.",
+    "unidades_de_conhecimento_utilizadas": [
       "Listas",
-      "Funções"
+      "Armazenamento"
     ],
     "tags": [
-      "texto",
-      "análise",
-      "intermediario"
+      "Python",
+      "Listas",
+      "Amizade"
     ],
-    "nivel_complexidade": "intermediario"
+    "nivel_complexidade": "iniciante"
   },
   {
-    "nome_do_projeto": "Gerador de Senhas",
-    "nome_da_aula": "Criando um Gerador de Senhas Aleatórias",
-    "descricao_resumida": "Desenvolver um programa que gera senhas seguras.",
-    "objetivo_de_aprendizagem": "Utilizar bibliotecas e manipular strings.",
-    "unidades_de_conhecimento_utilizadas": [
-      "Bibliotecas",
-      "Strings",
-      "Aleatoriedade"
-    ],
-    "tags": [
-      "segurança",
-      "senhas",
-      "intermediario"
-    ],
-    "nivel_complexidade": "intermediario"
-  },
-  {
-    "nome_do_projeto": "Sistema de Cadastro de Usuários",
-    "nome_da_aula": "Implementando um Sistema de Cadastro",
-    "descricao_resumida": "Criação de um sistema para gerenciar usuários com validações.",
-    "objetivo_de_aprendizagem": "Aprender sobre manipulação de dados e armazenamento em listas.",
+    "nome_do_projeto": "Gerenciador de tarefas",
+    "nome_da_aula": "Aprimorando Listas",
+    "descricao_resumida": "Os alunos desenvolverão um gerenciador de tarefas que permite adicionar, remover e visualizar tarefas utilizando listas.",
+    "objetivo_de_aprendizagem": "Construir e manipular listas em Python.",
     "unidades_de_conhecimento_utilizadas": [
       "Listas",
-      "Funções",
-      "Condicionais"
+      "Manipulação"
     ],
     "tags": [
-      "cadastro",
-      "usuários",
-      "intermediario"
+      "Python",
+      "Listas",
+      "Gerenciamento"
     ],
     "nivel_complexidade": "intermediario"
   },
   {
-    "nome_do_projeto": "Jogo da Forca",
-    "nome_da_aula": "Desenvolvendo o Jogo da Forca",
-    "descricao_resumida": "Criação do jogo da forca com interface simples.",
-    "objetivo_de_aprendizagem": "Integrar lógica, loops e strings em um jogo interativo.",
+    "nome_do_projeto": "Introduzindo Tuplas",
+    "nome_da_aula": "Trabalhando com Tuplas",
+    "descricao_resumida": "Os alunos criarão um projeto simples que utiliza tuplas para armazenar coordenadas de pontos.",
+    "objetivo_de_aprendizagem": "Criar e manipular tuplas em Python.",
     "unidades_de_conhecimento_utilizadas": [
-      "Loops",
-      "Strings",
-      "Condicionais"
+      "Tuplas",
+      "Coordenadas"
     ],
     "tags": [
-      "jogo",
-      "forca",
-      "intermediario"
+      "Python",
+      "Tuplas",
+      "Coordenadas"
+    ],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Registro de Localizações",
+    "nome_da_aula": "Manipulando Tuplas",
+    "descricao_resumida": "Os alunos desenvolverão um aplicativo que registra e manipula diversas localizações geográficas usando tuplas.",
+    "objetivo_de_aprendizagem": "Criar e manipular tuplas em Python.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Tuplas",
+      "Geografia"
+    ],
+    "tags": [
+      "Python",
+      "Tuplas",
+      "Geografia"
     ],
     "nivel_complexidade": "intermediario"
   },
   {
-    "nome_do_projeto": "Agenda de Contatos",
-    "nome_da_aula": "Construindo uma Agenda Eletrônica",
-    "descricao_resumida": "Desenvolvimento de uma aplicação para gerenciar contatos.",
-    "objetivo_de_aprendizagem": "Aprender sobre manipulação de dicionários e listas.",
+    "nome_do_projeto": "Coleção de Números Únicos",
+    "nome_da_aula": "Introdução a Conjuntos",
+    "descricao_resumida": "Os alunos criarão um conjunto a partir de uma lista de números, demonstrando a exclusividade dos mesmos.",
+    "objetivo_de_aprendizagem": "Criar e manipular conjuntos (sets) em Python.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Conjuntos",
+      "Exclusividade"
+    ],
+    "tags": [
+      "Python",
+      "Conjuntos",
+      "Números"
+    ],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Interseção de Conjuntos",
+    "nome_da_aula": "Manipulando Conjuntos",
+    "descricao_resumida": "Os alunos desenvolverão um programa que calcula a interseção entre dois conjuntos de números.",
+    "objetivo_de_aprendizagem": "Criar e manipular conjuntos (sets) em Python.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Conjuntos",
+      "Operações"
+    ],
+    "tags": [
+      "Python",
+      "Conjuntos",
+      "Interseção"
+    ],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Dicionário de Palavras",
+    "nome_da_aula": "Introdução a Dicionários",
+    "descricao_resumida": "Os alunos criarão um dicionário simples que armazena palavras e suas definições.",
+    "objetivo_de_aprendizagem": "Gerar e manipular dicionários.",
     "unidades_de_conhecimento_utilizadas": [
       "Dicionários",
-      "Listas",
-      "Funções"
+      "Armazenamento"
     ],
     "tags": [
-      "contatos",
-      "agenda",
-      "intermediario"
+      "Python",
+      "Dicionários",
+      "Palavras"
+    ],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Sistema de Cadastro de Clientes",
+    "nome_da_aula": "Manipulando Dicionários",
+    "descricao_resumida": "Os alunos desenvolverão um sistema que armazena dados de clientes em um dicionário, permitindo consultas.",
+    "objetivo_de_aprendizagem": "Gerar e manipular dicionários.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Dicionários",
+      "Consulta"
+    ],
+    "tags": [
+      "Python",
+      "Dicionários",
+      "Cadastro"
     ],
     "nivel_complexidade": "intermediario"
   },
   {
-    "nome_do_projeto": "Simulador de Votação",
-    "nome_da_aula": "Criando um Simulador de Votação",
-    "descricao_resumida": "Desenvolvimento de um sistema de votação com contagem de votos.",
-    "objetivo_de_aprendizagem": "Compreender estruturas de controle e manipulação de dados.",
+    "nome_do_projeto": "Estruturas Condicionais Simples",
+    "nome_da_aula": "Aprendendo If-Else",
+    "descricao_resumida": "Os alunos criarão um programa que verifica se um número é par ou ímpar usando if-else.",
+    "objetivo_de_aprendizagem": "Implementar estruturas de decisão, como if-else.",
     "unidades_de_conhecimento_utilizadas": [
-      "Listas",
-      "Dicionários",
-      "Condicionais"
+      "If-Else",
+      "Condições"
     ],
     "tags": [
-      "votação",
-      "simulador",
-      "avancado"
+      "Python",
+      "Condicionais",
+      "Par ou Ímpar"
     ],
-    "nivel_complexidade": "avancado"
+    "nivel_complexidade": "iniciante"
   },
   {
-    "nome_do_projeto": "Analisador de Dados CSV",
-    "nome_da_aula": "Lendo e Processando Arquivos CSV",
-    "descricao_resumida": "Desenvolvimento de uma ferramenta para analisar dados de arquivos CSV.",
-    "objetivo_de_aprendizagem": "Trabalhar com bibliotecas externas e manipulação de arquivos.",
+    "nome_do_projeto": "Validação de Senha",
+    "nome_da_aula": "Condições Avançadas",
+    "descricao_resumida": "Os alunos desenvolverão um programa que valida se uma senha atende a requisitos específicos usando múltiplas condições.",
+    "objetivo_de_aprendizagem": "Implementar estruturas de decisão, como if-else.",
     "unidades_de_conhecimento_utilizadas": [
-      "Pandas",
-      "Manipulação de Arquivos",
-      "Dicionários"
+      "Condições Complexas",
+      "If-Else"
     ],
     "tags": [
-      "CSV",
-      "análise de dados",
-      "avancado"
+      "Python",
+      "Senhas",
+      "Validação"
     ],
-    "nivel_complexidade": "avancado"
+    "nivel_complexidade": "intermediario"
   },
   {
-    "nome_do_projeto": "Web Scraper Básico",
-    "nome_da_aula": "Criando um Web Scraper com Python",
-    "descricao_resumida": "Desenvolvimento de um scraper que coleta dados de uma página da web.",
-    "objetivo_de_aprendizagem": "Aprender a fazer requisições HTTP e extrair informações.",
+    "nome_do_projeto": "Contagem de Elementos em Lista",
+    "nome_da_aula": "Loops Básicos",
+    "descricao_resumida": "Os alunos criarão um programa que conta quantas vezes um elemento aparece em uma lista utilizando loops.",
+    "objetivo_de_aprendizagem": "Utilizar loops para iterar sobre listas e outras coleções.",
     "unidades_de_conhecimento_utilizadas": [
-      "Requests",
-      "BeautifulSoup",
-      "Manipulação de Strings"
+      "Loops",
+      "Listas"
     ],
     "tags": [
-      "web scraping",
-      "dados",
-      "avancado"
+      "Python",
+      "Loops",
+      "Contagem"
     ],
-    "nivel_complexidade": "avancado"
+    "nivel_complexidade": "iniciante"
   },
   {
-    "nome_do_projeto": "API de Clima",
-    "nome_da_aula": "Integrando com APIs de Clima",
-    "descricao_resumida": "Criação de uma aplicação que consulta dados climáticos via API.",
-    "objetivo_de_aprendizagem": "Aprender a trabalhar com APIs REST e formatação de dados.",
+    "nome_do_projeto": "Gerador de Fibonaccis",
+    "nome_da_aula": "Loops e Sequências",
+    "descricao_resumida": "Os alunos implementarão um programa que gera a sequência de Fibonacci utilizando loops.",
+    "objetivo_de_aprendizagem": "Utilizar loops para iterar sobre listas e outras coleções.",
     "unidades_de_conhecimento_utilizadas": [
-      "Requests",
-      "JSON",
+      "Loops",
+      "Sequências"
+    ],
+    "tags": [
+      "Python",
+      "Fibonacci",
+      "Loops"
+    ],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Função de Saudações",
+    "nome_da_aula": "Criando Funções Simples",
+    "descricao_resumida": "Os alunos criarão uma função que imprime uma saudação personalizada com base no nome fornecido.",
+    "objetivo_de_aprendizagem": "Criar e utilizar funções simples.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Funções",
+      "Saudações"
+    ],
+    "tags": [
+      "Python",
+      "Funções",
+      "Saudações"
+    ],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Calculadora com Funções",
+    "nome_da_aula": "Funções em Ação",
+    "descricao_resumida": "Os alunos desenvolverão uma calculadora que utiliza funções para realizar operações aritméticas.",
+    "objetivo_de_aprendizagem": "Criar e utilizar funções simples.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Funções",
+      "Aritmética"
+    ],
+    "tags": [
+      "Python",
+      "Calculadora",
+      "Funções"
+    ],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Explorando Funções Embutidas",
+    "nome_da_aula": "Funções Embutidas em Ação",
+    "descricao_resumida": "Os alunos criarão um projeto que demonstra o uso de funções embutidas como len(), str(), e type().",
+    "objetivo_de_aprendizagem": "Utilizar funções embutidas (built-in functions) da linguagem.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Funções Embutidas",
+      "Utilização"
+    ],
+    "tags": [
+      "Python",
+      "Funções",
+      "Embute"
+    ],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Analisador de Texto",
+    "nome_da_aula": "Funções Embutidas Avançadas",
+    "descricao_resumida": "Os alunos criarão um projeto que analisa texto usando diversas funções embutidas, como upper(), lower(), e split().",
+    "objetivo_de_aprendizagem": "Utilizar funções embutidas (built-in functions) da linguagem.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Análise de Texto",
+      "Funções"
+    ],
+    "tags": [
+      "Python",
+      "Análise",
+      "Texto"
+    ],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Manejo de Exceções Simples",
+    "nome_da_aula": "Tratando Erros",
+    "descricao_resumida": "Os alunos criarão um script que lida com exceções simples, como division by zero.",
+    "objetivo_de_aprendizagem": "Lidar com exceções e implementar tratamento de erros.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Tratamento de Erros",
+      "Exceções"
+    ],
+    "tags": [
+      "Python",
+      "Tratamento",
+      "Erros"
+    ],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Validador de Entrada do Usuário",
+    "nome_da_aula": "Tratamento de Exceções Avançadas",
+    "descricao_resumida": "Os alunos desenvolverão um sistema que valida a entrada do usuário e trata exceções relacionadas a formatos incorretos.",
+    "objetivo_de_aprendizagem": "Lidar com exceções e implementar tratamento de erros.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Validação",
       "Tratamento de Erros"
     ],
     "tags": [
-      "API",
-      "clima",
-      "avancado"
+      "Python",
+      "Entrada",
+      "Validação"
     ],
-    "nivel_complexidade": "avancado"
+    "nivel_complexidade": "intermediario"
   },
   {
-    "nome_do_projeto": "Chatbot Simples",
-    "nome_da_aula": "Desenvolvendo um Chatbot Interativo",
-    "descricao_resumida": "Criação de um chatbot que responde perguntas básicas.",
-    "objetivo_de_aprendizagem": "Integrar lógica, condição e manipulação de strings.",
+    "nome_do_projeto": "Criando Módulos Simples",
+    "nome_da_aula": "Introdução a Módulos",
+    "descricao_resumida": "Os alunos criarão um módulo que contém funções matemáticas básicas.",
+    "objetivo_de_aprendizagem": "Criar e utilizar módulos em Python.",
     "unidades_de_conhecimento_utilizadas": [
-      "Strings",
-      "Condicionais",
+      "Módulos",
       "Funções"
     ],
     "tags": [
-      "chatbot",
-      "interatividade",
-      "avancado"
+      "Python",
+      "Módulos",
+      "Matemática"
     ],
-    "nivel_complexidade": "avancado"
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Sistema de Módulos de Cadastro",
+    "nome_da_aula": "Manipulando Módulos",
+    "descricao_resumida": "Os alunos desenvolverão um sistema que utiliza vários módulos para gerenciar dados de clientes.",
+    "objetivo_de_aprendizagem": "Criar e utilizar módulos em Python.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Módulos",
+      "Gerenciamento"
+    ],
+    "tags": [
+      "Python",
+      "Módulos",
+      "Cadastro"
+    ],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Leitura Simples de Arquivo",
+    "nome_da_aula": "Interagindo com Arquivos",
+    "descricao_resumida": "Os alunos criarão um script que lê um arquivo de texto e exibe seu conteúdo na tela.",
+    "objetivo_de_aprendizagem": "Interagir com arquivos para leitura e gravação de dados.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Leitura de Arquivos",
+      "Exibição"
+    ],
+    "tags": [
+      "Python",
+      "Arquivos",
+      "Leitura"
+    ],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Gravador de Notas",
+    "nome_da_aula": "Escrevendo em Arquivos",
+    "descricao_resumida": "Os alunos desenvolverão um sistema que permite gravar notas em um arquivo de texto.",
+    "objetivo_de_aprendizagem": "Interagir com arquivos para leitura e gravação de dados.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Gravação de Arquivos",
+      "Notas"
+    ],
+    "tags": [
+      "Python",
+      "Arquivos",
+      "Gravação"
+    ],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Introdução à Programação Orientada a Objetos",
+    "nome_da_aula": "Pilares da POO",
+    "descricao_resumida": "Os alunos criarão uma classe simples que representa um objeto do mundo real.",
+    "objetivo_de_aprendizagem": "Implementar conceitos de programação orientada a objetos.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Classes",
+      "Objetos"
+    ],
+    "tags": [
+      "Python",
+      "POO",
+      "Classes"
+    ],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Sistema de Cadastro de Produtos",
+    "nome_da_aula": "POO em Ação",
+    "descricao_resumida": "Os alunos desenvolverão um sistema de cadastro de produtos utilizando conceitos de POO.",
+    "objetivo_de_aprendizagem": "Implementar conceitos de programação orientada a objetos.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Classes",
+      "Métodos"
+    ],
+    "tags": [
+      "Python",
+      "POO",
+      "Cadastro"
+    ],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Explorando Bibliotecas Externas",
+    "nome_da_aula": "Bibliotecas em Python",
+    "descricao_resumida": "Os alunos criarão um projeto que utiliza a biblioteca matemática padrão do Python para cálculos.",
+    "objetivo_de_aprendizagem": "Utilizar bibliotecas externas para expandir a funcionalidade do Python.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Bibliotecas",
+      "Matemática"
+    ],
+    "tags": [
+      "Python",
+      "Bibliotecas",
+      "Matemática"
+    ],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Análise de Dados com Pandas",
+    "nome_da_aula": "Manipulando Dados",
+    "descricao_resumida": "Os alunos desenvolverão um sistema que utiliza a biblioteca Pandas para análise de conjuntos de dados.",
+    "objetivo_de_aprendizagem": "Utilizar bibliotecas externas para expandir a funcionalidade do Python.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Pandas",
+      "Análise de Dados"
+    ],
+    "tags": [
+      "Python",
+      "Pandas",
+      "Dados"
+    ],
+    "nivel_complexidade": "intermediario"
   }
 ]
