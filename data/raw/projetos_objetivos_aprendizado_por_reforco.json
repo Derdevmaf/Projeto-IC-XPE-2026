@@ -1,0 +1,161 @@
+[
+  {
+    "objetivo_de_aprendizagem": "Compreender os conceitos básicos de aprendizado por reforço."
+  },
+  {
+    "objetivo_de_aprendizagem": "Identificar as principais aplicações do aprendizado por reforço em diferentes áreas."
+  },
+  {
+    "objetivo_de_aprendizagem": "Explicar a diferença entre aprendizado supervisionado e aprendizado por reforço."
+  },
+  {
+    "objetivo_de_aprendizagem": "Descrever o funcionamento do agente em um ambiente de aprendizado por reforço."
+  },
+  {
+    "objetivo_de_aprendizagem": "Entender a noção de recompensa e sua importância no aprendizado por reforço."
+  },
+  {
+    "objetivo_de_aprendizagem": "Definir o que são políticas em aprendizado por reforço."
+  },
+  {
+    "objetivo_de_aprendizagem": "Reconhecer os diferentes tipos de estratégias de exploração e exploração."
+  },
+  {
+    "objetivo_de_aprendizagem": "Estudar a diferença entre estados e ações em um ambiente."
+  },
+  {
+    "objetivo_de_aprendizagem": "Descrever a função de valor e sua relevância."
+  },
+  {
+    "objetivo_de_aprendizagem": "Identificar a função de valor para estados e ações."
+  },
+  {
+    "objetivo_de_aprendizagem": "Aplicar o Q-learning em um problema simples."
+  },
+  {
+    "objetivo_de_aprendizagem": "Entender o conceito de aprendizado off-policy."
+  },
+  {
+    "objetivo_de_aprendizagem": "Implementar uma tabela Q básica."
+  },
+  {
+    "objetivo_de_aprendizagem": "Diferenciar entre aprendizado por reforço modelado e não modelado."
+  },
+  {
+    "objetivo_de_aprendizagem": "Explorar a relação entre a exploração e a taxa de aprendizado."
+  },
+  {
+    "objetivo_de_aprendizagem": "Analisar o algoritmo SARSA."
+  },
+  {
+    "objetivo_de_aprendizagem": "Implementar um algoritmo SARSA em um ambiente de simulação."
+  },
+  {
+    "objetivo_de_aprendizagem": "Compreender o conceito de discount factor (gamma)."
+  },
+  {
+    "objetivo_de_aprendizagem": "Explicar o papel das redes neurais no aprendizado por reforço."
+  },
+  {
+    "objetivo_de_aprendizagem": "Estudar a função de perda em problemas de aprendizado por reforço."
+  },
+  {
+    "objetivo_de_aprendizagem": "Integrar a experiência replay em um algoritmo de aprendizado."
+  },
+  {
+    "objetivo_de_aprendizagem": "Definir o conceito de algoritmo Actor-Critic."
+  },
+  {
+    "objetivo_de_aprendizagem": "Implementar um modelo de aprendizado por reforço simples com Actor-Critic."
+  },
+  {
+    "objetivo_de_aprendizagem": "Compreender a diferença entre métodos baseados em valor e métodos baseados em política."
+  },
+  {
+    "objetivo_de_aprendizagem": "Explorar soluções em ambientes contínuos."
+  },
+  {
+    "objetivo_de_aprendizagem": "Implementar aprendizado por reforço em ambientes de jogos."
+  },
+  {
+    "objetivo_de_aprendizagem": "Analisar o trade-off entre exploração e exploração em ambientes complexos."
+  },
+  {
+    "objetivo_de_aprendizagem": "Estudar o conceito de regularização em aprendizado por reforço."
+  },
+  {
+    "objetivo_de_aprendizagem": "Definir e implementar a função de custo em aprendizado por reforço."
+  },
+  {
+    "objetivo_de_aprendizagem": "Explorar a importância do tempo de desconto no treinamento de agentes."
+  },
+  {
+    "objetivo_de_aprendizagem": "Analisar diferentes arquiteturas de rede em problemas de aprendizado por reforço."
+  },
+  {
+    "objetivo_de_aprendizagem": "Compreender os desafíos do aprendizado por reforço em ambientes não estacionários."
+  },
+  {
+    "objetivo_de_aprendizagem": "Estudar o conceito de transferência de aprendizado em aprendizado por reforço."
+  },
+  {
+    "objetivo_de_aprendizagem": "Implementar métodos de escalabilidade em aprendizado por reforço."
+  },
+  {
+    "objetivo_de_aprendizagem": "Definir desafios éticos no uso de aprendizado por reforço."
+  },
+  {
+    "objetivo_de_aprendizagem": "Analisar a eficiência computacional de diferentes algoritmos de aprendizado por reforço."
+  },
+  {
+    "objetivo_de_aprendizagem": "Comparar algoritmos de aprendizado por reforço em termos de desempenho."
+  },
+  {
+    "objetivo_de_aprendizagem": "Estudar a persistência de aprendizado em ambientes dinâmicos."
+  },
+  {
+    "objetivo_de_aprendizagem": "Implementar um agente que aprenda em tempo real."
+  },
+  {
+    "objetivo_de_aprendizagem": "Explorar a utilização de aprendizado por reforço em robótica."
+  },
+  {
+    "objetivo_de_aprendizagem": "Analisar o impacto da dimensionalidade no aprendizado por reforço."
+  },
+  {
+    "objetivo_de_aprendizagem": "Estudar técnicas de otimização de hiperparâmetros em aprendizado por reforço."
+  },
+  {
+    "objetivo_de_aprendizagem": "Definir e implementar algoritmos avançados de aprendizado por reforço."
+  },
+  {
+    "objetivo_de_aprendizagem": "Aplicar aprendizado por reforço em problemas do mundo real."
+  },
+  {
+    "objetivo_de_aprendizagem": "Criar soluções personalizadas utilizando aprendizado por reforço."
+  },
+  {
+    "objetivo_de_aprendizagem": "Analisar o futuro do aprendizado por reforço em inteligência artificial."
+  },
+  {
+    "objetivo_de_aprendizagem": "Compreender e aplicar técnicas de transferência de aprendizado."
+  },
+  {
+    "objetivo_de_aprendizagem": "Gerar e testar novas políticas em ambientes complexos."
+  },
+  {
+    "objetivo_de_aprendizagem": "Explorar a combinação de aprendizado por reforço com outras técnicas de IA."
+  },
+  {
+    "objetivo_de_aprendizagem": "Discutir tendências e inovações em aprendizado por reforço."
+  },
+  {
+    "objetivo_de_aprendizagem": "Desenvolver agentes capazes de auto-aprendizado em ambientes dinâmicos."
+  },
+  {
+    "objetivo_de_aprendizagem": "Compreender a aplicação de aprendizado por reforço em sistemas de recomendação."
+  },
+  {
+    "objetivo_de_aprendizagem": "Implementar projetos de aprendizado por reforço que resolvam problemas reais."
+  }
+]

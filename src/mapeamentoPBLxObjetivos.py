@@ -24,11 +24,11 @@ MODEL = "gpt-4o-mini"
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 OBJETIVOS_PATH = os.path.join(
-    BASE_DIR, "data", "raw", "projetos_objetivos_programacao_python.json"
+    BASE_DIR, "data", "raw", "projetos_objetivos_aprendizado_por_reforco.json"
 )
 
 PBL_PATH = os.path.join(
-    BASE_DIR, "data", "raw", "projetos_pbl_programacao_python.json"
+    BASE_DIR, "data", "raw", "projetos_pbl_aprendizado_por_reforco.json"
 )
 
 OUTPUT_DIR = os.path.join(BASE_DIR, "data", "processed")
@@ -36,7 +36,7 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 OUTPUT_PATH = os.path.join(
     OUTPUT_DIR,
-    "mapeamento_pbl_objetivos_programacao_python.json"
+    "mapeamento_pbl_objetivos_aprendizado_por_reforco.json"
 )
 
 CHECKPOINT_PATH = os.path.join(

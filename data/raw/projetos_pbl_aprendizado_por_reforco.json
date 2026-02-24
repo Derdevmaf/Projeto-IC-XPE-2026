@@ -1,0 +1,883 @@
+[
+  {
+    "nome_do_projeto": "Introdução ao Aprendizado por Reforço",
+    "nome_da_aula": "Fundamentos do Aprendizado",
+    "descricao_resumida": "Apresentar conceitos básicos de aprendizado por reforço através de exemplos simples.",
+    "objetivo_de_aprendizagem": "Compreender os conceitos básicos de aprendizado por reforço.",
+    "unidades_de_conhecimento_utilizadas": ["Aprendizado por Reforço", "Inteligência Artificial"],
+    "tags": ["inicial", "aprendizado", "reforço"],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Criando um Simulador de Recompensas",
+    "nome_da_aula": "Experimentos Práticos em AI",
+    "descricao_resumida": "Construir um simulador que demonstra os conceitos de recompensas e ações em aprendizado por reforço.",
+    "objetivo_de_aprendizagem": "Compreender os conceitos básicos de aprendizado por reforço.",
+    "unidades_de_conhecimento_utilizadas": ["Aprendizado por Reforço", "Simulação"],
+    "tags": ["prático", "simulador", "reforço"],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Aplicações do Aprendizado por Reforço na Jogatina",
+    "nome_da_aula": "Aprendizado Prático",
+    "descricao_resumida": "Analisar jogos que utilizam aprendizado por reforço e seu impacto.",
+    "objetivo_de_aprendizagem": "Identificar as principais aplicações do aprendizado por reforço em diferentes áreas.",        
+    "unidades_de_conhecimento_utilizadas": ["Jogos", "Aprendizado por Reforço"],
+    "tags": ["jogos", "aplicações", "reforço"],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Estudo de Caso: Robôs em Aprendizado por Reforço",
+    "nome_da_aula": "Aplicações Avançadas",
+    "descricao_resumida": "Explorar como diferentes robôs aplicam aprendizado por reforço em suas funções.",
+    "objetivo_de_aprendizagem": "Identificar as principais aplicações do aprendizado por reforço em diferentes áreas.",        
+    "unidades_de_conhecimento_utilizadas": ["Robótica", "AI Avançada"],
+    "tags": ["robôs", "estudo de caso", "reforço"],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Comparando Métodos: A vs. B",
+    "nome_da_aula": "Diferenciação de Métodos",
+    "descricao_resumida": "Debater as diferenças entre aprendizado supervisionado e por reforço.",
+    "objetivo_de_aprendizagem": "Explicar a diferença entre aprendizado supervisionado e aprendizado por reforço.",
+    "unidades_de_conhecimento_utilizadas": ["Métodos de Aprendizado", "Fundamentos da IA"],
+    "tags": ["comparação", "métodos", "reforço"],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Workshop Sobre Modelos de Aprendizado",
+    "nome_da_aula": "Análise de Métodos",
+    "descricao_resumida": "Analisar casos práticos onde aprendizado por reforço é mais vantajoso que o supervisionado.",       
+    "objetivo_de_aprendizagem": "Explicar a diferença entre aprendizado supervisionado e aprendizado por reforço.",
+    "unidades_de_conhecimento_utilizadas": ["Aprendizado Supervisionado", "Aplicações de AI"],
+    "tags": ["workshop", "aprendizado", "reforço"],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Explorando o Agente no Relação",
+    "nome_da_aula": "Funcionamento de Agentes",
+    "descricao_resumida": "Descrever a função do agente em ambientes de aprendizado por reforço através de simulações.",       
+    "objetivo_de_aprendizagem": "Descrever o funcionamento do agente em um ambiente de aprendizado por reforço.",
+    "unidades_de_conhecimento_utilizadas": ["Agentes", "Simulação"],
+    "tags": ["agentes", "simulação", "reforço"],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Desenvolvendo um Agente Simples",
+    "nome_da_aula": "Programação de Agentes",
+    "descricao_resumida": "Criar um agente simples que interage em um ambiente de aprendizado por reforço.",
+    "objetivo_de_aprendizagem": "Descrever o funcionamento do agente em um ambiente de aprendizado por reforço.",
+    "unidades_de_conhecimento_utilizadas": ["Programação", "Agentes de AI"],
+    "tags": ["programação", "agentes", "reforço"],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Recompensas e suas Aplicações",
+    "nome_da_aula": "Entendendo Recompensas",
+    "descricao_resumida": "Explorar o conceito de recompensa em aprendizado por reforço e exemplos práticos.",
+    "objetivo_de_aprendizagem": "Entender a noção de recompensa e sua importância no aprendizado por reforço.",
+    "unidades_de_conhecimento_utilizadas": ["Recompensas", "Fundamentos de IA"],
+    "tags": ["recompensas", "importância", "reforço"],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Simulação de Recompensas em Ambientes",
+    "nome_da_aula": "Ambientes Virtuais",
+    "descricao_resumida": "Criar um ambiente de simulação onde diferentes recompensas impactam o agente.",
+    "objetivo_de_aprendizagem": "Entender a noção de recompensa e sua importância no aprendizado por reforço.",
+    "unidades_de_conhecimento_utilizadas": ["Simulação", "Recompensas"],
+    "tags": ["simulação", "recompensas", "reforço"],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Políticas em Aprendizado por Reforço",
+    "nome_da_aula": "Definindo Políticas",
+    "descricao_resumida": "Compreender o que são políticas em aprendizado por reforço através de exemplos.",
+    "objetivo_de_aprendizagem": "Definir o que são políticas em aprendizado por reforço.",
+    "unidades_de_conhecimento_utilizadas": ["Políticas", "Fundamentos de IA"],
+    "tags": ["políticas", "aprendizado", "reforço"],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Implementando Políticas em Simulações",
+    "nome_da_aula": "Prática de Políticas",
+    "descricao_resumida": "Criar simulações onde diferentes políticas impactam o comportamento do agente.",
+    "objetivo_de_aprendizagem": "Definir o que são políticas em aprendizado por reforço.",
+    "unidades_de_conhecimento_utilizadas": ["Simulação", "Políticas"],
+    "tags": ["simulação", "políticas", "reforço"],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "A exploração nas ações",
+    "nome_da_aula": "Exploração vs. Exploração",
+    "descricao_resumida": "Identificar e discutir estratégias de exploração em aprendizado por reforço.",
+    "objetivo_de_aprendizagem": "Reconhecer os diferentes tipos de estratégias de exploração e exploração.",
+    "unidades_de_conhecimento_utilizadas": ["Estratégias", "Aprendizado por Reforço"],
+    "tags": ["exploração", "estratégias", "reforço"],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Construindo Estruturas de Exploração",
+    "nome_da_aula": "Prática em Exploração",
+    "descricao_resumida": "Construir um agente que utilize diferentes estratégias de exploração em um ambiente.",
+    "objetivo_de_aprendizagem": "Reconhecer os diferentes tipos de estratégias de exploração e exploração.",
+    "unidades_de_conhecimento_utilizadas": ["Agentes", "Estratégias"],
+    "tags": ["prática", "exploração", "reforço"],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Conceitos de Estados e Ações",
+    "nome_da_aula": "Fundamentos de Ambientes",
+    "descricao_resumida": "Definir e descrever a diferença entre estados e ações em aprendizado por reforço.",
+    "objetivo_de_aprendizagem": "Estudar a diferença entre estados e ações em um ambiente.",
+    "unidades_de_conhecimento_utilizadas": ["Estados", "Ações"],
+    "tags": ["fundamentos", "reforço", "estados"],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Simulação de Estados e Ações",
+    "nome_da_aula": "Exemplos Práticos",
+    "descricao_resumida": "Criar um ambiente simulado para testar diferentes estados e ações.",
+    "objetivo_de_aprendizagem": "Estudar a diferença entre estados e ações em um ambiente.",
+    "unidades_de_conhecimento_utilizadas": ["Simulação", "Aprendizado por Reforço"],
+    "tags": ["simulação", "estados", "ações"],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Função de Valor em Aprendizado",
+    "nome_da_aula": "Entendendo o Valor",
+    "descricao_resumida": "Explorar o conceito de função de valor em contextos de aprendizado por reforço.",
+    "objetivo_de_aprendizagem": "Descrever a função de valor e sua relevância.",
+    "unidades_de_conhecimento_utilizadas": ["Função de Valor", "Aprendizado por Reforço"],
+    "tags": ["função", "valor", "reforço"],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Aplicando Funções de Valor",
+    "nome_da_aula": "Prática de Funções",
+    "descricao_resumida": "Implementar exemplos práticos para calcular funções de valor em ambientes simulados.",
+    "objetivo_de_aprendizagem": "Descrever a função de valor e sua relevância.",
+    "unidades_de_conhecimento_utilizadas": ["Simulação", "Funções de Valor"],
+    "tags": ["prática", "valor", "reforço"],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Funções de Valor em Ações",
+    "nome_da_aula": "Análise de Ações",
+    "descricao_resumida": "Estudar e identificar a função de valor para diferentes estados e ações em um ambiente.",
+    "objetivo_de_aprendizagem": "Identificar a função de valor para estados e ações.",
+    "unidades_de_conhecimento_utilizadas": ["Funções de Valor", "Análise"],
+    "tags": ["identificação", "ações", "reforço"],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Simulando Ações e Seus Valores",
+    "nome_da_aula": "Explorando Valores",
+    "descricao_resumida": "Desenvolver uma simulação que relaciona ações a suas respectivas funções de valor.",
+    "objetivo_de_aprendizagem": "Identificar a função de valor para estados e ações.",
+    "unidades_de_conhecimento_utilizadas": ["Simulação", "Funções de Valor"],
+    "tags": ["simulação", "identificação", "reforço"],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Introduzindo o Q-learning",
+    "nome_da_aula": "Base do Q-learning",
+    "descricao_resumida": "Explicar o conceito de Q-learning através de exercícios simples.",
+    "objetivo_de_aprendizagem": "Aplicar o Q-learning em um problema simples.",
+    "unidades_de_conhecimento_utilizadas": ["Q-learning", "Aprendizado por Reforço"],
+    "tags": ["Q-learning", "prática", "reforço"],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Q-learning em Simuladores",
+    "nome_da_aula": "Aplicação do Q-learning",
+    "descricao_resumida": "Implementar o algoritmo de Q-learning em um ambiente simulado para resolver um problema.",
+    "objetivo_de_aprendizagem": "Aplicar o Q-learning em um problema simples.",
+    "unidades_de_conhecimento_utilizadas": ["Simulação", "Q-learning"],
+    "tags": ["implementação", "simulador", "reforço"],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Aprendizado Off-Policy",
+    "nome_da_aula": "Teoria do Aprendizado",
+    "descricao_resumida": "Compreender o conceito de aprendizado off-policy através de explicações e exemplos.",
+    "objetivo_de_aprendizagem": "Entender o conceito de aprendizado off-policy.",
+    "unidades_de_conhecimento_utilizadas": ["Off-policy", "Aprendizado por Reforço"],
+    "tags": ["off-policy", "teoria", "reforço"],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Explorando Off-Policy em Cenários",
+    "nome_da_aula": "Aplicações Práticas",
+    "descricao_resumida": "Criar simulações para demonstrar como aprendizado off-policy se aplica a diferentes cenários.",     
+    "objetivo_de_aprendizagem": "Entender o conceito de aprendizado off-policy.",
+    "unidades_de_conhecimento_utilizadas": ["Simulação", "Off-policy"],
+    "tags": ["simulação", "cenários", "reforço"],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Tabela Q Básica",
+    "nome_da_aula": "Introdução à Tabela Q",
+    "descricao_resumida": "Implementar uma tabela Q básica com métodos de atualização simples.",
+    "objetivo_de_aprendizagem": "Implementar uma tabela Q básica.",
+    "unidades_de_conhecimento_utilizadas": ["Tabela Q", "Aprendizado por Reforço"],
+    "tags": ["implementação", "tabela", "reforço"],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Aprimorando a Tabela Q",
+    "nome_da_aula": "Avançando na Tabela Q",
+    "descricao_resumida": "Melhorar a tabela Q básica com técnicas de otimização e aprendizado mais complexas.",
+    "objetivo_de_aprendizagem": "Implementar uma tabela Q básica.",
+    "unidades_de_conhecimento_utilizadas": ["Otimização", "Tabela Q"],
+    "tags": ["otimização", "tabela", "reforço"],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Modelos Modelados vs Não Modelados",
+    "nome_da_aula": "Diferenciação de Modelos",
+    "descricao_resumida": "Analisar as diferenças entre aprendizado por reforço modelado e não modelado.",
+    "objetivo_de_aprendizagem": "Diferenciar entre aprendizado por reforço modelado e não modelado.",
+    "unidades_de_conhecimento_utilizadas": ["Modelagem", "Aprendizado por Reforço"],
+    "tags": ["modelagem", "comparação", "reforço"],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Explorando Modelos em Diferentes Ambientes",
+    "nome_da_aula": "Práticas de Modelagem",
+    "descricao_resumida": "Testar e comparar algoritmos em ambientes modelados e não modelados.",
+    "objetivo_de_aprendizagem": "Diferenciar entre aprendizado por reforço modelado e não modelado.",
+    "unidades_de_conhecimento_utilizadas": ["Simulação", "Modelagem"],
+    "tags": ["simulação", "modelagem", "reforço"],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Exploração e Taxa de Aprendizado",
+    "nome_da_aula": "Entendimento de Taxas",
+    "descricao_resumida": "Estudar a relação entre exploração e taxa de aprendizado em ambientes simples.",
+    "objetivo_de_aprendizagem": "Explorar a relação entre a exploração e a taxa de aprendizado.",
+    "unidades_de_conhecimento_utilizadas": ["Exploração", "Taxa de Aprendizado"],
+    "tags": ["exploração", "aprendizado", "reforço"],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Simulação de Taxas de Aprendizado",
+    "nome_da_aula": "Ajustando Taxas",
+    "descricao_resumida": "Criar simulações que demonstram a influência da taxa de aprendizado nas decisões do agente.",       
+    "objetivo_de_aprendizagem": "Explorar a relação entre a exploração e a taxa de aprendizado.",
+    "unidades_de_conhecimento_utilizadas": ["Simulação", "Aprendizado"],
+    "tags": ["simulação", "taxa", "reforço"],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Análise do Algoritmo SARSA",
+    "nome_da_aula": "Teoria do SARSA",
+    "descricao_resumida": "Estudar como o algoritmo SARSA funciona em aprendizagem por reforço.",
+    "objetivo_de_aprendizagem": "Analisar o algoritmo SARSA.",
+    "unidades_de_conhecimento_utilizadas": ["SARSA", "Teoria de IA"],
+    "tags": ["algoritmo", "análise", "reforço"],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Implementando SARSA em Simulações",
+    "nome_da_aula": "Práticas com SARSA",
+    "descricao_resumida": "Desenvolver uma implementação prática do algoritmo SARSA em um ambiente simulado.",
+    "objetivo_de_aprendizagem": "Analisar o algoritmo SARSA.",
+    "unidades_de_conhecimento_utilizadas": ["Simulação", "SARSA"],
+    "tags": ["implementação", "simulador", "reforço"],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Compreendendo o Discount Factor",
+    "nome_da_aula": "Introdução ao Gamma",
+    "descricao_resumida": "Explicar o conceito de discount factor (gamma) e sua importância no aprendizado por reforço.",      
+    "objetivo_de_aprendizagem": "Compreender o conceito de discount factor (gamma).",
+    "unidades_de_conhecimento_utilizadas": ["Discount Factor", "Teoria de IA"],
+    "tags": ["gamma", "teoria", "reforço"],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Simulação do Discount Factor em Ações",
+    "nome_da_aula": "Aplicações de Gamma",
+    "descricao_resumida": "Implementar simulações que demonstram como diferentes valores de gamma influenciam a aprendizagem.",    "objetivo_de_aprendizagem": "Compreender o conceito de discount factor (gamma).",
+    "unidades_de_conhecimento_utilizadas": ["Simulação", "Discount Factor"],
+    "tags": ["simulação", "gamma", "reforço"],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Redes Neurais e o Aprendizado por Reforço",
+    "nome_da_aula": "Relações com Redes",
+    "descricao_resumida": "Explorar o papel das redes neurais no aprendizado por reforço.",
+    "objetivo_de_aprendizagem": "Explicar o papel das redes neurais no aprendizado por reforço.",
+    "unidades_de_conhecimento_utilizadas": ["Redes Neurais", "Aprendizado por Reforço"],
+    "tags": ["redes", "aprendizado", "reforço"],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Modelagem com Redes Neurais",
+    "nome_da_aula": "Estruturas de Redes",
+    "descricao_resumida": "Conectar conceitos de aprendizado por reforço a modelos contemporâneos de redes neurais.",
+    "objetivo_de_aprendizagem": "Explicar o papel das redes neurais no aprendizado por reforço.",
+    "unidades_de_conhecimento_utilizadas": ["Redes Neurais", "Modelagem"],
+    "tags": ["modelagem", "redes", "reforço"],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Estudo da Função de Perda",
+    "nome_da_aula": "Funções em Aprendizagem",
+    "descricao_resumida": "Examinar a função de perda e sua importância em ambientes de aprendizado por reforço.",
+    "objetivo_de_aprendizagem": "Estudar a função de perda em problemas de aprendizado por reforço.",
+    "unidades_de_conhecimento_utilizadas": ["Função de Perda", "Teoria de IA"],
+    "tags": ["função", "perda", "reforço"],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Otimização da Função de Perda",
+    "nome_da_aula": "Práticas com Perdas",
+    "descricao_resumida": "Desenvolver e testar diferentes abordagens para otimizar a função de perda em um ambiente simulado.",
+    "objetivo_de_aprendizagem": "Estudar a função de perda em problemas de aprendizado por reforço.",
+    "unidades_de_conhecimento_utilizadas": ["Otimização", "Perda"],
+    "tags": ["otimização", "função", "reforço"],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Integrando Experiência Replay",
+    "nome_da_aula": "Métodos de Aprendizado",
+    "descricao_resumida": "Explorar o conceito de experiência replay e sua importância para aprendizado efetivo.",
+    "objetivo_de_aprendizagem": "Integrar a experiência replay em um algoritmo de aprendizado.",
+    "unidades_de_conhecimento_utilizadas": ["Experiência Replay", "Aprendizado"],
+    "tags": ["replay", "aprendizado", "reforço"],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Implementação de Experiência Replay",
+    "nome_da_aula": "Aplicação de Experiência",
+    "descricao_resumida": "Implementar um algoritmo que integra experiência replay em um agente de aprendizado por reforço.",  
+    "objetivo_de_aprendizagem": "Integrar a experiência replay em um algoritmo de aprendizado.",
+    "unidades_de_conhecimento_utilizadas": ["Simulação", "Experiência Replay"],
+    "tags": ["implementação", "replay", "reforço"],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Entendimento do Algoritmo Actor-Critic",
+    "nome_da_aula": "Fundamentos do Actor-Critic",
+    "descricao_resumida": "Compreender a estrutura e funcionamento do algoritmo Actor-Critic.",
+    "objetivo_de_aprendizagem": "Definir o conceito de algoritmo Actor-Critic.",
+    "unidades_de_conhecimento_utilizadas": ["Actor-Critic", "Teoria de IA"],
+    "tags": ["algoritmo", "Actor-Critic", "reforço"],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Implementando um Modelo Actor-Critic",
+    "nome_da_aula": "Prática com Actor-Critic",
+    "descricao_resumida": "Criar um modelo básico de aprendizado por reforço utilizando o algoritmo Actor-Critic.",
+    "objetivo_de_aprendizagem": "Implementar um modelo de aprendizado por reforço simples com Actor-Critic.",
+    "unidades_de_conhecimento_utilizadas": ["Simulação", "Actor-Critic"],
+    "tags": ["implementação", "modelo", "reforço"],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Métodos Baseados em Valor vs. Política",
+    "nome_da_aula": "Comparando Métodos",
+    "descricao_resumida": "Estudar a diferença entre métodos de aprendizado baseados em valor e baseados em política.",        
+    "objetivo_de_aprendizagem": "Compreender a diferença entre métodos baseados em valor e métodos baseados em política.",     
+    "unidades_de_conhecimento_utilizadas": ["Métodos", "Aprendizado por Reforço"],
+    "tags": ["comparação", "métodos", "reforço"],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Análise de Algoritmos de Valor e Política",
+    "nome_da_aula": "Desempenho de Métodos",
+    "descricao_resumida": "Analisar o desempenho de diferentes algoritmos em ambientes baseados em valor e em política.",      
+    "objetivo_de_aprendizagem": "Compreender a diferença entre métodos baseados em valor e métodos baseados em política.",     
+    "unidades_de_conhecimento_utilizadas": ["Algoritmos", "Análise"],
+    "tags": ["análise", "metódos", "reforço"],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Ambientes Contínuos e Aprendizado",
+    "nome_da_aula": "Explorando Ambientes",
+    "descricao_resumida": "Estudar como o aprendizado por reforço se aplica em ambientes contínuos.",
+    "objetivo_de_aprendizagem": "Explorar soluções em ambientes contínuos.",
+    "unidades_de_conhecimento_utilizadas": ["Ambientes Contínuos", "Aprendizado por Reforço"],
+    "tags": ["contínuo", "soluções", "reforço"],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Simulação em Ambientes Contínuos",
+    "nome_da_aula": "Prática em Ambientes",
+    "descricao_resumida": "Criar uma simulação que implemente soluções de aprendizado por reforço em ambientes contínuos.",    
+    "objetivo_de_aprendizagem": "Explorar soluções em ambientes contínuos.",
+    "unidades_de_conhecimento_utilizadas": ["Simulação", "Ambientes Contínuos"],
+    "tags": ["simulação", "ambientes", "reforço"],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Jogos e Aprendizado por Reforço",
+    "nome_da_aula": "Aprendizado em Jogos",
+    "descricao_resumida": "Identificar como o aprendizado por reforço é aplicado em diferentes jogos.",
+    "objetivo_de_aprendizagem": "Implementar aprendizado por reforço em ambientes de jogos.",
+    "unidades_de_conhecimento_utilizadas": ["Jogos", "Aprendizado por Reforço"],
+    "tags": ["jogos", "aplicação", "reforço"],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Desenvolvendo um Jogo com Aprendizado",
+    "nome_da_aula": "Implementação em Jogos",
+    "descricao_resumida": "Criar um jogo que utilize aprendizado por reforço para otimizar a jogabilidade.",
+    "objetivo_de_aprendizagem": "Implementar aprendizado por reforço em ambientes de jogos.",
+    "unidades_de_conhecimento_utilizadas": ["Jogo", "Simulação"],
+    "tags": ["implementação", "jogo", "reforço"],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Explorando Trade-offs em Ambientes",
+    "nome_da_aula": "Análise de Exploração",
+    "descricao_resumida": "Estudar e identificar trade-offs entre exploração e exploração em ambientes básicos.",
+    "objetivo_de_aprendizagem": "Analisar o trade-off entre exploração e exploração em ambientes complexos.",
+    "unidades_de_conhecimento_utilizadas": ["Exploração", "Trade-offs"],
+    "tags": ["análise", "exploração", "reforço"],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Simulação de Trade-offs",
+    "nome_da_aula": "Práticas de Trade-offs",
+    "descricao_resumida": "Criar simulações que demonstram os trade-offs entre exploração e exploração em ambientes complexos.",
+    "objetivo_de_aprendizagem": "Analisar o trade-off entre exploração e exploração em ambientes complexos.",
+    "unidades_de_conhecimento_utilizadas": ["Simulação", "Trade-offs"],
+    "tags": ["simulação", "exploração", "reforço"],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Regulamentação em Aprendizado por Reforço",
+    "nome_da_aula": "Entendendo a Regulamentação",
+    "descricao_resumida": "Estudar o conceito de regularização em aprendizado por reforço.",
+    "objetivo_de_aprendizagem": "Estudar o conceito de regularização em aprendizado por reforço.",
+    "unidades_de_conhecimento_utilizadas": ["Regularização", "Teoria de IA"],
+    "tags": ["regularização", "entendimento", "reforço"],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Práticas de Regularização",
+    "nome_da_aula": "Aprimorando Regulações",
+    "descricao_resumida": "Implementar estratégias de regularização em ambientes de aprendizado por reforço.",
+    "objetivo_de_aprendizagem": "Estudar o conceito de regularização em aprendizado por reforço.",
+    "unidades_de_conhecimento_utilizadas": ["Simulação", "Regularização"],
+    "tags": ["simulação", "práticas", "reforço"],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Conceito de Função de Custo",
+    "nome_da_aula": "Definição de Custos",
+    "descricao_resumida": "Definir o que é uma função de custo e sua relevância no aprendizado por reforço.",
+    "objetivo_de_aprendizagem": "Definir e implementar a função de custo em aprendizado por reforço.",
+    "unidades_de_conhecimento_utilizadas": ["Função de Custo", "Teoria de IA"],
+    "tags": ["função", "custo", "reforço"],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Implementação de Funções de Custo",
+    "nome_da_aula": "Aprimorando Custos",
+    "descricao_resumida": "Implementar e testar funções de custo em um ambiente de aprendizado por reforço.",
+    "objetivo_de_aprendizagem": "Definir e implementar a função de custo em aprendizado por reforço.",
+    "unidades_de_conhecimento_utilizadas": ["Simulação", "Função de Custo"],
+    "tags": ["implementação", "função", "reforço"],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Importância do Tempo de Desconto",
+    "nome_da_aula": "Analisando Descontos",
+    "descricao_resumida": "Estudar como a taxa de desconto afeta o aprendizado de agentes.",
+    "objetivo_de_aprendizagem": "Explorar a importância do tempo de desconto no treinamento de agentes.",
+    "unidades_de_conhecimento_utilizadas": ["Tempo de Desconto", "Aprendizado"],
+    "tags": ["tempo", "desconto", "reforço"],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Simulação do Tempo de Desconto",
+    "nome_da_aula": "Prática de Descontos",
+    "descricao_resumida": "Implementar simulações para evidenciar o impacto do tempo de desconto no agente.",
+    "objetivo_de_aprendizagem": "Explorar a importância do tempo de desconto no treinamento de agentes.",
+    "unidades_de_conhecimento_utilizadas": ["Simulação", "Tempo de Desconto"],
+    "tags": ["simulação", "tempo", "reforço"],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Arquiteturas de Rede em Aprendizado",
+    "nome_da_aula": "Estudo de Arquiteturas",
+    "descricao_resumida": "Analisar diferentes arquiteturas de rede e sua eficácia em aprendizado por reforço.",
+    "objetivo_de_aprendizagem": "Analisar diferentes arquiteturas de rede em problemas de aprendizado por reforço.",
+    "unidades_de_conhecimento_utilizadas": ["Redes Neurais", "Arquiteturas"],
+    "tags": ["arquitetura", "redes", "reforço"],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Testando Arquiteturas em Ambientes",
+    "nome_da_aula": "Aplicação de Arquiteturas",
+    "descricao_resumida": "Implementar diferentes arquiteturas de rede em simulações de aprendizado por reforço.",
+    "objetivo_de_aprendizagem": "Analisar diferentes arquiteturas de rede em problemas de aprendizado por reforço.",
+    "unidades_de_conhecimento_utilizadas": ["Simulação", "Redes Neurais"],
+    "tags": ["simulação", "arquitetura", "reforço"],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Desafios do Aprendizado Não Estacionário",
+    "nome_da_aula": "Entendendo Desafios",
+    "descricao_resumida": "Discutir os desafíos enfrentados em situações não estacionárias em aprendizado por reforço.",       
+    "objetivo_de_aprendizagem": "Compreender os desafíos do aprendizado por reforço em ambientes não estacionários.",
+    "unidades_de_conhecimento_utilizadas": ["Desafios", "Aprendizado por Reforço"],
+    "tags": ["desafios", "não estacionário", "reforço"],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Estratégias em Ambientes Não Estacionários",
+    "nome_da_aula": "Práticas em Desafios",
+    "descricao_resumida": "Criar soluções para problemas em ambientes não estacionários com aprendizado por reforço.",
+    "objetivo_de_aprendizagem": "Compreender os desafíos do aprendizado por reforço em ambientes não estacionários.",
+    "unidades_de_conhecimento_utilizadas": ["Soluções", "Ambientes"],
+    "tags": ["soluções", "práticas", "reforço"],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Transferência de Aprendizado",
+    "nome_da_aula": "Conceitos de Transferência",
+    "descricao_resumida": "Estudar o conceito de transferência de aprendizado em aprendizado por reforço.",
+    "objetivo_de_aprendizagem": "Estudar o conceito de transferência de aprendizado em aprendizado por reforço.",
+    "unidades_de_conhecimento_utilizadas": ["Transferência", "Aprendizado por Reforço"],
+    "tags": ["transferência", "aprendizado", "reforço"],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Implementação de Transferência de Aprendizado",
+    "nome_da_aula": "Práticas de Transferência",
+    "descricao_resumida": "Criar um modelo que implementa transferência de aprendizado em um cenário prático.",
+    "objetivo_de_aprendizagem": "Estudar o conceito de transferência de aprendizado em aprendizado por reforço.",
+    "unidades_de_conhecimento_utilizadas": ["Simulação", "Transferência"],
+    "tags": ["implementação", "transferência", "reforço"],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Desafios de Escalabilidade",
+    "nome_da_aula": "Entendendo Escalabilidade",
+    "descricao_resumida": "Definir e discutir os desafios de escalabilidade em aprendizado por reforço.",
+    "objetivo_de_aprendizagem": "Implementar métodos de escalabilidade em aprendizado por reforço.",
+    "unidades_de_conhecimento_utilizadas": ["Escalabilidade", "Aprendizado por Reforço"],
+    "tags": ["escalabilidade", "desafios", "reforço"],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Soluções para Escalabilidade",
+    "nome_da_aula": "Práticas com Escalabilidade",
+    "descricao_resumida": "Implementar e testar métodos de escalabilidade em um ambiente de aprendizado por reforço.",
+    "objetivo_de_aprendizagem": "Implementar métodos de escalabilidade em aprendizado por reforço.",
+    "unidades_de_conhecimento_utilizadas": ["Simulação", "Escalabilidade"],
+    "tags": ["implementação", "escalabilidade", "reforço"],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Ética em Aprendizado por Reforço",
+    "nome_da_aula": "Discussão de Ética",
+    "descricao_resumida": "Definir e discutir os principais desafios éticos associados ao aprendizado por reforço.",
+    "objetivo_de_aprendizagem": "Definir desafios éticos no uso de aprendizado por reforço.",
+    "unidades_de_conhecimento_utilizadas": ["Ética", "Aprendizado por Reforço"],
+    "tags": ["ética", "discussão", "reforço"],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Estudo de Casos Éticos",
+    "nome_da_aula": "Analisando Ética",
+    "descricao_resumida": "Analisar diferentes casos em que aspectos éticos se tornam relevantes no uso de aprendizado por reforço.",
+    "objetivo_de_aprendizagem": "Definir desafios éticos no uso de aprendizado por reforço.",
+    "unidades_de_conhecimento_utilizadas": ["Ética", "Estudo de Caso"],
+    "tags": ["análise", "casos", "reforço"],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Eficiência Computacional de Algoritmos",
+    "nome_da_aula": "Análise de Algoritmos",
+    "descricao_resumida": "Estudar a eficiência computacional de diferentes algoritmos de aprendizado por reforço.",
+    "objetivo_de_aprendizagem": "Analisar a eficiência computacional de diferentes algoritmos de aprendizado por reforço.",    
+    "unidades_de_conhecimento_utilizadas": ["Eficiência", "Algoritmos"],
+    "tags": ["análise", "eficiência", "reforço"],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Comparação de Algoritmos",
+    "nome_da_aula": "Avaliação de Desempenho",
+    "descricao_resumida": "Comparar o desempenho de diferentes algoritmos de aprendizado por reforço em ambientes padrões.",   
+    "objetivo_de_aprendizagem": "Analisar a eficiência computacional de diferentes algoritmos de aprendizado por reforço.",    
+    "unidades_de_conhecimento_utilizadas": ["Simulação", "Algoritmos"],
+    "tags": ["comparação", "algoritmos", "reforço"],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Avaliação de Desempenho de Algoritmos",
+    "nome_da_aula": "Desempenho em Algoritmos",
+    "descricao_resumida": "Analisar e avaliar o desempenho de diferentes algoritmos de aprendizado por reforço.",
+    "objetivo_de_aprendizagem": "Comparar algoritmos de aprendizado por reforço em termos de desempenho.",
+    "unidades_de_conhecimento_utilizadas": ["Desempenho", "Algoritmos"],
+    "tags": ["avaliação", "desempenho", "reforço"],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Benchmarking de Algoritmos",
+    "nome_da_aula": "Comparação de Algoritmos",
+    "descricao_resumida": "Criar benchmarks para comparar a eficácia de diferentes algoritmos de aprendizado por reforço.",    
+    "objetivo_de_aprendizagem": "Comparar algoritmos de aprendizado por reforço em termos de desempenho.",
+    "unidades_de_conhecimento_utilizadas": ["Simulação", "Algoritmos"],
+    "tags": ["benchmark", "comparação", "reforço"],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Persistência de Aprendizado",
+    "nome_da_aula": "Estudo de Persistência",
+    "descricao_resumida": "Estudar a persistência de aprendizado em ambientes dinâmicos.",
+    "objetivo_de_aprendizagem": "Estudar a persistência de aprendizado em ambientes dinâmicos.",
+    "unidades_de_conhecimento_utilizadas": ["Persistência", "Aprendizado por Reforço"],
+    "tags": ["persistência", "estudo", "reforço"],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Simulação em Ambientes Dinâmicos",
+    "nome_da_aula": "Testando Persistência",
+    "descricao_resumida": "Criar simulações que demonstrem a persistência de aprendizado em ambientes em mudança.",
+    "objetivo_de_aprendizagem": "Estudar a persistência de aprendizado em ambientes dinâmicos.",
+    "unidades_de_conhecimento_utilizadas": ["Simulação", "Aprendizado"],
+    "tags": ["simulação", "dinâmico", "reforço"],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Agentes em Tempo Real",
+    "nome_da_aula": "Agentes Dinâmicos",
+    "descricao_resumida": "Estudar o funcionamento de agentes que aprendem em tempo real.",
+    "objetivo_de_aprendizagem": "Implementar um agente que aprenda em tempo real.",
+    "unidades_de_conhecimento_utilizadas": ["Agentes", "Tempo Real"],
+    "tags": ["agentes", "tempo real", "reforço"],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Agentes de Aprendizado Adaptativos",
+    "nome_da_aula": "Avanços em Agentes",
+    "descricao_resumida": "Criar um agente que se adapta a mudanças em seu ambiente de aprendizado em tempo real.",
+    "objetivo_de_aprendizagem": "Implementar um agente que aprenda em tempo real.",
+    "unidades_de_conhecimento_utilizadas": ["Agentes", "Adaptabilidade"],
+    "tags": ["agentes", "aprendizado", "reforço"],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Robótica e Aprendizado por Reforço",
+    "nome_da_aula": "Aprendizado em Robótica",
+    "descricao_resumida": "Analisar como o aprendizado por reforço é aplicado em robótica.",
+    "objetivo_de_aprendizagem": "Explorar a utilização de aprendizado por reforço em robótica.",
+    "unidades_de_conhecimento_utilizadas": ["Robótica", "Aprendizado por Reforço"],
+    "tags": ["robótica", "aprendizado", "reforço"],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Projetando Robôs Autônomos",
+    "nome_da_aula": "Desenvolvimento de Robôs",
+    "descricao_resumida": "Criar um projeto de robô autônomo que utilize aprendizado por reforço para otimizar suas funções.", 
+    "objetivo_de_aprendizagem": "Explorar a utilização de aprendizado por reforço em robótica.",
+    "unidades_de_conhecimento_utilizadas": ["Simulação", "Robótica"],
+    "tags": ["robôs", "autônomos", "reforço"],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Dimensionalidade no Aprendizado",
+    "nome_da_aula": "Estudando Dimensões",
+    "descricao_resumida": "Analisar como a dimensionalidade afeta o aprendizado por reforço.",
+    "objetivo_de_aprendizagem": "Analisar o impacto da dimensionalidade no aprendizado por reforço.",
+    "unidades_de_conhecimento_utilizadas": ["Dimensionalidade", "Aprendizado por Reforço"],
+    "tags": ["dimensionalidade", "análise", "reforço"],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Otimização de Dimensões em Ambientes",
+    "nome_da_aula": "Prática de Dimensionalidade",
+    "descricao_resumida": "Implementar soluções de aprendizado que otimizem a dimensionalidade em um ambiente simulado.",      
+    "objetivo_de_aprendizagem": "Analisar o impacto da dimensionalidade no aprendizado por reforço.",
+    "unidades_de_conhecimento_utilizadas": ["Simulação", "Otimização"],
+    "tags": ["dimensionalidade", "otimização", "reforço"],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Otimização de Hiperparâmetros",
+    "nome_da_aula": "Avançando em Aprendizado",
+    "descricao_resumida": "Estudar técnicas de otimização de hiperparâmetros no contexto de aprendizado por reforço.",
+    "objetivo_de_aprendizagem": "Estudar técnicas de otimização de hiperparâmetros em aprendizado por reforço.",
+    "unidades_de_conhecimento_utilizadas": ["Otimização", "Hiperparâmetros"],
+    "tags": ["otimização", "técnicas", "reforço"],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Implementação de Hiperparâmetros",
+    "nome_da_aula": "Práticas de Hiperparâmetros",
+    "descricao_resumida": "Implementar e testar diferentes hiperparâmetros em algoritmos de aprendizado por reforço.",
+    "objetivo_de_aprendizagem": "Estudar técnicas de otimização de hiperparâmetros em aprendizado por reforço.",
+    "unidades_de_conhecimento_utilizadas": ["Simulação", "Hiperparâmetros"],
+    "tags": ["implementação", "hiperparâmetros", "reforço"],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Algoritmos Avançados",
+    "nome_da_aula": "Teoria de Algoritmos",
+    "descricao_resumida": "Definir e discutir algoritmos avançados no contexto de aprendizado por reforço.",
+    "objetivo_de_aprendizagem": "Definir e implementar algoritmos avançados de aprendizado por reforço.",
+    "unidades_de_conhecimento_utilizadas": ["Algoritmos", "Avançado"],
+    "tags": ["avançado", "algoritmos", "reforço"],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Implementação de Algoritmos Avançados",
+    "nome_da_aula": "Prática Avançada",
+    "descricao_resumida": "Criar e implementar algoritmos avançados de aprendizado por reforço em um ambiente simulado.",      
+    "objetivo_de_aprendizagem": "Definir e implementar algoritmos avançados de aprendizado por reforço.",
+    "unidades_de_conhecimento_utilizadas": ["Simulação", "Algoritmos Avançados"],
+    "tags": ["implementação", "avançado", "reforço"],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Aplicações do Mundo Real",
+    "nome_da_aula": "Estudo de Casos",
+    "descricao_resumida": "Identificar e discutir aplicações do aprendizado por reforço em problemas do mundo real.",
+    "objetivo_de_aprendizagem": "Aplicar aprendizado por reforço em problemas do mundo real.",
+    "unidades_de_conhecimento_utilizadas": ["Mundo Real", "Aprendizado por Reforço"],
+    "tags": ["aplicações", "casos", "reforço"],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Desenvolvendo Soluções de Aprendizado",
+    "nome_da_aula": "Práticas do Mundo Real",
+    "descricao_resumida": "Criar uma solução utilizando aprendizado por reforço para um problema real.",
+    "objetivo_de_aprendizagem": "Aplicar aprendizado por reforço em problemas do mundo real.",
+    "unidades_de_conhecimento_utilizadas": ["Simulação", "Mundo Real"],
+    "tags": ["soluções", "mundo real", "reforço"],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Soluções Personalizadas",
+    "nome_da_aula": "Personalização em Aprendizado",
+    "descricao_resumida": "Criar soluções personalizadas e inovadoras utilizando aprendizado por reforço.",
+    "objetivo_de_aprendizagem": "Criar soluções personalizadas utilizando aprendizado por reforço.",
+    "unidades_de_conhecimento_utilizadas": ["Personalização", "Aprendizado por Reforço"],
+    "tags": ["personalização", "soluções", "reforço"],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Implementação de Soluções Inovadoras",
+    "nome_da_aula": "Inovação em Aprendizado",
+    "descricao_resumida": "Desenvolver soluções sob medida com aprendizado por reforço em ambientes complexos.",
+    "objetivo_de_aprendizagem": "Criar soluções personalizadas utilizando aprendizado por reforço.",
+    "unidades_de_conhecimento_utilizadas": ["Simulação", "Inovação"],
+    "tags": ["inovação", "soluções", "reforço"],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Futuro do Aprendizado por Reforço",
+    "nome_da_aula": "Discussão de Inovações",
+    "descricao_resumida": "Debater sobre as tendências e inovações futuras em aprendizado por reforço.",
+    "objetivo_de_aprendizagem": "Analisar o futuro do aprendizado por reforço em inteligência artificial.",
+    "unidades_de_conhecimento_utilizadas": ["Futuro da AI", "Aprendizado por Reforço"],
+    "tags": ["tendências", "inovações", "reforço"],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Construindo o Futuro da IA",
+    "nome_da_aula": "Projeção Futurista",
+    "descricao_resumida": "Desenvolver propostas que moldem o futuro do aprendizado por reforço na IA.",
+    "objetivo_de_aprendizagem": "Analisar o futuro do aprendizado por reforço em inteligência artificial.",
+    "unidades_de_conhecimento_utilizadas": ["Inovação", "Aprendizado por Reforço"],
+    "tags": ["futuro", "projeção", "reforço"],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Transferência de Aprendizado em Ação",
+    "nome_da_aula": "Técnicas de Transferência",
+    "descricao_resumida": "Estudar e aplicar técnicas de transferência de aprendizado em problemas práticos.",
+    "objetivo_de_aprendizagem": "Compreender e aplicar técnicas de transferência de aprendizado.",
+    "unidades_de_conhecimento_utilizadas": ["Transferência", "Aprendizado por Reforço"],
+    "tags": ["transferência", "técnicas", "reforço"],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Desenvolvimento de Projetos de Transferência",
+    "nome_da_aula": "Aplicações de Transferência",
+    "descricao_resumida": "Criar um projeto que utilize transferência de aprendizado em um ambiente real.",
+    "objetivo_de_aprendizagem": "Compreender e aplicar técnicas de transferência de aprendizado.",
+    "unidades_de_conhecimento_utilizadas": ["Simulação", "Transferência"],
+    "tags": ["aplicações", "transferência", "reforço"],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Combinação de Técnicas de IA",
+    "nome_da_aula": "Integração de Técnicas",
+    "descricao_resumida": "Explorar a combinação de aprendizado por reforço com métodos de aprendizado de máquina tradicionais.",
+    "objetivo_de_aprendizagem": "Explorar a combinação de aprendizado por reforço com outras técnicas de IA.",
+    "unidades_de_conhecimento_utilizadas": ["Integração", "IA"],
+    "tags": ["combinação", "técnicas", "reforço"],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Criando Soluções Integradas",
+    "nome_da_aula": "Práticas de Integração",
+    "descricao_resumida": "Desenvolver uma solução que integrou aprendizado por reforço com outro método de IA.",
+    "objetivo_de_aprendizagem": "Explorar a combinação de aprendizado por reforço com outras técnicas de IA.",
+    "unidades_de_conhecimento_utilizadas": ["Simulação", "Integração"],
+    "tags": ["soluções", "integração", "reforço"],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Tendências em CI e Aprendizado",
+    "nome_da_aula": "Discussão de Tendências",
+    "descricao_resumida": "Analisar tendências atuais em aprendizado por reforço e suas aplicações.",
+    "objetivo_de_aprendizagem": "Discutir tendências e inovações em aprendizado por reforço.",
+    "unidades_de_conhecimento_utilizadas": ["Tendências", "Aprendizado por Reforço"],
+    "tags": ["tendências", "inovações", "reforço"],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Propostas Inovadoras em Aprendizado",
+    "nome_da_aula": "Construindo Inovações",
+    "descricao_resumida": "Criar propostas inovadoras que influenciem o futuro do aprendizado por reforço.",
+    "objetivo_de_aprendizagem": "Discutir tendências e inovações em aprendizado por reforço.",
+    "unidades_de_conhecimento_utilizadas": ["Inovação", "Aprendizado por Reforço"],
+    "tags": ["inovações", "propostas", "reforço"],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Agentes de Auto-Aprendizado",
+    "nome_da_aula": "Auto-Aprendizado",
+    "descricao_resumida": "Desenvolver agentes capazes de auto-aprendizado em ambientes dinâmicos.",
+    "objetivo_de_aprendizagem": "Desenvolver agentes capazes de auto-aprendizado em ambientes dinâmicos.",
+    "unidades_de_conhecimento_utilizadas": ["Agentes", "Auto-Aprendizado"],
+    "tags": ["auto-aprendizado", "agentes", "reforço"],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Implementação de Agentes Autônomos",
+    "nome_da_aula": "Avanços em Auto-Aprendizado",
+    "descricao_resumida": "Criar um modelo que possibilite a auto-aprendizagem e adaptação do agente em tempo real.",
+    "objetivo_de_aprendizagem": "Desenvolver agentes capazes de auto-aprendizado em ambientes dinâmicos.",
+    "unidades_de_conhecimento_utilizadas": ["Simulação", "Auto-Aprendizado"],
+    "tags": ["implementação", "agentes", "reforço"],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Sistemas de Recomendação com Aprendizado",
+    "nome_da_aula": "Introdução a Recomendação",
+    "descricao_resumida": "Compreender a aplicação de aprendizado por reforço em sistemas de recomendação.",
+    "objetivo_de_aprendizagem": "Compreender a aplicação de aprendizado por reforço em sistemas de recomendação.",
+    "unidades_de_conhecimento_utilizadas": ["Sistemas de Recomendação", "Aprendizado por Reforço"],
+    "tags": ["recomendação", "aprendizado", "reforço"],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Otimização de Sistemas de Recomendação",
+    "nome_da_aula": "Prática de Recomendação",
+    "descricao_resumida": "Desenvolver e implementar um sistema de recomendação utilizando aprendizado por reforço.",
+    "objetivo_de_aprendizagem": "Compreender a aplicação de aprendizado por reforço em sistemas de recomendação.",
+    "unidades_de_conhecimento_utilizadas": ["Simulação", "Recomendação"],
+    "tags": ["sistemas", "recomendação", "reforço"],
+    "nivel_complexidade": "intermediario"
+  }
+]

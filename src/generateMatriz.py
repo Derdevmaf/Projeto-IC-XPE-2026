@@ -13,7 +13,7 @@ INPUT_PATH = os.path.join(
     PROJECT_ROOT,
     "data",
     "processed",
-    "mapeamento_pbl_objetivos_programacao_python.json"
+    "mapeamento_pbl_objetivos_aprendizado_por_reforco.json"
 )
 
 OUTPUT_CSV = os.path.join(

@@ -24,7 +24,7 @@ MODEL = "gpt-4o-mini"
 BASE_DIR = Path(__file__).resolve().parent.parent
 PASTA_RAW = BASE_DIR / "data" / "raw"
 
-arquivo_los = PASTA_RAW / "projetos_objetivos_programacao_python.json"
+arquivo_los = PASTA_RAW / "projetos_objetivos_aprendizado_por_reforco.json"
 
 print("📂 BASE_DIR:", BASE_DIR)
 print("📂 PASTA_RAW:", PASTA_RAW)
