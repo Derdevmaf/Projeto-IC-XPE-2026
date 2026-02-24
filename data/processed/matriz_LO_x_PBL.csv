@@ -1,21 +1,21 @@
 LO,Introdução à Sintaxe Python,Desafio da Calculadora Simples,Criando um Script de Apresentação,Jogo de Adivinhação,Identificando Tipos de Dados,Estatísticas de Dados,Conversão de Tipos Simples,Sistema de Cálculo de Notas,Calculadora de Operações Básicas,Simulador de Jogo da Velha,Introduzindo Variáveis,Gerenciador de Notas,String Simples,Mini Editor de Texto,Coleção de Nomes,Gerenciador de tarefas,Introduzindo Tuplas,Registro de Localizações,Coleção de Números Únicos,Interseção de Conjuntos,Dicionário de Palavras,Sistema de Cadastro de Clientes,Estruturas Condicionais Simples,Validação de Senha,Contagem de Elementos em Lista,Gerador de Fibonaccis,Função de Saudações,Calculadora com Funções,Explorando Funções Embutidas,Analisador de Texto,Manejo de Exceções Simples,Validador de Entrada do Usuário,Criando Módulos Simples,Sistema de Módulos de Cadastro,Leitura Simples de Arquivo,Gravador de Notas,Introdução à Programação Orientada a Objetos,Sistema de Cadastro de Produtos,Explorando Bibliotecas Externas,Análise de Dados com Pandas
-Compreender a sintaxe básica da linguagem Python.,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,0,1
-Criar e executar scripts simples em Python.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-Identificar e utilizar diferentes tipos de dados em Python.,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,0,1,0,1,1,1,1,1,1,1
-Realizar conversão de tipos (type casting) entre diferentes tipos de dados.,0,1,1,1,1,1,1,1,1,0,0,1,1,0,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,0,0,1,0,0,0,1,0,0,1,1
-Implementar operações aritméticas e lógicas básicas.,0,1,0,1,0,1,0,1,1,1,0,1,0,0,0,0,0,0,0,1,0,0,1,1,0,1,0,1,0,0,1,0,1,0,0,0,0,0,1,0
-Utilizar variáveis e entender seu escopo.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1,0,1,1,1,1,1,1,1,0,0,1,0,1,1,1,0,1,0
-Manipular e trabalhar com strings em Python.,0,1,1,0,1,0,1,1,0,1,1,0,1,1,1,0,0,0,0,0,1,1,0,1,0,0,1,0,1,1,0,1,0,1,1,1,0,0,0,0
-Construir e manipular listas em Python.,0,0,0,0,0,1,0,1,0,1,0,1,0,0,1,1,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0
-Criar e manipular tuplas em Python.,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Criar e manipular conjuntos (sets) em Python.,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-Gerar e manipular dicionários.,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0
-"Implementar estruturas de decisão, como if-else.",0,0,1,1,1,1,0,1,1,1,0,1,1,1,0,1,0,0,0,1,1,1,1,1,0,0,0,1,0,0,1,0,0,1,0,1,0,0,1,0
-Utilizar loops para iterar sobre listas e outras coleções.,0,0,0,0,0,1,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,0,0,0,0,0,0,0,1,0,1,0,0,1,0
-Criar e utilizar funções simples.,0,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1,1,0,0,0,1,0,1,1,0,0,1,0
-Utilizar funções embutidas (built-in functions) da linguagem.,0,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1,1,0,0,1,1,1,1,0,0,0,0
-Lidar com exceções e implementar tratamento de erros.,0,0,0,1,1,1,1,1,1,1,0,0,1,1,0,1,1,1,1,1,1,1,0,0,0,0,0,0,0,1,1,1,0,1,1,1,0,1,1,1
-Criar e utilizar módulos em Python.,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1,1,1,0,1,0,1,1,1
-Interagir com arquivos para leitura e gravação de dados.,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,1,0,1
-Implementar conceitos de programação orientada a objetos.,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,1,1,0,0
-Utilizar bibliotecas externas para expandir a funcionalidade do Python.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1
+Compreender a sintaxe básica da linguagem Python.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Criar e executar scripts simples em Python.,0,1,1,1,1,0,1,1,1,1,0,0,1,1,1,1,0,0,1,1,1,1,1,0,1,1,1,1,0,0,1,1,1,1,1,1,1,0,1,1
+Identificar e utilizar diferentes tipos de dados em Python.,0,0,0,0,1,1,1,1,0,1,1,1,1,1,0,1,1,1,1,1,1,1,0,0,1,0,0,0,1,0,0,1,1,1,0,1,1,1,1,1
+Realizar conversão de tipos (type casting) entre diferentes tipos de dados.,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,1
+Implementar operações aritméticas e lógicas básicas.,0,1,0,0,0,1,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,1,1,0,0,0,1,1,1
+Utilizar variáveis e entender seu escopo.,0,1,0,1,0,0,0,0,0,1,1,1,1,1,0,1,0,0,0,1,1,1,0,0,1,1,0,1,0,0,1,1,1,1,0,1,1,1,1,1
+Manipular e trabalhar com strings em Python.,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,1,0,0,1,0,1,1,0,1,0,1,1,1,0,1,0,1
+Construir e manipular listas em Python.,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1,0,1,0,0,0,1,0,1
+Criar e manipular tuplas em Python.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Criar e manipular conjuntos (sets) em Python.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Gerar e manipular dicionários.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1
+"Implementar estruturas de decisão, como if-else.",0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,1,0,1,0,0,0,1,0,1
+Utilizar loops para iterar sobre listas e outras coleções.,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1,0,1,0,0,0,1,0,1
+Criar e utilizar funções simples.,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,1,0,0,1,1,1,0,1,1,1,1,1
+Utilizar funções embutidas (built-in functions) da linguagem.,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,1,0,1,0,0,0,1,1,1
+Lidar com exceções e implementar tratamento de erros.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0
+Criar e utilizar módulos em Python.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,1,1
+Interagir com arquivos para leitura e gravação de dados.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,1
+Implementar conceitos de programação orientada a objetos.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0
+Utilizar bibliotecas externas para expandir a funcionalidade do Python.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
