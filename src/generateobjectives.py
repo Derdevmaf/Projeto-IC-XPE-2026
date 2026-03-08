@@ -23,26 +23,69 @@ MODEL = "gpt-4o-mini"
 # ==============================
 
 prompt_objetivos = """
-Gere 50 objetivos de aprendizagem para a disciplina Aprendizado por Reforço.
+Você é um especialista em design instrucional e em Inteligência Artificial. Gere 15 objetivos de aprendizagem para a disciplina "Aprendizado por Reforço" utilizando verbos da Taxonomia de Bloom.
+
+Considere explicitamente os seguintes contextos pedagógicos ao estruturar os resultados:
+
+* Nível do curso: graduação ou pós-graduação em Computação / Inteligência Artificial.
+* Área do curso: Ciência da Computação, Ciência de Dados ou Inteligência Artificial.
+* Pré-requisitos esperados: probabilidade, álgebra linear, cálculo básico, programação em Python e fundamentos de aprendizado de máquina.
+* Natureza da disciplina: teórica e prática.
+* Ferramentas comuns: Python, PyTorch ou TensorFlow, ambientes tipo Gym ou Gymnasium.
+
+Tópicos esperados da disciplina:
+
+* fundamentos de Aprendizado por Reforço
+* Processos de Decisão de Markov (MDP)
+* funções de valor
+* equações de Bellman
+* métodos Monte Carlo
+* métodos de Diferença Temporal
+* SARSA
+* Q-Learning
+* exploração vs exploração
+* aproximação de função
+* Deep Reinforcement Learning
+* Policy Gradient
+* métodos Actor-Critic
+
+Aplicações possíveis:
+
+* controle
+* jogos
+* robótica
+* sistemas autônomos
+* tomada de decisão sequencial
+
+Os objetivos devem refletir progressão cognitiva conforme a Taxonomia de Bloom:
+lembrar → compreender → aplicar → analisar → avaliar → criar.
 
 IMPORTANTE:
-- A saída deve ser SOMENTE um JSON válido.
-- Não escreva explicações.
-- Não use markdown.
-- Não escreva ```json.
-- Retorne apenas um array JSON com 50 objetos.
+
+* A saída deve ser SOMENTE um JSON válido.
+* Não escreva explicações.
+* Não use markdown.
+* Não escreva ```json.
+
+Estrutura da resposta:
+
+* Retorne apenas um array JSON com 15 objetos.
 
 Cada objeto deve conter EXATAMENTE o seguinte campo:
 
 {
-  "objetivo_de_aprendizagem": string
+"objetivo_de_aprendizagem": string
 }
 
 Regras:
-- Objetivos devem aumentar progressivamente em complexidade.
-- Linguagem clara, técnica e mensurável.
-- Não invente campos extras.
-"""
+
+* Use verbos mensuráveis da Taxonomia de Bloom.
+* Os objetivos devem aumentar progressivamente em complexidade cognitiva.
+* Linguagem clara, técnica e mensurável.
+* Os objetivos devem cobrir tanto fundamentos teóricos quanto implementação prática.
+* Não invente campos extras.
+  """
+
 
 try:
     response = client.responses.create(
@@ -62,7 +105,7 @@ except Exception as e:
 # 2️⃣ EXTRAIR NOME DA DISCIPLINA
 # ==============================
 
-match = re.search(r"disciplina (.+?)\.", prompt_objetivos)
+match = re.search(r'disciplina\s+"([^"]+)"', prompt_objetivos)
 disciplina = match.group(1) if match else "disciplina"
 
 disciplina_formatada = (

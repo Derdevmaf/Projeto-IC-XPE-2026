@@ -1,0 +1,484 @@
+[
+  {
+    "nome_do_projeto": "Quiz de Reforço",
+    "nome_da_aula": "Fundamentos do Aprendizado por Reforço",
+    "descricao_resumida": "Desenvolver um quiz que aborde os principais conceitos de aprendizado por reforço.",
+    "objetivo_de_aprendizagem": "Lembrar os principais conceitos de aprendizado por reforço e definições associadas.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Aprendizado por Reforço",
+      "Conceitos Básicos"
+    ],
+    "tags": [
+      "quiz",
+      "aprendizado por reforço",
+      "conceitos"
+    ],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Tabela de Conceitos de Reforço",
+    "nome_da_aula": "Fundamentos do Aprendizado por Reforço",
+    "descricao_resumida": "Criar uma tabela interativa que explica os conceitos de aprendizado por reforço com exemplos.",
+    "objetivo_de_aprendizagem": "Lembrar os principais conceitos de aprendizado por reforço e definições associadas.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Aprendizado por Reforço",
+      "Definições"
+    ],
+    "tags": [
+      "tabela",
+      "aprendizado por reforço",
+      "interativo"
+    ],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "MDP Simples",
+    "nome_da_aula": "Elementos dos MDPs",
+    "descricao_resumida": "Modelar um simples MDP com estados e ações para ilustrar seus componentes.",
+    "objetivo_de_aprendizagem": "Compreender os componentes dos Processos de Decisão de Markov (MDP) e suas aplicações.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Processos de Decisão de Markov",
+      "Modelagem"
+    ],
+    "tags": [
+      "MDP",
+      "modelagem",
+      "decisão"
+    ],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Simulação de MDP",
+    "nome_da_aula": "Elementos dos MDPs",
+    "descricao_resumida": "Criar uma simulação interativa de um MDP, permitindo experimentar diferentes políticas.",
+    "objetivo_de_aprendizagem": "Compreender os componentes dos Processos de Decisão de Markov (MDP) e suas aplicações.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Processos de Decisão de Markov",
+      "Simulação"
+    ],
+    "tags": [
+      "MDP",
+      "simulação",
+      "políticas"
+    ],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Funções de Valor: Estudo de Caso",
+    "nome_da_aula": "Funções de Valor no Aprendizado por Reforço",
+    "descricao_resumida": "Investigar funções de valor em um caso prático e seus impactos na tomada de decisões.",
+    "objetivo_de_aprendizagem": "Identificar e descrever funções de valor e sua importância em aprendizado por reforço.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Funções de Valor",
+      "Estudo de Caso"
+    ],
+    "tags": [
+      "funções de valor",
+      "estudo de caso",
+      "aprendizado por reforço"
+    ],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Gráficos de Funções de Valor",
+    "nome_da_aula": "Funções de Valor no Aprendizado por Reforço",
+    "descricao_resumida": "Criar gráficos que visualizem funções de valor para diferentes cenários de aprendizado.",
+    "objetivo_de_aprendizagem": "Identificar e descrever funções de valor e sua importância em aprendizado por reforço.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Funções de Valor",
+      "Visualização"
+    ],
+    "tags": [
+      "gráficos",
+      "funções de valor",
+      "visualização"
+    ],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Equação de Bellman Básica",
+    "nome_da_aula": "Equações de Bellman",
+    "descricao_resumida": "Resolver problemas simples usando a equação de Bellman para entender sua aplicação.",
+    "objetivo_de_aprendizagem": "Aplicar as equações de Bellman em problemas de decisão sequencial.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Equação de Bellman",
+      "Problemas de Decisão"
+    ],
+    "tags": [
+      "equação de Bellman",
+      "decisão",
+      "resolução"
+    ],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Simulação de Bellman",
+    "nome_da_aula": "Equações de Bellman",
+    "descricao_resumida": "Desenvolver uma simulação que usa equações de Bellman para resolver problemas complexos.",
+    "objetivo_de_aprendizagem": "Aplicar as equações de Bellman em problemas de decisão sequencial.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Equação de Bellman",
+      "Simulação"
+    ],
+    "tags": [
+      "simulação",
+      "equação de Bellman",
+      "decisão"
+    ],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Monte Carlo Básico",
+    "nome_da_aula": "Métodos de Monte Carlo",
+    "descricao_resumida": "Implementar um algoritmo de Monte Carlo simples para estimar funções de valor.",
+    "objetivo_de_aprendizagem": "Implementar métodos de Monte Carlo para estimar funções de valor em ambientes simulados.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Métodos de Monte Carlo",
+      "Estimativas"
+    ],
+    "tags": [
+      "Monte Carlo",
+      "estimativa",
+      "implementação"
+    ],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Monte Carlo Avançado",
+    "nome_da_aula": "Métodos de Monte Carlo",
+    "descricao_resumida": "Criar um projeto que utilize Monte Carlo para simular diferentes cenários e estimar funções de valor.",
+    "objetivo_de_aprendizagem": "Implementar métodos de Monte Carlo para estimar funções de valor em ambientes simulados.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Métodos de Monte Carlo",
+      "Simulação"
+    ],
+    "tags": [
+      "Monte Carlo",
+      "simulação",
+      "avançado"
+    ],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Diferença Temporal Inicial",
+    "nome_da_aula": "Métodos de Diferença Temporal",
+    "descricao_resumida": "Experimentos simples com métodos de diferença temporal para entender a otimização.",
+    "objetivo_de_aprendizagem": "Utilizar métodos de Diferença Temporal para otimizar a aprendizagem em cenários práticos.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Diferença Temporal",
+      "Otimização"
+    ],
+    "tags": [
+      "diferença temporal",
+      "otimização",
+      "experimentos"
+    ],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Diferença Temporal em Cenários Práticos",
+    "nome_da_aula": "Métodos de Diferença Temporal",
+    "descricao_resumida": "Desenvolver um projeto que aplique métodos de diferença temporal em um contexto do mundo real.",
+    "objetivo_de_aprendizagem": "Utilizar métodos de Diferença Temporal para otimizar a aprendizagem em cenários práticos.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Diferença Temporal",
+      "Cenários Práticos"
+    ],
+    "tags": [
+      "diferença temporal",
+      "aprendizado",
+      "prático"
+    ],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Comparativo SARSA",
+    "nome_da_aula": "Algoritmos de Aprendizado por Reforço",
+    "descricao_resumida": "Analisar desempenho do algoritmo SARSA em um ambiente de jogo simples.",
+    "objetivo_de_aprendizagem": "Comparar e contrastar os algoritmos SARSA e Q-Learning em termos de desempenho.",
+    "unidades_de_conhecimento_utilizadas": [
+      "SARSA",
+      "Análise de Desempenho"
+    ],
+    "tags": [
+      "SARSA",
+      "comparação",
+      "jogos"
+    ],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Comparativo Q-Learning",
+    "nome_da_aula": "Algoritmos de Aprendizado por Reforço",
+    "descricao_resumida": "Criar um projeto que analise e compare detalhadamente SARSA e Q-Learning em diferentes cenários.",
+    "objetivo_de_aprendizagem": "Comparar e contrastar os algoritmos SARSA e Q-Learning em termos de desempenho.",
+    "unidades_de_conhecimento_utilizadas": [
+      "SARSA",
+      "Q-Learning",
+      "Análise de Desempenho"
+    ],
+    "tags": [
+      "Q-Learning",
+      "SARSA",
+      "comparação"
+    ],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Exploração vs. Exploração Básico",
+    "nome_da_aula": "Exploração e Exploração",
+    "descricao_resumida": "Discutir a diferença entre exploração e exploração em um jogo simples.",
+    "objetivo_de_aprendizagem": "Analisar a dicotomia entre exploração e exploração na escolha de ações em um agente.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Exploração",
+      "Estratégias"
+    ],
+    "tags": [
+      "exploração",
+      "decisão",
+      "jogos"
+    ],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Dinâmica de Exploração",
+    "nome_da_aula": "Exploração e Exploração",
+    "descricao_resumida": "Criar um projeto que modula as taxas de exploração e exploração em um ambiente complexo.",
+    "objetivo_de_aprendizagem": "Analisar a dicotomia entre exploração e exploração na escolha de ações em um agente.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Exploração",
+      "Estratégias Avançadas"
+    ],
+    "tags": [
+      "exploração",
+      "dinâmica",
+      "agente"
+    ],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Técnicas de Aproximação Iniciais",
+    "nome_da_aula": "Técnicas de Aproximação de Função",
+    "descricao_resumida": "Identificar e implementar técnicas básicas de aproximação de função em um exemplo simples.",
+    "objetivo_de_aprendizagem": "Avaliar a eficácia de diferentes técnicas de aproximação de função em aprendizado por reforço.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Aproximação de Função",
+      "Técnicas Básicas"
+    ],
+    "tags": [
+      "aproximação",
+      "técnicas",
+      "básico"
+    ],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Análise Avançada de Aproximações",
+    "nome_da_aula": "Técnicas de Aproximação de Função",
+    "descricao_resumida": "Realizar uma análise aprofundada da eficácia de várias técnicas de aproximação de função.",
+    "objetivo_de_aprendizagem": "Avaliar a eficácia de diferentes técnicas de aproximação de função em aprendizado por reforço.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Aproximação de Função",
+      "Análise Avançada"
+    ],
+    "tags": [
+      "aproximação",
+      "técnicas",
+      "avançado"
+    ],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Deep Reinforcement Learning Simples",
+    "nome_da_aula": "Modelos de Deep Reinforcement Learning",
+    "descricao_resumida": "Criar uma rede neural básica usando PyTorch para um problema de reforço simples.",
+    "objetivo_de_aprendizagem": "Criar modelos de Deep Reinforcement Learning usando bibliotecas como PyTorch ou TensorFlow.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Deep Reinforcement Learning",
+      "PyTorch"
+    ],
+    "tags": [
+      "Deep Learning",
+      "PyTorch",
+      "modelo"
+    ],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Deep Reinforcement Learning Complexo",
+    "nome_da_aula": "Modelos de Deep Reinforcement Learning",
+    "descricao_resumida": "Desenvolver um modelo complexo de RL profundo com múltiplas camadas e avaliação de desempenho.",
+    "objetivo_de_aprendizagem": "Criar modelos de Deep Reinforcement Learning usando bibliotecas como PyTorch ou TensorFlow.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Deep Reinforcement Learning",
+      "TensorFlow",
+      "Avaliação"
+    ],
+    "tags": [
+      "Deep Learning",
+      "TensorFlow",
+      "avançado"
+    ],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Implementação de Policy Gradient Iniciais",
+    "nome_da_aula": "Algoritmos de Policy Gradient",
+    "descricao_resumida": "Desenvolver uma implementação básica de um algoritmo de policy gradient.",
+    "objetivo_de_aprendizagem": "Descrever a implementação de algoritmos de Policy Gradient em problemas de controle.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Policy Gradient",
+      "Algoritmos"
+    ],
+    "tags": [
+      "policy gradient",
+      "implementação",
+      "básico"
+    ],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Policy Gradient Avançado",
+    "nome_da_aula": "Algoritmos de Policy Gradient",
+    "descricao_resumida": "Construir um projeto que aplique uma abordagem complexa de policy gradient em um problema real.",
+    "objetivo_de_aprendizagem": "Descrever a implementação de algoritmos de Policy Gradient em problemas de controle.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Policy Gradient",
+      "Controle Avançado"
+    ],
+    "tags": [
+      "policy gradient",
+      "avançado",
+      "controle"
+    ],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Arquitetura Actor-Critic Inicial",
+    "nome_da_aula": "Métodos Actor-Critic",
+    "descricao_resumida": "Explorar a arquitetura básica de um modelo Actor-Critic em um projeto simples.",
+    "objetivo_de_aprendizagem": "Analisar a arquitetura de métodos Actor-Critic e seu impacto na eficiência do treinamento.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Actor-Critic",
+      "Arquitetura Básica"
+    ],
+    "tags": [
+      "Actor-Critic",
+      "arquitetura",
+      "básico"
+    ],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Actor-Critic Complexo",
+    "nome_da_aula": "Métodos Actor-Critic",
+    "descricao_resumida": "Desenvolver um sistema de aprendizado profundo utilizando a arquitetura Actor-Critic em uma tarefa mais complexa.",
+    "objetivo_de_aprendizagem": "Analisar a arquitetura de métodos Actor-Critic e seu impacto na eficiência do treinamento.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Actor-Critic",
+      "Aprendizado Profundo"
+    ],
+    "tags": [
+      "Actor-Critic",
+      "aprendizado profundo",
+      "complexo"
+    ],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Agente Autônomo Inicial",
+    "nome_da_aula": "Implementação de Agentes Autônomos",
+    "descricao_resumida": "Criar um agente autônomo básico que aprende por reforço em uma simulação simples.",
+    "objetivo_de_aprendizagem": "Implementar um agente autônomo que utiliza aprendizado por reforço em um ambiente de simulação.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Agentes Autônomos",
+      "Simulação"
+    ],
+    "tags": [
+      "agente",
+      "autônomo",
+      "simulação"
+    ],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Agente Autônomo Avançado",
+    "nome_da_aula": "Implementação de Agentes Autônomos",
+    "descricao_resumida": "Desenvolver um agente autônomo complexo utilizando técnicas avançadas de aprendizado por reforço.",
+    "objetivo_de_aprendizagem": "Implementar um agente autônomo que utiliza aprendizado por reforço em um ambiente de simulação.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Agentes Autônomos",
+      "Técnicas Avançadas"
+    ],
+    "tags": [
+      "agente",
+      "autônomo",
+      "avançado"
+    ],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Comparação de Aplicações: Jogos",
+    "nome_da_aula": "Aplicações de Aprendizado por Reforço",
+    "descricao_resumida": "Analisar como o aprendizado por reforço é utilizado em jogos com exemplos simples.",
+    "objetivo_de_aprendizagem": "Comparar abordagens de aprendizado por reforço em aplicações práticas como jogos e robótica.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Aprendizado por Reforço",
+      "Jogos"
+    ],
+    "tags": [
+      "jogos",
+      "aprendizado",
+      "comparação"
+    ],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Comparação de Aplicações: Robótica",
+    "nome_da_aula": "Aplicações de Aprendizado por Reforço",
+    "descricao_resumida": "Desenvolver um projeto que compara a aplicação de aprendizado por reforço em jogos e robótica.",
+    "objetivo_de_aprendizagem": "Comparar abordagens de aprendizado por reforço em aplicações práticas como jogos e robótica.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Aprendizado por Reforço",
+      "Robótica"
+    ],
+    "tags": [
+      "robótica",
+      "aprendizado",
+      "comparação"
+    ],
+    "nivel_complexidade": "intermediario"
+  },
+  {
+    "nome_do_projeto": "Projeto Final de Reforço Básico",
+    "nome_da_aula": "Integração de Conceitos",
+    "descricao_resumida": "Criar um projeto simples que integre conceitos fundamentais de aprendizado por reforço.",
+    "objetivo_de_aprendizagem": "Criar um projeto final que integre conceitos de aprendizado por reforço em um domínio escolhido.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Integração de Conceitos",
+      "Projeto Final"
+    ],
+    "tags": [
+      "projeto final",
+      "aprendizado",
+      "integração"
+    ],
+    "nivel_complexidade": "iniciante"
+  },
+  {
+    "nome_do_projeto": "Projeto Final de Reforço Avançado",
+    "nome_da_aula": "Integração de Conceitos",
+    "descricao_resumida": "Desenvolver um projeto complexo que integre técnicas avançadas de aprendizado por reforço em um domínio escolhido.",
+    "objetivo_de_aprendizagem": "Criar um projeto final que integre conceitos de aprendizado por reforço em um domínio escolhido.",
+    "unidades_de_conhecimento_utilizadas": [
+      "Integração de Conceitos",
+      "Técnicas Avançadas"
+    ],
+    "tags": [
+      "projeto final",
+      "avançado",
+      "integração"
+    ],
+    "nivel_complexidade": "intermediario"
+  }
+]

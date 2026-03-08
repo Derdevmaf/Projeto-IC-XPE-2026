@@ -28,7 +28,7 @@ OBJETIVOS_PATH = os.path.join(
 )
 
 PBL_PATH = os.path.join(
-    BASE_DIR, "data", "raw", "projetos_pbl_aprendizado_por_reforco.json"
+    BASE_DIR, "data", "raw", "projetos_pbl_por_lo.json"
 )
 
 OUTPUT_DIR = os.path.join(BASE_DIR, "data", "processed")
