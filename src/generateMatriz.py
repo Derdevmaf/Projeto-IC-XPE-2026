@@ -76,8 +76,10 @@ estrutura_json = []
 
 for linha in matriz_binaria:
     lo = linha["LO"]
+
     pbls_relacionados = [
-        pbl for pbl in pbls
+        pbl
+        for pbl in pbls
         if linha[pbl] == 1
     ]
 
